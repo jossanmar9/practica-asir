@@ -8,9 +8,11 @@ Repositori d'exercicis pràctics per a **2n d'ASIR**, pensat per a aprendre prog
 |---|---:|---:|
 | [ASO · Bash](ASO/Bash/) | 8 blocs | 120 scripts `.sh` |
 | [Python](Python/) | 9 blocs | 180 scripts `.py` |
-| [IAW](IAW/) | pendent | Espai per a futurs exercicis |
+| [IAW](IAW/) | 10 blocs | 100 casos `.md` |
 
-**Total: 300 exercicis sense resoldre.** Els enunciats estan dins de cada fitxer com a comentaris. Les dades de prova de Bash estan a `ASO/Bash/dades_prova/`.
+**Total: 400 activitats sense resoldre (300 scripts + 100 casos de raonament).** Els enunciats de Bash i Python estan dins de cada fitxer com a comentaris; els d’IAW són documents Markdown. Les dades de prova de Bash estan a `ASO/Bash/dades_prova/`.
+
+Per a IAW, l’examen és escrit i no requerix executar codi: respon els apartats a), b) i c) de cada cas i justifica com comprovaries la solució. Consulta [la guia d’IAW](IAW/README.md).
 
 ## Mètode de treball
 
@@ -36,6 +38,7 @@ Adapta els arguments a l'enunciat. **No executes com a administrador** scripts q
 
 - Bash: exercicis nous inspirats en les pràctiques d'Administració de Sistemes Operatius (ASO).
 - Python: exercicis nous basats en els conceptes de les UT1, UT2 i UT3 de [Python Intro Alumnos](https://victoria-nr.github.io/python-intro-alumnos/).
+- IAW: casos originals de raonament segons el format indicat per la professora per a UT1 i UT2.
 - No hi ha generadors ni automatitzacions que sobreescriguen les teues solucions.
 
 Els exercicis són material de pràctica addicional, no còpies literals dels enunciats de classe.
