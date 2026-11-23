@@ -12,7 +12,7 @@ Quan s'active GitHub Pages per a la branca `main`, l'adreça prevista serà:
 
 Per activar-lo: **Settings → Pages → Build and deployment → Deploy from a branch → main / (root) → Save**. La URL no es considera publicada fins que GitHub Pages confirme el desplegament.
 
-La web permet cercar exercicis, filtrar per assignatura i nivell, llegir els enunciats i marcar-los com a superats. **El progrés es guarda al navegador amb `localStorage`**, no s'envia a GitHub ni se sincronitza entre dispositius.
+La web permet cercar exercicis, filtrar per assignatura i nivell, llegir els enunciats i marcar-los com a superats. **El progrés es guarda al navegador amb `localStorage`**, no s'envia a GitHub ni se sincronitza entre dispositius. Pots descarregar una còpia del teu seguiment amb el botó **«Exporta progrés»** del catàleg.
 
 ## 📚 Contingut real del repositori
 
