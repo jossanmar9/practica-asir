@@ -1,6 +1,6 @@
 "use strict";
 const $ = (id) => document.getElementById(id);
-const state = { all: [], area: "Totes", text: "", level: "", shown: 30 };
+const state = { all: [], area: "Todas", text: "", level: "", shown: 30 };
 const STORAGE_KEY = "practica-asir-progres-v1";
 let progress = {};
 try { progress = JSON.parse(localStorage.getItem(STORAGE_KEY) || "{}") || {}; } catch (_) { progress = {}; }
@@ -9,7 +9,7 @@ const encodedPath = (path) => path.split("/").map(encodeURIComponent).join("/");
 const sourceUrl = (path) => "https://github.com/jossanmar9/practica-asir/blob/main/" + encodedPath(path);
 function saveProgress() { try { localStorage.setItem(STORAGE_KEY, JSON.stringify(progress)); } catch (_) {} }
 function entryKey(entry) { return entry.path + (entry.id ? "#" + entry.id : ""); }
-function statusFor(entry) { return progress[entryKey(entry)] || "pendent"; }
+function statusFor(entry) { return progress[entryKey(entry)] || "pendiente"; }
 function card(entry) {
   const el = document.createElement("article");
   el.className = "exercise";
@@ -23,24 +23,24 @@ function card(entry) {
   meta.textContent = entry.area + " · " + entry.unit + " · " + entry.level;
   main.append(title, meta); el.appendChild(main);
   const controls = document.createElement("div"); controls.className = "exercise-controls";
-  const view = document.createElement("button"); view.type = "button"; view.textContent = "Enunciat";
-  view.setAttribute("aria-label", "Consulta l'enunciat de " + entry.title);
+  const view = document.createElement("button"); view.type = "button"; view.textContent = "Enunciado";
+  view.setAttribute("aria-label", "Consultar el enunciado de " + entry.title);
   view.addEventListener("click", () => showPreview(entry));
   const done = document.createElement("button"); done.type = "button";
   const status = statusFor(entry);
-  done.textContent = status === "superat" ? "✓ Superat" : "○ Pendent";
-  done.classList.toggle("completed", status === "superat");
-  done.setAttribute("aria-pressed", String(status === "superat"));
+  done.textContent = status === "completado" ? "✓ Completado" : "○ Pendiente";
+  done.classList.toggle("completed", status === "completado");
+  done.setAttribute("aria-pressed", String(status === "completado"));
   done.addEventListener("click", () => {
-    if (statusFor(entry) === "superat") delete progress[entryKey(entry)];
-    else progress[entryKey(entry)] = "superat";
+    if (statusFor(entry) === "completado") delete progress[entryKey(entry)];
+    else progress[entryKey(entry)] = "completado";
     saveProgress(); render();
   });
   controls.append(view, done); el.appendChild(controls);
   return el;
 }
 function filtered() {
-  return state.all.filter((x) => (state.area === "Totes" || x.area === state.area)
+  return state.all.filter((x) => (state.area === "Todas" || x.area === state.area)
     && (!state.level || x.level === state.level)
     && (!state.text || clean(x.path + " " + x.title + " " + x.unit + " " + x.area).includes(clean(state.text))));
 }
@@ -50,22 +50,22 @@ function render() {
   const slice = items.slice(0, state.shown);
   if (!slice.length) {
     const empty = document.createElement("div"); empty.className = "empty";
-    empty.textContent = "No hi ha exercicis que coincidisquen amb els filtres.";
+    empty.textContent = "No hay ejercicios que coincidan con los filtros.";
     parent.appendChild(empty);
   }
   const fragment = document.createDocumentFragment();
   slice.forEach((entry) => fragment.appendChild(card(entry)));
   parent.appendChild(fragment);
-  $("summary").textContent = items.length + " activitats trobades · " + slice.length + " visibles";
-  const passed = state.all.filter(x => statusFor(x) === "superat").length;
-  $("progress").textContent = passed + " de " + state.all.length + " recursos superats";
+  $("summary").textContent = items.length + " actividades encontradas · " + slice.length + " visibles";
+  const passed = state.all.filter(x => statusFor(x) === "completado").length;
+  $("progress").textContent = passed + " de " + state.all.length + " recursos completados";
   $("more").hidden = slice.length >= items.length;
 }
 async function showPreview(entry) {
   const dialog = $("preview");
   $("preview-title").textContent = entry.title;
   $("preview-type").textContent = entry.area + " · " + entry.unit + " · " + entry.level;
-  $("preview-body").textContent = "Carregant enunciat…";
+  $("preview-body").textContent = "Cargando enunciado…";
   $("preview-source").href = sourceUrl(entry.path);
   $("preview-download").href = encodedPath(entry.path);
   $("preview-download").setAttribute("download", entry.path.split("/").pop());
@@ -83,7 +83,7 @@ async function showPreview(entry) {
       $("preview-body").textContent = text;
     }
   } catch (_) {
-    $("preview-body").textContent = "No s'ha pogut carregar el fitxer. Pots consultar-lo a GitHub amb l'enllaç inferior.";
+    $("preview-body").textContent = "No se ha podido cargar el archivo. Puedes consultarlo en GitHub mediante el enlace inferior.";
   }
 }
 document.querySelectorAll("[data-filter-area]").forEach((button) => button.addEventListener("click", () => {
@@ -103,7 +103,7 @@ $("level").addEventListener("change", (event) => { state.level = event.target.va
 $("more").addEventListener("click", () => { state.shown += 30; render(); });
 $("export-progress").addEventListener("click", () => {
   if (!state.all.length) return;
-  const rows = ["fitxer,estat,intents,nota,observacions"];
+  const rows = ["archivo,estado,intentos,nota,observaciones"];
   for (const entry of state.all) {
     rows.push([entryKey(entry), statusFor(entry), "", "", ""].join(","));
   }
@@ -111,7 +111,7 @@ $("export-progress").addEventListener("click", () => {
   const url = URL.createObjectURL(blob);
   const link = document.createElement("a");
   link.href = url;
-  link.download = "seguiment-asir.csv";
+  link.download = "seguimiento-asir.csv";
   document.body.appendChild(link);
   link.click();
   link.remove();
@@ -124,14 +124,14 @@ $("preview").addEventListener("click", (event) => { if (event.target === $("prev
     const response = await fetch("catalogo.json");
     if (!response.ok) throw Error("HTTP " + response.status);
     const entries = await response.json();
-    if (!Array.isArray(entries)) throw Error("Format del catàleg incorrecte");
+    if (!Array.isArray(entries)) throw Error("Formato de catálogo incorrecto");
     state.all = entries;
     render();
   } catch (_) {
-    $("summary").textContent = "No s'ha pogut carregar el catàleg.";
+    $("summary").textContent = "No se ha podido cargar el catálogo.";
     const a = document.createElement("a");
     a.href = "https://github.com/jossanmar9/practica-asir";
-    a.textContent = "Consulta els exercicis directament al repositori.";
+    a.textContent = "Consulta los ejercicios directamente en el repositorio.";
     $("exercise-list").replaceChildren(a);
   }
 })();
