@@ -1,46 +1,43 @@
-# Guia de Git i publicació de Pràctica ASIR
+# Guía de Git y publicación de Práctica ASIR
 
-Aquest repositori **ja existeix**: https://github.com/jossanmar9/practica-asir
+El repositorio ya existe: https://github.com/jossanmar9/practica-asir
 
-No cal crear un repositori buit ni tornar a executar `git init`.
+No es necesario crear otro repositorio ni ejecutar `git init`.
 
-## Clonar i treballar
+## Clonar y trabajar
 
 ```bash
 git clone git@github.com:jossanmar9/practica-asir.git
 cd practica-asir
 git pull --ff-only
-```
-
-Fes els canvis en una branca de treball, especialment si modifiques exercicis o els tests:
-
-```bash
-git switch -c millora/exercicis
-# modifica els fitxers
-python3 scripts/generar_catalogo.py    # si has afegit/mogut/eliminat activitats
+git switch -c mejora/ejercicios
+# Edita los archivos
+python3 scripts/generar_catalogo.py
+git status
 git add .
-git commit -m "Millorar enunciats i actualitzar catàleg"
-git push -u origin millora/exercicis
+git diff --staged
+git commit -m "Mejorar ejercicios y actualizar catálogo"
+git push -u origin mejora/ejercicios
 ```
 
-Pots obrir una pull request abans de fusionar a `main`.
+Abre una Pull Request para revisar los cambios antes de integrarlos en `main`.
 
-## Com publicar la web en GitHub Pages
+## Publicar con GitHub Pages
 
-1. Obri **Settings → Pages** del repositori.
+1. Entra en **Settings → Pages** del repositorio.
 2. Selecciona **Deploy from a branch**.
-3. Tria la branca **main**, carpeta **/(root)**, i guarda.
-4. Quan GitHub indique el desplegament correcte, la web hauria d'estar disponible a **https://jossanmar9.github.io/practica-asir/**.
+3. Elige **main**, carpeta **/(root)**, y guarda.
+4. Cuando termine el despliegue, comprueba https://jossanmar9.github.io/practica-asir/.
 
-La web utilitza `index.html`, `assets/` i `catalogo.json`, sense backend ni base de dades.
+La web es estática: utiliza `index.html`, `assets/` y `catalogo.json`. No requiere backend ni base de datos.
 
-## Proves en local
+## Pruebas locales
 
 ```bash
 python3 scripts/generar_catalogo.py
 python3 -m http.server 8000
 ```
 
-Obri http://localhost:8000. Comprova cercador, filtres, previsualització d'enunciats, tests i progrés local.
+Abre http://localhost:8000. Revisa búsqueda, filtros, enunciados, tests, descarga y progreso local. Para validar la interfaz en móvil, utiliza las herramientas de desarrollo del navegador.
 
-**No faces `git add .` si dins de la carpeta has guardat secrets, dades personals o solucions privades.** Revisa sempre `git status` i `git diff --staged` abans de confirmar canvis.
+**No publiques contraseñas, datos personales ni soluciones privadas.** Comprueba `git status` y `git diff --staged` antes de confirmar cambios.

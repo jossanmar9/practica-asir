@@ -4,581 +4,581 @@
     "title": "Identificar Servidor",
     "area": "ASO",
     "unit": "Variables",
-    "level": "Altres"
+    "level": "Otros"
   },
   {
     "path": "ASO/01_basicos/01_variables/02_etiqueta_backup.sh",
     "title": "Etiqueta Backup",
     "area": "ASO",
     "unit": "Variables",
-    "level": "Altres"
+    "level": "Otros"
   },
   {
     "path": "ASO/01_basicos/01_variables/03_info_entorno.sh",
     "title": "Info Entorno",
     "area": "ASO",
     "unit": "Variables",
-    "level": "Altres"
+    "level": "Otros"
   },
   {
     "path": "ASO/01_basicos/01_variables/04_calcular_porcentaje.sh",
     "title": "Calcular Porcentaje",
     "area": "ASO",
     "unit": "Variables",
-    "level": "Altres"
+    "level": "Otros"
   },
   {
     "path": "ASO/01_basicos/01_variables/05_datos_argumentos.sh",
     "title": "Datos Argumentos",
     "area": "ASO",
     "unit": "Variables",
-    "level": "Altres"
+    "level": "Otros"
   },
   {
     "path": "ASO/01_basicos/01_variables/06_nombre_archivo.sh",
     "title": "Nombre Archivo",
     "area": "ASO",
     "unit": "Variables",
-    "level": "Altres"
+    "level": "Otros"
   },
   {
     "path": "ASO/01_basicos/02_condicionales/01_servicio_activo.sh",
     "title": "Servicio Activo",
     "area": "ASO",
     "unit": "Condicionales",
-    "level": "Altres"
+    "level": "Otros"
   },
   {
     "path": "ASO/01_basicos/02_condicionales/02_espacio_disco.sh",
     "title": "Espacio Disco",
     "area": "ASO",
     "unit": "Condicionales",
-    "level": "Altres"
+    "level": "Otros"
   },
   {
     "path": "ASO/01_basicos/02_condicionales/03_comprobar_ruta.sh",
     "title": "Comprobar Ruta",
     "area": "ASO",
     "unit": "Condicionales",
-    "level": "Altres"
+    "level": "Otros"
   },
   {
     "path": "ASO/01_basicos/02_condicionales/04_numero_par.sh",
     "title": "Numero Par",
     "area": "ASO",
     "unit": "Condicionales",
-    "level": "Altres"
+    "level": "Otros"
   },
   {
     "path": "ASO/01_basicos/02_condicionales/05_permiso_ejecucion.sh",
     "title": "Permiso Ejecucion",
     "area": "ASO",
     "unit": "Condicionales",
-    "level": "Altres"
+    "level": "Otros"
   },
   {
     "path": "ASO/01_basicos/02_condicionales/06_comparar_puertos.sh",
     "title": "Comparar Puertos",
     "area": "ASO",
     "unit": "Condicionales",
-    "level": "Altres"
+    "level": "Otros"
   },
   {
     "path": "ASO/01_basicos/03_for/01_contar_hasta_n.sh",
     "title": "Contar Hasta N",
     "area": "ASO",
     "unit": "For",
-    "level": "Altres"
+    "level": "Otros"
   },
   {
     "path": "ASO/01_basicos/03_for/02_listar_log.sh",
     "title": "Listar Log",
     "area": "ASO",
     "unit": "For",
-    "level": "Altres"
+    "level": "Otros"
   },
   {
     "path": "ASO/01_basicos/03_for/03_tabla_multiplicar.sh",
     "title": "Tabla Multiplicar",
     "area": "ASO",
     "unit": "For",
-    "level": "Altres"
+    "level": "Otros"
   },
   {
     "path": "ASO/01_basicos/03_for/04_clasificar_entradas.sh",
     "title": "Clasificar Entradas",
     "area": "ASO",
     "unit": "For",
-    "level": "Altres"
+    "level": "Otros"
   },
   {
     "path": "ASO/01_basicos/03_for/05_sumar_argumentos.sh",
     "title": "Sumar Argumentos",
     "area": "ASO",
     "unit": "For",
-    "level": "Altres"
+    "level": "Otros"
   },
   {
     "path": "ASO/01_basicos/03_for/06_contar_extensiones.sh",
     "title": "Contar Extensiones",
     "area": "ASO",
     "unit": "For",
-    "level": "Altres"
+    "level": "Otros"
   },
   {
     "path": "ASO/01_basicos/04_while/01_contador.sh",
     "title": "Contador",
     "area": "ASO",
     "unit": "While",
-    "level": "Altres"
+    "level": "Otros"
   },
   {
     "path": "ASO/01_basicos/04_while/02_pedir_puerto.sh",
     "title": "Pedir Puerto",
     "area": "ASO",
     "unit": "While",
-    "level": "Altres"
+    "level": "Otros"
   },
   {
     "path": "ASO/01_basicos/04_while/03_leer_usuarios.sh",
     "title": "Leer Usuarios",
     "area": "ASO",
     "unit": "While",
-    "level": "Altres"
+    "level": "Otros"
   },
   {
     "path": "ASO/01_basicos/04_while/04_contar_errores.sh",
     "title": "Contar Errores",
     "area": "ASO",
     "unit": "While",
-    "level": "Altres"
+    "level": "Otros"
   },
   {
     "path": "ASO/01_basicos/04_while/05_confirmar.sh",
     "title": "Confirmar",
     "area": "ASO",
     "unit": "While",
-    "level": "Altres"
+    "level": "Otros"
   },
   {
     "path": "ASO/01_basicos/04_while/06_leer_csv.sh",
     "title": "Leer Csv",
     "area": "ASO",
     "unit": "While",
-    "level": "Altres"
+    "level": "Otros"
   },
   {
     "path": "ASO/01_basicos/05_case/01_menu_estado.sh",
     "title": "Menu Estado",
     "area": "ASO",
     "unit": "Case",
-    "level": "Altres"
+    "level": "Otros"
   },
   {
     "path": "ASO/01_basicos/05_case/02_tipo_extension.sh",
     "title": "Tipo Extension",
     "area": "ASO",
     "unit": "Case",
-    "level": "Altres"
+    "level": "Otros"
   },
   {
     "path": "ASO/01_basicos/05_case/03_dia_semana.sh",
     "title": "Dia Semana",
     "area": "ASO",
     "unit": "Case",
-    "level": "Altres"
+    "level": "Otros"
   },
   {
     "path": "ASO/01_basicos/05_case/04_menu_calculadora.sh",
     "title": "Menu Calculadora",
     "area": "ASO",
     "unit": "Case",
-    "level": "Altres"
+    "level": "Otros"
   },
   {
     "path": "ASO/01_basicos/05_case/05_menu_consultas.sh",
     "title": "Menu Consultas",
     "area": "ASO",
     "unit": "Case",
-    "level": "Altres"
+    "level": "Otros"
   },
   {
     "path": "ASO/01_basicos/05_case/06_clasificar_codigo.sh",
     "title": "Clasificar Codigo",
     "area": "ASO",
     "unit": "Case",
-    "level": "Altres"
+    "level": "Otros"
   },
   {
     "path": "ASO/02_funciones/05_http.sh",
     "title": "Http",
     "area": "ASO",
     "unit": "Funciones",
-    "level": "Altres"
+    "level": "Otros"
   },
   {
     "path": "ASO/02_funciones/06_extensiones.sh",
     "title": "Extensiones",
     "area": "ASO",
     "unit": "Funciones",
-    "level": "Altres"
+    "level": "Otros"
   },
   {
     "path": "ASO/02_funciones/07_puerto.sh",
     "title": "Puerto",
     "area": "ASO",
     "unit": "Funciones",
-    "level": "Altres"
+    "level": "Otros"
   },
   {
     "path": "ASO/02_funciones/25_bytes_gb.sh",
     "title": "Bytes Gb",
     "area": "ASO",
     "unit": "Funciones",
-    "level": "Altres"
+    "level": "Otros"
   },
   {
     "path": "ASO/02_funciones/26_existe_usuario.sh",
     "title": "Existe Usuario",
     "area": "ASO",
     "unit": "Funciones",
-    "level": "Altres"
+    "level": "Otros"
   },
   {
     "path": "ASO/02_funciones/27_contar_extensiones.sh",
     "title": "Contar Extensiones",
     "area": "ASO",
     "unit": "Funciones",
-    "level": "Altres"
+    "level": "Otros"
   },
   {
     "path": "ASO/03_regex/01_validar_numero.sh",
     "title": "Validar Numero",
     "area": "ASO",
     "unit": "Regex",
-    "level": "Altres"
+    "level": "Otros"
   },
   {
     "path": "ASO/03_regex/02_validar_login.sh",
     "title": "Validar Login",
     "area": "ASO",
     "unit": "Regex",
-    "level": "Altres"
+    "level": "Otros"
   },
   {
     "path": "ASO/03_regex/03_validar_puerto.sh",
     "title": "Validar Puerto",
     "area": "ASO",
     "unit": "Regex",
-    "level": "Altres"
+    "level": "Otros"
   },
   {
     "path": "ASO/03_regex/04_validar_ipv4_formato.sh",
     "title": "Validar Ipv4 Formato",
     "area": "ASO",
     "unit": "Regex",
-    "level": "Altres"
+    "level": "Otros"
   },
   {
     "path": "ASO/03_regex/05_validar_mac.sh",
     "title": "Validar Mac",
     "area": "ASO",
     "unit": "Regex",
-    "level": "Altres"
+    "level": "Otros"
   },
   {
     "path": "ASO/03_regex/06_validar_correo.sh",
     "title": "Validar Correo",
     "area": "ASO",
     "unit": "Regex",
-    "level": "Altres"
+    "level": "Otros"
   },
   {
     "path": "ASO/03_regex/07_validar_fecha.sh",
     "title": "Validar Fecha",
     "area": "ASO",
     "unit": "Regex",
-    "level": "Altres"
+    "level": "Otros"
   },
   {
     "path": "ASO/03_regex/08_validar_codigo_equipo.sh",
     "title": "Validar Codigo Equipo",
     "area": "ASO",
     "unit": "Regex",
-    "level": "Altres"
+    "level": "Otros"
   },
   {
     "path": "ASO/03_regex/09_filtrar_conf.sh",
     "title": "Filtrar Conf",
     "area": "ASO",
     "unit": "Regex",
-    "level": "Altres"
+    "level": "Otros"
   },
   {
     "path": "ASO/03_regex/10_filtrar_comentarios.sh",
     "title": "Filtrar Comentarios",
     "area": "ASO",
     "unit": "Regex",
-    "level": "Altres"
+    "level": "Otros"
   },
   {
     "path": "ASO/03_regex/11_validar_password.sh",
     "title": "Validar Password",
     "area": "ASO",
     "unit": "Regex",
-    "level": "Altres"
+    "level": "Otros"
   },
   {
     "path": "ASO/03_regex/12_detectar_backup.sh",
     "title": "Detectar Backup",
     "area": "ASO",
     "unit": "Regex",
-    "level": "Altres"
+    "level": "Otros"
   },
   {
     "path": "ASO/03_regex/13_tipo_ip_privada.sh",
     "title": "Tipo Ip Privada",
     "area": "ASO",
     "unit": "Regex",
-    "level": "Altres"
+    "level": "Otros"
   },
   {
     "path": "ASO/03_regex/14_validar_ruta_absoluta.sh",
     "title": "Validar Ruta Absoluta",
     "area": "ASO",
     "unit": "Regex",
-    "level": "Altres"
+    "level": "Otros"
   },
   {
     "path": "ASO/03_regex/15_filtrar_errores.sh",
     "title": "Filtrar Errores",
     "area": "ASO",
     "unit": "Regex",
-    "level": "Altres"
+    "level": "Otros"
   },
   {
     "path": "ASO/04_sed/12_limpiar.sh",
     "title": "Limpiar",
     "area": "ASO",
     "unit": "Sed",
-    "level": "Altres"
+    "level": "Otros"
   },
   {
     "path": "ASO/04_sed/13_dominio.sh",
     "title": "Dominio",
     "area": "ASO",
     "unit": "Sed",
-    "level": "Altres"
+    "level": "Otros"
   },
   {
     "path": "ASO/04_sed/14_anonimizar.sh",
     "title": "Anonimizar",
     "area": "ASO",
     "unit": "Sed",
-    "level": "Altres"
+    "level": "Otros"
   },
   {
     "path": "ASO/04_sed/30_cambiar_dominio.sh",
     "title": "Cambiar Dominio",
     "area": "ASO",
     "unit": "Sed",
-    "level": "Altres"
+    "level": "Otros"
   },
   {
     "path": "ASO/04_sed/31_anonimizar_log.sh",
     "title": "Anonimizar Log",
     "area": "ASO",
     "unit": "Sed",
-    "level": "Altres"
+    "level": "Otros"
   },
   {
     "path": "ASO/04_sed/32_extraer_config.sh",
     "title": "Extraer Config",
     "area": "ASO",
     "unit": "Sed",
-    "level": "Altres"
+    "level": "Otros"
   },
   {
     "path": "ASO/05_procesos/15_usuario_procesos.sh",
     "title": "Usuario Procesos",
     "area": "ASO",
     "unit": "Procesos",
-    "level": "Altres"
+    "level": "Otros"
   },
   {
     "path": "ASO/05_procesos/16_top_cpu.sh",
     "title": "Top Cpu",
     "area": "ASO",
     "unit": "Procesos",
-    "level": "Altres"
+    "level": "Otros"
   },
   {
     "path": "ASO/05_procesos/17_pid.sh",
     "title": "Pid",
     "area": "ASO",
     "unit": "Procesos",
-    "level": "Altres"
+    "level": "Otros"
   },
   {
     "path": "ASO/05_procesos/18_menu.sh",
     "title": "Menu",
     "area": "ASO",
     "unit": "Procesos",
-    "level": "Altres"
+    "level": "Otros"
   },
   {
     "path": "ASO/05_procesos/33_buscar_nombre.sh",
     "title": "Buscar Nombre",
     "area": "ASO",
     "unit": "Procesos",
-    "level": "Altres"
+    "level": "Otros"
   },
   {
     "path": "ASO/05_procesos/34_prioridad_informativa.sh",
     "title": "Prioridad Informativa",
     "area": "ASO",
     "unit": "Procesos",
-    "level": "Altres"
+    "level": "Otros"
   },
   {
     "path": "ASO/06_simulacros/19_inventario.sh",
     "title": "Inventario",
     "area": "ASO",
-    "unit": "Simulacres",
-    "level": "Simulacre"
+    "unit": "Simulacros",
+    "level": "Simulacro"
   },
   {
     "path": "ASO/06_simulacros/20_informe.sh",
     "title": "Informe",
     "area": "ASO",
-    "unit": "Simulacres",
-    "level": "Simulacre"
+    "unit": "Simulacros",
+    "level": "Simulacro"
   },
   {
     "path": "ASO/06_simulacros/21_validar_cuentas.sh",
     "title": "Validar Cuentas",
     "area": "ASO",
-    "unit": "Simulacres",
-    "level": "Simulacre"
+    "unit": "Simulacros",
+    "level": "Simulacro"
   },
   {
     "path": "ASO/06_simulacros/22_monitor.sh",
     "title": "Monitor",
     "area": "ASO",
-    "unit": "Simulacres",
-    "level": "Simulacre"
+    "unit": "Simulacros",
+    "level": "Simulacro"
   },
   {
     "path": "ASO/06_simulacros/35_simulacro3_logs.sh",
     "title": "Simulacro3 Logs",
     "area": "ASO",
-    "unit": "Simulacres",
-    "level": "Simulacre"
+    "unit": "Simulacros",
+    "level": "Simulacro"
   },
   {
     "path": "ASO/06_simulacros/36_simulacro3_procesos.sh",
     "title": "Simulacro3 Procesos",
     "area": "ASO",
-    "unit": "Simulacres",
-    "level": "Simulacre"
+    "unit": "Simulacros",
+    "level": "Simulacro"
   },
   {
     "path": "ASO/06_simulacros/simulacro_04/01_auditoria_extensiones.sh",
     "title": "Auditoria Extensiones",
     "area": "ASO",
-    "unit": "Simulacres",
-    "level": "Simulacre"
+    "unit": "Simulacros",
+    "level": "Simulacro"
   },
   {
     "path": "ASO/06_simulacros/simulacro_04/02_procesos_usuario.sh",
     "title": "Procesos Usuario",
     "area": "ASO",
-    "unit": "Simulacres",
-    "level": "Simulacre"
+    "unit": "Simulacros",
+    "level": "Simulacro"
   },
   {
     "path": "ASO/06_simulacros/simulacro_05/01_validar_puertos.sh",
     "title": "Validar Puertos",
     "area": "ASO",
-    "unit": "Simulacres",
-    "level": "Simulacre"
+    "unit": "Simulacros",
+    "level": "Simulacro"
   },
   {
     "path": "ASO/06_simulacros/simulacro_05/02_config_sed.sh",
     "title": "Config Sed",
     "area": "ASO",
-    "unit": "Simulacres",
-    "level": "Simulacre"
+    "unit": "Simulacros",
+    "level": "Simulacro"
   },
   {
     "path": "ASO/06_simulacros/simulacro_06/01_inventario_usuarios.sh",
     "title": "Inventario Usuarios",
     "area": "ASO",
-    "unit": "Simulacres",
-    "level": "Simulacre"
+    "unit": "Simulacros",
+    "level": "Simulacro"
   },
   {
     "path": "ASO/06_simulacros/simulacro_06/02_menu_servicios.sh",
     "title": "Menu Servicios",
     "area": "ASO",
-    "unit": "Simulacres",
-    "level": "Simulacre"
+    "unit": "Simulacros",
+    "level": "Simulacro"
   },
   {
     "path": "ASO/06_simulacros/simulacro_07/01_validar_correos.sh",
     "title": "Validar Correos",
     "area": "ASO",
-    "unit": "Simulacres",
-    "level": "Simulacre"
+    "unit": "Simulacros",
+    "level": "Simulacro"
   },
   {
     "path": "ASO/06_simulacros/simulacro_07/02_anonimizar_logs.sh",
     "title": "Anonimizar Logs",
     "area": "ASO",
-    "unit": "Simulacres",
-    "level": "Simulacre"
+    "unit": "Simulacros",
+    "level": "Simulacro"
   },
   {
     "path": "ASO/06_simulacros/simulacro_08/01_copias_config.sh",
     "title": "Copias Config",
     "area": "ASO",
-    "unit": "Simulacres",
-    "level": "Simulacre"
+    "unit": "Simulacros",
+    "level": "Simulacro"
   },
   {
     "path": "ASO/06_simulacros/simulacro_08/02_monitor_cpu.sh",
     "title": "Monitor Cpu",
     "area": "ASO",
-    "unit": "Simulacres",
-    "level": "Simulacre"
+    "unit": "Simulacros",
+    "level": "Simulacro"
   },
   {
     "path": "ASO/06_simulacros/simulacro_09/01_clasificar_http.sh",
     "title": "Clasificar Http",
     "area": "ASO",
-    "unit": "Simulacres",
-    "level": "Simulacre"
+    "unit": "Simulacros",
+    "level": "Simulacro"
   },
   {
     "path": "ASO/06_simulacros/simulacro_09/02_resumen_logs.sh",
     "title": "Resumen Logs",
     "area": "ASO",
-    "unit": "Simulacres",
-    "level": "Simulacre"
+    "unit": "Simulacros",
+    "level": "Simulacro"
   },
   {
     "path": "ASO/06_simulacros/simulacro_10/01_gestion_usuarios_simulada.sh",
     "title": "Gestion Usuarios Simulada",
     "area": "ASO",
-    "unit": "Simulacres",
-    "level": "Simulacre"
+    "unit": "Simulacros",
+    "level": "Simulacro"
   },
   {
     "path": "ASO/06_simulacros/simulacro_10/02_gestion_procesos_segura.sh",
     "title": "Gestion Procesos Segura",
     "area": "ASO",
-    "unit": "Simulacres",
-    "level": "Simulacre"
+    "unit": "Simulacros",
+    "level": "Simulacro"
   },
   {
     "path": "IAW/01_Casos_UT1/UT1_60_casos.md",
@@ -1544,71 +1544,71 @@
     "path": "IAW/03_Simulacros/simulacro_01.md",
     "title": "Simulacro 01",
     "area": "IAW",
-    "unit": "Simulacres escrits",
-    "level": "Simulacre"
+    "unit": "Simulacros escritos",
+    "level": "Simulacro"
   },
   {
     "path": "IAW/03_Simulacros/simulacro_02.md",
     "title": "Simulacro 02",
     "area": "IAW",
-    "unit": "Simulacres escrits",
-    "level": "Simulacre"
+    "unit": "Simulacros escritos",
+    "level": "Simulacro"
   },
   {
     "path": "IAW/03_Simulacros/simulacro_03.md",
     "title": "Simulacro 03",
     "area": "IAW",
-    "unit": "Simulacres escrits",
-    "level": "Simulacre"
+    "unit": "Simulacros escritos",
+    "level": "Simulacro"
   },
   {
     "path": "IAW/03_Simulacros/simulacro_04.md",
     "title": "Simulacro 04",
     "area": "IAW",
-    "unit": "Simulacres escrits",
-    "level": "Simulacre"
+    "unit": "Simulacros escritos",
+    "level": "Simulacro"
   },
   {
     "path": "IAW/03_Simulacros/simulacro_05.md",
     "title": "Simulacro 05",
     "area": "IAW",
-    "unit": "Simulacres escrits",
-    "level": "Simulacre"
+    "unit": "Simulacros escritos",
+    "level": "Simulacro"
   },
   {
     "path": "IAW/03_Simulacros/simulacro_06.md",
     "title": "Simulacro 06",
     "area": "IAW",
-    "unit": "Simulacres escrits",
-    "level": "Simulacre"
+    "unit": "Simulacros escritos",
+    "level": "Simulacro"
   },
   {
     "path": "IAW/03_Simulacros/simulacro_07.md",
     "title": "Simulacro 07",
     "area": "IAW",
-    "unit": "Simulacres escrits",
-    "level": "Simulacre"
+    "unit": "Simulacros escritos",
+    "level": "Simulacro"
   },
   {
     "path": "IAW/03_Simulacros/simulacro_08.md",
     "title": "Simulacro 08",
     "area": "IAW",
-    "unit": "Simulacres escrits",
-    "level": "Simulacre"
+    "unit": "Simulacros escritos",
+    "level": "Simulacro"
   },
   {
     "path": "IAW/03_Simulacros/simulacro_09.md",
     "title": "Simulacro 09",
     "area": "IAW",
-    "unit": "Simulacres escrits",
-    "level": "Simulacre"
+    "unit": "Simulacros escritos",
+    "level": "Simulacro"
   },
   {
     "path": "IAW/03_Simulacros/simulacro_10.md",
     "title": "Simulacro 10",
     "area": "IAW",
-    "unit": "Simulacres escrits",
-    "level": "Simulacre"
+    "unit": "Simulacros escritos",
+    "level": "Simulacro"
   },
   {
     "path": "Python/ejercicios/UT1_variables_operaciones/entregar/01_conversión_de_datos.py",
@@ -2840,349 +2840,349 @@
     "title": "Ejercicio 01",
     "area": "Python",
     "unit": "Simulacro 01",
-    "level": "Simulacre"
+    "level": "Simulacro"
   },
   {
     "path": "Python/simulacros/simulacro_01/Ejercicio_02.py",
     "title": "Ejercicio 02",
     "area": "Python",
     "unit": "Simulacro 01",
-    "level": "Simulacre"
+    "level": "Simulacro"
   },
   {
     "path": "Python/simulacros/simulacro_01/Ejercicio_03.py",
     "title": "Ejercicio 03",
     "area": "Python",
     "unit": "Simulacro 01",
-    "level": "Simulacre"
+    "level": "Simulacro"
   },
   {
     "path": "Python/simulacros/simulacro_01/Ejercicio_04.py",
     "title": "Ejercicio 04",
     "area": "Python",
     "unit": "Simulacro 01",
-    "level": "Simulacre"
+    "level": "Simulacro"
   },
   {
     "path": "Python/simulacros/simulacro_01/Ejercicio_05.py",
     "title": "Ejercicio 05",
     "area": "Python",
     "unit": "Simulacro 01",
-    "level": "Simulacre"
+    "level": "Simulacro"
   },
   {
     "path": "Python/simulacros/simulacro_02/Ejercicio_01.py",
     "title": "Ejercicio 01",
     "area": "Python",
     "unit": "Simulacro 02",
-    "level": "Simulacre"
+    "level": "Simulacro"
   },
   {
     "path": "Python/simulacros/simulacro_02/Ejercicio_02.py",
     "title": "Ejercicio 02",
     "area": "Python",
     "unit": "Simulacro 02",
-    "level": "Simulacre"
+    "level": "Simulacro"
   },
   {
     "path": "Python/simulacros/simulacro_02/Ejercicio_03.py",
     "title": "Ejercicio 03",
     "area": "Python",
     "unit": "Simulacro 02",
-    "level": "Simulacre"
+    "level": "Simulacro"
   },
   {
     "path": "Python/simulacros/simulacro_02/Ejercicio_04.py",
     "title": "Ejercicio 04",
     "area": "Python",
     "unit": "Simulacro 02",
-    "level": "Simulacre"
+    "level": "Simulacro"
   },
   {
     "path": "Python/simulacros/simulacro_02/Ejercicio_05.py",
     "title": "Ejercicio 05",
     "area": "Python",
     "unit": "Simulacro 02",
-    "level": "Simulacre"
+    "level": "Simulacro"
   },
   {
     "path": "Python/simulacros/simulacro_03/Ejercicio_01.py",
     "title": "Ejercicio 01",
     "area": "Python",
     "unit": "Simulacro 03",
-    "level": "Simulacre"
+    "level": "Simulacro"
   },
   {
     "path": "Python/simulacros/simulacro_03/Ejercicio_02.py",
     "title": "Ejercicio 02",
     "area": "Python",
     "unit": "Simulacro 03",
-    "level": "Simulacre"
+    "level": "Simulacro"
   },
   {
     "path": "Python/simulacros/simulacro_03/Ejercicio_03.py",
     "title": "Ejercicio 03",
     "area": "Python",
     "unit": "Simulacro 03",
-    "level": "Simulacre"
+    "level": "Simulacro"
   },
   {
     "path": "Python/simulacros/simulacro_03/Ejercicio_04.py",
     "title": "Ejercicio 04",
     "area": "Python",
     "unit": "Simulacro 03",
-    "level": "Simulacre"
+    "level": "Simulacro"
   },
   {
     "path": "Python/simulacros/simulacro_03/Ejercicio_05.py",
     "title": "Ejercicio 05",
     "area": "Python",
     "unit": "Simulacro 03",
-    "level": "Simulacre"
+    "level": "Simulacro"
   },
   {
     "path": "Python/simulacros/simulacro_04/Ejercicio_01.py",
     "title": "Ejercicio 01",
     "area": "Python",
     "unit": "Simulacro 04",
-    "level": "Simulacre"
+    "level": "Simulacro"
   },
   {
     "path": "Python/simulacros/simulacro_04/Ejercicio_02.py",
     "title": "Ejercicio 02",
     "area": "Python",
     "unit": "Simulacro 04",
-    "level": "Simulacre"
+    "level": "Simulacro"
   },
   {
     "path": "Python/simulacros/simulacro_04/Ejercicio_03.py",
     "title": "Ejercicio 03",
     "area": "Python",
     "unit": "Simulacro 04",
-    "level": "Simulacre"
+    "level": "Simulacro"
   },
   {
     "path": "Python/simulacros/simulacro_04/Ejercicio_04.py",
     "title": "Ejercicio 04",
     "area": "Python",
     "unit": "Simulacro 04",
-    "level": "Simulacre"
+    "level": "Simulacro"
   },
   {
     "path": "Python/simulacros/simulacro_04/Ejercicio_05.py",
     "title": "Ejercicio 05",
     "area": "Python",
     "unit": "Simulacro 04",
-    "level": "Simulacre"
+    "level": "Simulacro"
   },
   {
     "path": "Python/simulacros/simulacro_05/Ejercicio_01.py",
     "title": "Ejercicio 01",
     "area": "Python",
     "unit": "Simulacro 05",
-    "level": "Simulacre"
+    "level": "Simulacro"
   },
   {
     "path": "Python/simulacros/simulacro_05/Ejercicio_02.py",
     "title": "Ejercicio 02",
     "area": "Python",
     "unit": "Simulacro 05",
-    "level": "Simulacre"
+    "level": "Simulacro"
   },
   {
     "path": "Python/simulacros/simulacro_05/Ejercicio_03.py",
     "title": "Ejercicio 03",
     "area": "Python",
     "unit": "Simulacro 05",
-    "level": "Simulacre"
+    "level": "Simulacro"
   },
   {
     "path": "Python/simulacros/simulacro_05/Ejercicio_04.py",
     "title": "Ejercicio 04",
     "area": "Python",
     "unit": "Simulacro 05",
-    "level": "Simulacre"
+    "level": "Simulacro"
   },
   {
     "path": "Python/simulacros/simulacro_05/Ejercicio_05.py",
     "title": "Ejercicio 05",
     "area": "Python",
     "unit": "Simulacro 05",
-    "level": "Simulacre"
+    "level": "Simulacro"
   },
   {
     "path": "Python/simulacros/simulacro_06/Ejercicio_01.py",
     "title": "Ejercicio 01",
     "area": "Python",
     "unit": "Simulacro 06",
-    "level": "Simulacre"
+    "level": "Simulacro"
   },
   {
     "path": "Python/simulacros/simulacro_06/Ejercicio_02.py",
     "title": "Ejercicio 02",
     "area": "Python",
     "unit": "Simulacro 06",
-    "level": "Simulacre"
+    "level": "Simulacro"
   },
   {
     "path": "Python/simulacros/simulacro_06/Ejercicio_03.py",
     "title": "Ejercicio 03",
     "area": "Python",
     "unit": "Simulacro 06",
-    "level": "Simulacre"
+    "level": "Simulacro"
   },
   {
     "path": "Python/simulacros/simulacro_06/Ejercicio_04.py",
     "title": "Ejercicio 04",
     "area": "Python",
     "unit": "Simulacro 06",
-    "level": "Simulacre"
+    "level": "Simulacro"
   },
   {
     "path": "Python/simulacros/simulacro_06/Ejercicio_05.py",
     "title": "Ejercicio 05",
     "area": "Python",
     "unit": "Simulacro 06",
-    "level": "Simulacre"
+    "level": "Simulacro"
   },
   {
     "path": "Python/simulacros/simulacro_07/Ejercicio_01.py",
     "title": "Ejercicio 01",
     "area": "Python",
     "unit": "Simulacro 07",
-    "level": "Simulacre"
+    "level": "Simulacro"
   },
   {
     "path": "Python/simulacros/simulacro_07/Ejercicio_02.py",
     "title": "Ejercicio 02",
     "area": "Python",
     "unit": "Simulacro 07",
-    "level": "Simulacre"
+    "level": "Simulacro"
   },
   {
     "path": "Python/simulacros/simulacro_07/Ejercicio_03.py",
     "title": "Ejercicio 03",
     "area": "Python",
     "unit": "Simulacro 07",
-    "level": "Simulacre"
+    "level": "Simulacro"
   },
   {
     "path": "Python/simulacros/simulacro_07/Ejercicio_04.py",
     "title": "Ejercicio 04",
     "area": "Python",
     "unit": "Simulacro 07",
-    "level": "Simulacre"
+    "level": "Simulacro"
   },
   {
     "path": "Python/simulacros/simulacro_07/Ejercicio_05.py",
     "title": "Ejercicio 05",
     "area": "Python",
     "unit": "Simulacro 07",
-    "level": "Simulacre"
+    "level": "Simulacro"
   },
   {
     "path": "Python/simulacros/simulacro_08/Ejercicio_01.py",
     "title": "Ejercicio 01",
     "area": "Python",
     "unit": "Simulacro 08",
-    "level": "Simulacre"
+    "level": "Simulacro"
   },
   {
     "path": "Python/simulacros/simulacro_08/Ejercicio_02.py",
     "title": "Ejercicio 02",
     "area": "Python",
     "unit": "Simulacro 08",
-    "level": "Simulacre"
+    "level": "Simulacro"
   },
   {
     "path": "Python/simulacros/simulacro_08/Ejercicio_03.py",
     "title": "Ejercicio 03",
     "area": "Python",
     "unit": "Simulacro 08",
-    "level": "Simulacre"
+    "level": "Simulacro"
   },
   {
     "path": "Python/simulacros/simulacro_08/Ejercicio_04.py",
     "title": "Ejercicio 04",
     "area": "Python",
     "unit": "Simulacro 08",
-    "level": "Simulacre"
+    "level": "Simulacro"
   },
   {
     "path": "Python/simulacros/simulacro_08/Ejercicio_05.py",
     "title": "Ejercicio 05",
     "area": "Python",
     "unit": "Simulacro 08",
-    "level": "Simulacre"
+    "level": "Simulacro"
   },
   {
     "path": "Python/simulacros/simulacro_09/Ejercicio_01.py",
     "title": "Ejercicio 01",
     "area": "Python",
     "unit": "Simulacro 09",
-    "level": "Simulacre"
+    "level": "Simulacro"
   },
   {
     "path": "Python/simulacros/simulacro_09/Ejercicio_02.py",
     "title": "Ejercicio 02",
     "area": "Python",
     "unit": "Simulacro 09",
-    "level": "Simulacre"
+    "level": "Simulacro"
   },
   {
     "path": "Python/simulacros/simulacro_09/Ejercicio_03.py",
     "title": "Ejercicio 03",
     "area": "Python",
     "unit": "Simulacro 09",
-    "level": "Simulacre"
+    "level": "Simulacro"
   },
   {
     "path": "Python/simulacros/simulacro_09/Ejercicio_04.py",
     "title": "Ejercicio 04",
     "area": "Python",
     "unit": "Simulacro 09",
-    "level": "Simulacre"
+    "level": "Simulacro"
   },
   {
     "path": "Python/simulacros/simulacro_09/Ejercicio_05.py",
     "title": "Ejercicio 05",
     "area": "Python",
     "unit": "Simulacro 09",
-    "level": "Simulacre"
+    "level": "Simulacro"
   },
   {
     "path": "Python/simulacros/simulacro_10/Ejercicio_01.py",
     "title": "Ejercicio 01",
     "area": "Python",
     "unit": "Simulacro 10",
-    "level": "Simulacre"
+    "level": "Simulacro"
   },
   {
     "path": "Python/simulacros/simulacro_10/Ejercicio_02.py",
     "title": "Ejercicio 02",
     "area": "Python",
     "unit": "Simulacro 10",
-    "level": "Simulacre"
+    "level": "Simulacro"
   },
   {
     "path": "Python/simulacros/simulacro_10/Ejercicio_03.py",
     "title": "Ejercicio 03",
     "area": "Python",
     "unit": "Simulacro 10",
-    "level": "Simulacre"
+    "level": "Simulacro"
   },
   {
     "path": "Python/simulacros/simulacro_10/Ejercicio_04.py",
     "title": "Ejercicio 04",
     "area": "Python",
     "unit": "Simulacro 10",
-    "level": "Simulacre"
+    "level": "Simulacro"
   },
   {
     "path": "Python/simulacros/simulacro_10/Ejercicio_05.py",
     "title": "Ejercicio 05",
     "area": "Python",
     "unit": "Simulacro 10",
-    "level": "Simulacre"
+    "level": "Simulacro"
   }
 ]
