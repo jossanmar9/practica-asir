@@ -1000,7 +1000,7 @@
     "q": "Si a=8 y b=3, ¿qué muestra echo $((a % b))?",
     "a": [
       "2",
-      "2",
+      "1",
       "11",
       "24"
     ],
@@ -1573,7 +1573,7 @@
   },
   {
     "t": "Bash",
-    "q": "¿Qué describe la expresión regular ^https?://?",
+    "q": "¿Qué describe la expresión regular ^https?://",
     "a": [
       "Empieza por http:// o https://",
       "Solo empieza por https://",
@@ -1782,7 +1782,7 @@
       "3",
       "2",
       "4",
-      "4"
+      "5"
     ],
     "correct": 0,
     "e": "El contador recorre ambos extremos porque se usa <=."
@@ -1805,8 +1805,8 @@
     "a": [
       "5",
       "4",
-      "5",
-      "4"
+      "7",
+      "8"
     ],
     "correct": 0,
     "e": "El contador recorre ambos extremos porque se usa <=."
@@ -1842,7 +1842,7 @@
       "10",
       "9",
       "11",
-      "11"
+      "12"
     ],
     "correct": 0,
     "e": "El contador recorre ambos extremos porque se usa <=."
@@ -1853,8 +1853,8 @@
     "a": [
       "3",
       "2",
-      "3",
-      "2"
+      "5",
+      "6"
     ],
     "correct": 0,
     "e": "El contador recorre ambos extremos porque se usa <=."
@@ -2293,7 +2293,7 @@
   },
   {
     "t": "Procesos",
-    "q": "¿Qué prioridad relativa tiene un proceso con nice 19 frente a otro con nice 20 (si ambos valores son válidos)?",
+    "q": "¿Qué prioridad relativa tiene un proceso con nice 18 frente a otro con nice 19 (si ambos valores son válidos)?",
     "a": [
       "Mayor prioridad de planificación",
       "Menor prioridad de planificación",
