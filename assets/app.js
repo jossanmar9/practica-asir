@@ -8,7 +8,8 @@ const clean = (text) => String(text || "").normalize("NFD").replace(/[\u0300-\u0
 const encodedPath = (path) => path.split("/").map(encodeURIComponent).join("/");
 const sourceUrl = (path) => "https://github.com/jossanmar9/practica-asir/blob/main/" + encodedPath(path);
 function saveProgress() { try { localStorage.setItem(STORAGE_KEY, JSON.stringify(progress)); } catch (_) {} }
-function statusFor(entry) { return progress[entry.path] || "pendent"; }
+function entryKey(entry) { return entry.path + (entry.id ? "#" + entry.id : ""); }
+function statusFor(entry) { return progress[entryKey(entry)] || "pendent"; }
 function card(entry) {
   const el = document.createElement("article");
   el.className = "exercise";
@@ -31,8 +32,8 @@ function card(entry) {
   done.classList.toggle("completed", status === "superat");
   done.setAttribute("aria-pressed", String(status === "superat"));
   done.addEventListener("click", () => {
-    if (statusFor(entry) === "superat") delete progress[entry.path];
-    else progress[entry.path] = "superat";
+    if (statusFor(entry) === "superat") delete progress[entryKey(entry)];
+    else progress[entryKey(entry)] = "superat";
     saveProgress(); render();
   });
   controls.append(view, done); el.appendChild(controls);
@@ -72,7 +73,15 @@ async function showPreview(entry) {
   try {
     const result = await fetch(encodedPath(entry.path));
     if (!result.ok) throw Error("HTTP " + result.status);
-    $("preview-body").textContent = await result.text();
+    const text = await result.text();
+    if (entry.id) {
+      const marker = "## " + entry.id + " ";
+      const start = text.indexOf(marker);
+      const end = start < 0 ? -1 : text.indexOf("\n## UT", start + marker.length);
+      $("preview-body").textContent = start < 0 ? text : text.slice(start, end < 0 ? undefined : end).trim();
+    } else {
+      $("preview-body").textContent = text;
+    }
   } catch (_) {
     $("preview-body").textContent = "No s'ha pogut carregar el fitxer. Pots consultar-lo a GitHub amb l'enllaç inferior.";
   }
