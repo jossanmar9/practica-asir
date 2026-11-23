@@ -101,6 +101,22 @@ document.querySelectorAll("[data-subject]").forEach((link) => link.addEventListe
 $("search").addEventListener("input", (event) => { state.text = event.target.value; state.shown = 30; render(); });
 $("level").addEventListener("change", (event) => { state.level = event.target.value; state.shown = 30; render(); });
 $("more").addEventListener("click", () => { state.shown += 30; render(); });
+$("export-progress").addEventListener("click", () => {
+  if (!state.all.length) return;
+  const rows = ["fitxer,estat,intents,nota,observacions"];
+  for (const entry of state.all) {
+    rows.push([entryKey(entry), statusFor(entry), "", "", ""].join(","));
+  }
+  const blob = new Blob(["\ufeff" + rows.join("\n") + "\n"], { type: "text/csv;charset=utf-8" });
+  const url = URL.createObjectURL(blob);
+  const link = document.createElement("a");
+  link.href = url;
+  link.download = "seguiment-asir.csv";
+  document.body.appendChild(link);
+  link.click();
+  link.remove();
+  URL.revokeObjectURL(url);
+});
 $("close-preview").addEventListener("click", () => $("preview").close());
 $("preview").addEventListener("click", (event) => { if (event.target === $("preview")) $("preview").close(); });
 (async () => {
