@@ -1,0 +1,3122 @@
+[
+  {
+    "id": "UT1-001",
+    "unit": "UT1",
+    "question": "En el proyecto entregado, ¿Qué servicio responde normalmente a una petición de un PDF estático?",
+    "options": [
+      "Nginx",
+      "MariaDB",
+      "PHP-FPM",
+      "PDO"
+    ],
+    "correct": 0,
+    "explanation": "Nginx puede servir un archivo estático directamente."
+  },
+  {
+    "id": "UT1-002",
+    "unit": "UT1",
+    "question": "En el proyecto entregado, ¿Qué servicio ejecuta el código PHP del proyecto?",
+    "options": [
+      "PHP-FPM",
+      "MariaDB",
+      "El navegador",
+      "Git"
+    ],
+    "correct": 0,
+    "explanation": "PHP-FPM ejecuta PHP en el servidor."
+  },
+  {
+    "id": "UT1-003",
+    "unit": "UT1",
+    "question": "En el proyecto entregado, ¿Qué nombre usa PHP para localizar MariaDB en la red de Compose?",
+    "options": [
+      "db",
+      "localhost del contenedor PHP",
+      "8080",
+      "nginx"
+    ],
+    "correct": 0,
+    "explanation": "El nombre de servicio db actúa como hostname dentro de la red."
+  },
+  {
+    "id": "UT1-004",
+    "unit": "UT1",
+    "question": "En el proyecto entregado, ¿Qué significa 8080:80 en ports?",
+    "options": [
+      "Puerto 8080 del host hacia el 80 del contenedor",
+      "Puerto 80 del host hacia el 8080 del contenedor",
+      "Dos puertos internos sin publicar",
+      "Puerto de MariaDB"
+    ],
+    "correct": 0,
+    "explanation": "El primer número es el puerto del host."
+  },
+  {
+    "id": "UT1-005",
+    "unit": "UT1",
+    "question": "En el proyecto entregado, ¿Qué conserva los datos de MariaDB entre recreaciones?",
+    "options": [
+      "db_data",
+      "depends_on",
+      "Dockerfile",
+      "fastcgi_pass"
+    ],
+    "correct": 0,
+    "explanation": "El volumen nombrado db_data se monta en /var/lib/mysql."
+  },
+  {
+    "id": "UT1-006",
+    "unit": "UT1",
+    "question": "En el proyecto entregado, ¿Qué bloque transmite DB_PASSWORD al contenedor PHP?",
+    "options": [
+      "environment del servicio php",
+      "Solo el archivo .env",
+      "ports de nginx",
+      "depends_on"
+    ],
+    "correct": 0,
+    "explanation": "La interpolación del .env no implica inyección automática en cualquier contenedor."
+  },
+  {
+    "id": "UT1-007",
+    "unit": "UT1",
+    "question": "En el proyecto entregado, ¿Qué hace PDO en index.php?",
+    "options": [
+      "Conecta y consulta MariaDB",
+      "Publica el puerto 8080",
+      "Arranca Nginx",
+      "Crea la imagen de Docker"
+    ],
+    "correct": 0,
+    "explanation": "PDO es la interfaz de acceso a base de datos usada en el script."
+  },
+  {
+    "id": "UT1-008",
+    "unit": "UT1",
+    "question": "En el proyecto entregado, ¿Qué consulta cuenta filas de la tabla prueba?",
+    "options": [
+      "SELECT COUNT(*) FROM prueba",
+      "DELETE FROM prueba",
+      "SELECT * FROM nginx",
+      "CREATE DATABASE prueba"
+    ],
+    "correct": 0,
+    "explanation": "COUNT(*) devuelve el número de filas."
+  },
+  {
+    "id": "UT1-009",
+    "unit": "UT1",
+    "question": "En el proyecto entregado, ¿Qué archivo configura el reenvío de .php a PHP-FPM?",
+    "options": [
+      "nginx/default.conf",
+      "sql/init.sql",
+      ".env.example",
+      "README.md"
+    ],
+    "correct": 0,
+    "explanation": "La configuración de Nginx contiene la ubicación y destino FastCGI."
+  },
+  {
+    "id": "UT1-010",
+    "unit": "UT1",
+    "question": "En el proyecto entregado, ¿Qué indica un 502 al solicitar PHP?",
+    "options": [
+      "Posible fallo de comunicación Nginx-PHP-FPM",
+      "Que el PDF se ha borrado siempre",
+      "Que el navegador ejecuta PHP",
+      "Que falta el campo name"
+    ],
+    "correct": 0,
+    "explanation": "Un 502 suele apuntar al upstream; se revisan configuración y logs."
+  },
+  {
+    "id": "UT1-011",
+    "unit": "UT1",
+    "question": "En el proyecto entregado, ¿Qué hace depends_on por sí solo?",
+    "options": [
+      "Ordena dependencias de arranque, no asegura preparación funcional",
+      "Garantiza que SQL esté inicializado",
+      "Crea tablas automáticamente",
+      "Comparte todas las variables"
+    ],
+    "correct": 0,
+    "explanation": "El orden de arranque no equivale a disponibilidad funcional."
+  },
+  {
+    "id": "UT1-012",
+    "unit": "UT1",
+    "question": "En el proyecto entregado, ¿Qué ocurre si se cambia init.sql con un volumen ya inicializado?",
+    "options": [
+      "No se reaplica automáticamente en la base existente",
+      "Se ejecuta en cada petición",
+      "Se borra el volumen siempre",
+      "Se modifica index.php"
+    ],
+    "correct": 0,
+    "explanation": "Los scripts de inicialización se aplican al crear la base por primera vez."
+  },
+  {
+    "id": "UT1-013",
+    "unit": "UT1",
+    "question": "Al revisar un fallo, ¿Qué servicio responde normalmente a una petición de un PDF estático?",
+    "options": [
+      "Nginx",
+      "MariaDB",
+      "PHP-FPM",
+      "PDO"
+    ],
+    "correct": 0,
+    "explanation": "Nginx puede servir un archivo estático directamente."
+  },
+  {
+    "id": "UT1-014",
+    "unit": "UT1",
+    "question": "Al revisar un fallo, ¿Qué servicio ejecuta el código PHP del proyecto?",
+    "options": [
+      "PHP-FPM",
+      "MariaDB",
+      "El navegador",
+      "Git"
+    ],
+    "correct": 0,
+    "explanation": "PHP-FPM ejecuta PHP en el servidor."
+  },
+  {
+    "id": "UT1-015",
+    "unit": "UT1",
+    "question": "Al revisar un fallo, ¿Qué nombre usa PHP para localizar MariaDB en la red de Compose?",
+    "options": [
+      "db",
+      "localhost del contenedor PHP",
+      "8080",
+      "nginx"
+    ],
+    "correct": 0,
+    "explanation": "El nombre de servicio db actúa como hostname dentro de la red."
+  },
+  {
+    "id": "UT1-016",
+    "unit": "UT1",
+    "question": "Al revisar un fallo, ¿Qué significa 8080:80 en ports?",
+    "options": [
+      "Puerto 8080 del host hacia el 80 del contenedor",
+      "Puerto 80 del host hacia el 8080 del contenedor",
+      "Dos puertos internos sin publicar",
+      "Puerto de MariaDB"
+    ],
+    "correct": 0,
+    "explanation": "El primer número es el puerto del host."
+  },
+  {
+    "id": "UT1-017",
+    "unit": "UT1",
+    "question": "Al revisar un fallo, ¿Qué conserva los datos de MariaDB entre recreaciones?",
+    "options": [
+      "db_data",
+      "depends_on",
+      "Dockerfile",
+      "fastcgi_pass"
+    ],
+    "correct": 0,
+    "explanation": "El volumen nombrado db_data se monta en /var/lib/mysql."
+  },
+  {
+    "id": "UT1-018",
+    "unit": "UT1",
+    "question": "Al revisar un fallo, ¿Qué bloque transmite DB_PASSWORD al contenedor PHP?",
+    "options": [
+      "environment del servicio php",
+      "Solo el archivo .env",
+      "ports de nginx",
+      "depends_on"
+    ],
+    "correct": 0,
+    "explanation": "La interpolación del .env no implica inyección automática en cualquier contenedor."
+  },
+  {
+    "id": "UT1-019",
+    "unit": "UT1",
+    "question": "Al revisar un fallo, ¿Qué hace PDO en index.php?",
+    "options": [
+      "Conecta y consulta MariaDB",
+      "Publica el puerto 8080",
+      "Arranca Nginx",
+      "Crea la imagen de Docker"
+    ],
+    "correct": 0,
+    "explanation": "PDO es la interfaz de acceso a base de datos usada en el script."
+  },
+  {
+    "id": "UT1-020",
+    "unit": "UT1",
+    "question": "Al revisar un fallo, ¿Qué consulta cuenta filas de la tabla prueba?",
+    "options": [
+      "SELECT COUNT(*) FROM prueba",
+      "DELETE FROM prueba",
+      "SELECT * FROM nginx",
+      "CREATE DATABASE prueba"
+    ],
+    "correct": 0,
+    "explanation": "COUNT(*) devuelve el número de filas."
+  },
+  {
+    "id": "UT1-021",
+    "unit": "UT1",
+    "question": "Al revisar un fallo, ¿Qué archivo configura el reenvío de .php a PHP-FPM?",
+    "options": [
+      "nginx/default.conf",
+      "sql/init.sql",
+      ".env.example",
+      "README.md"
+    ],
+    "correct": 0,
+    "explanation": "La configuración de Nginx contiene la ubicación y destino FastCGI."
+  },
+  {
+    "id": "UT1-022",
+    "unit": "UT1",
+    "question": "Al revisar un fallo, ¿Qué indica un 502 al solicitar PHP?",
+    "options": [
+      "Posible fallo de comunicación Nginx-PHP-FPM",
+      "Que el PDF se ha borrado siempre",
+      "Que el navegador ejecuta PHP",
+      "Que falta el campo name"
+    ],
+    "correct": 0,
+    "explanation": "Un 502 suele apuntar al upstream; se revisan configuración y logs."
+  },
+  {
+    "id": "UT1-023",
+    "unit": "UT1",
+    "question": "Al revisar un fallo, ¿Qué hace depends_on por sí solo?",
+    "options": [
+      "Ordena dependencias de arranque, no asegura preparación funcional",
+      "Garantiza que SQL esté inicializado",
+      "Crea tablas automáticamente",
+      "Comparte todas las variables"
+    ],
+    "correct": 0,
+    "explanation": "El orden de arranque no equivale a disponibilidad funcional."
+  },
+  {
+    "id": "UT1-024",
+    "unit": "UT1",
+    "question": "Al revisar un fallo, ¿Qué ocurre si se cambia init.sql con un volumen ya inicializado?",
+    "options": [
+      "No se reaplica automáticamente en la base existente",
+      "Se ejecuta en cada petición",
+      "Se borra el volumen siempre",
+      "Se modifica index.php"
+    ],
+    "correct": 0,
+    "explanation": "Los scripts de inicialización se aplican al crear la base por primera vez."
+  },
+  {
+    "id": "UT1-025",
+    "unit": "UT1",
+    "question": "Para justificar una modificación, ¿Qué servicio responde normalmente a una petición de un PDF estático?",
+    "options": [
+      "Nginx",
+      "MariaDB",
+      "PHP-FPM",
+      "PDO"
+    ],
+    "correct": 0,
+    "explanation": "Nginx puede servir un archivo estático directamente."
+  },
+  {
+    "id": "UT1-026",
+    "unit": "UT1",
+    "question": "Para justificar una modificación, ¿Qué servicio ejecuta el código PHP del proyecto?",
+    "options": [
+      "PHP-FPM",
+      "MariaDB",
+      "El navegador",
+      "Git"
+    ],
+    "correct": 0,
+    "explanation": "PHP-FPM ejecuta PHP en el servidor."
+  },
+  {
+    "id": "UT1-027",
+    "unit": "UT1",
+    "question": "Para justificar una modificación, ¿Qué nombre usa PHP para localizar MariaDB en la red de Compose?",
+    "options": [
+      "db",
+      "localhost del contenedor PHP",
+      "8080",
+      "nginx"
+    ],
+    "correct": 0,
+    "explanation": "El nombre de servicio db actúa como hostname dentro de la red."
+  },
+  {
+    "id": "UT1-028",
+    "unit": "UT1",
+    "question": "Para justificar una modificación, ¿Qué significa 8080:80 en ports?",
+    "options": [
+      "Puerto 8080 del host hacia el 80 del contenedor",
+      "Puerto 80 del host hacia el 8080 del contenedor",
+      "Dos puertos internos sin publicar",
+      "Puerto de MariaDB"
+    ],
+    "correct": 0,
+    "explanation": "El primer número es el puerto del host."
+  },
+  {
+    "id": "UT1-029",
+    "unit": "UT1",
+    "question": "Para justificar una modificación, ¿Qué conserva los datos de MariaDB entre recreaciones?",
+    "options": [
+      "db_data",
+      "depends_on",
+      "Dockerfile",
+      "fastcgi_pass"
+    ],
+    "correct": 0,
+    "explanation": "El volumen nombrado db_data se monta en /var/lib/mysql."
+  },
+  {
+    "id": "UT1-030",
+    "unit": "UT1",
+    "question": "Para justificar una modificación, ¿Qué bloque transmite DB_PASSWORD al contenedor PHP?",
+    "options": [
+      "environment del servicio php",
+      "Solo el archivo .env",
+      "ports de nginx",
+      "depends_on"
+    ],
+    "correct": 0,
+    "explanation": "La interpolación del .env no implica inyección automática en cualquier contenedor."
+  },
+  {
+    "id": "UT1-031",
+    "unit": "UT1",
+    "question": "Para justificar una modificación, ¿Qué hace PDO en index.php?",
+    "options": [
+      "Conecta y consulta MariaDB",
+      "Publica el puerto 8080",
+      "Arranca Nginx",
+      "Crea la imagen de Docker"
+    ],
+    "correct": 0,
+    "explanation": "PDO es la interfaz de acceso a base de datos usada en el script."
+  },
+  {
+    "id": "UT1-032",
+    "unit": "UT1",
+    "question": "Para justificar una modificación, ¿Qué consulta cuenta filas de la tabla prueba?",
+    "options": [
+      "SELECT COUNT(*) FROM prueba",
+      "DELETE FROM prueba",
+      "SELECT * FROM nginx",
+      "CREATE DATABASE prueba"
+    ],
+    "correct": 0,
+    "explanation": "COUNT(*) devuelve el número de filas."
+  },
+  {
+    "id": "UT1-033",
+    "unit": "UT1",
+    "question": "Para justificar una modificación, ¿Qué archivo configura el reenvío de .php a PHP-FPM?",
+    "options": [
+      "nginx/default.conf",
+      "sql/init.sql",
+      ".env.example",
+      "README.md"
+    ],
+    "correct": 0,
+    "explanation": "La configuración de Nginx contiene la ubicación y destino FastCGI."
+  },
+  {
+    "id": "UT1-034",
+    "unit": "UT1",
+    "question": "Para justificar una modificación, ¿Qué indica un 502 al solicitar PHP?",
+    "options": [
+      "Posible fallo de comunicación Nginx-PHP-FPM",
+      "Que el PDF se ha borrado siempre",
+      "Que el navegador ejecuta PHP",
+      "Que falta el campo name"
+    ],
+    "correct": 0,
+    "explanation": "Un 502 suele apuntar al upstream; se revisan configuración y logs."
+  },
+  {
+    "id": "UT1-035",
+    "unit": "UT1",
+    "question": "Para justificar una modificación, ¿Qué hace depends_on por sí solo?",
+    "options": [
+      "Ordena dependencias de arranque, no asegura preparación funcional",
+      "Garantiza que SQL esté inicializado",
+      "Crea tablas automáticamente",
+      "Comparte todas las variables"
+    ],
+    "correct": 0,
+    "explanation": "El orden de arranque no equivale a disponibilidad funcional."
+  },
+  {
+    "id": "UT1-036",
+    "unit": "UT1",
+    "question": "Para justificar una modificación, ¿Qué ocurre si se cambia init.sql con un volumen ya inicializado?",
+    "options": [
+      "No se reaplica automáticamente en la base existente",
+      "Se ejecuta en cada petición",
+      "Se borra el volumen siempre",
+      "Se modifica index.php"
+    ],
+    "correct": 0,
+    "explanation": "Los scripts de inicialización se aplican al crear la base por primera vez."
+  },
+  {
+    "id": "UT1-037",
+    "unit": "UT1",
+    "question": "Durante la revisión del código, ¿Qué servicio responde normalmente a una petición de un PDF estático?",
+    "options": [
+      "Nginx",
+      "MariaDB",
+      "PHP-FPM",
+      "PDO"
+    ],
+    "correct": 0,
+    "explanation": "Nginx puede servir un archivo estático directamente."
+  },
+  {
+    "id": "UT1-038",
+    "unit": "UT1",
+    "question": "Durante la revisión del código, ¿Qué servicio ejecuta el código PHP del proyecto?",
+    "options": [
+      "PHP-FPM",
+      "MariaDB",
+      "El navegador",
+      "Git"
+    ],
+    "correct": 0,
+    "explanation": "PHP-FPM ejecuta PHP en el servidor."
+  },
+  {
+    "id": "UT1-039",
+    "unit": "UT1",
+    "question": "Durante la revisión del código, ¿Qué nombre usa PHP para localizar MariaDB en la red de Compose?",
+    "options": [
+      "db",
+      "localhost del contenedor PHP",
+      "8080",
+      "nginx"
+    ],
+    "correct": 0,
+    "explanation": "El nombre de servicio db actúa como hostname dentro de la red."
+  },
+  {
+    "id": "UT1-040",
+    "unit": "UT1",
+    "question": "Durante la revisión del código, ¿Qué significa 8080:80 en ports?",
+    "options": [
+      "Puerto 8080 del host hacia el 80 del contenedor",
+      "Puerto 80 del host hacia el 8080 del contenedor",
+      "Dos puertos internos sin publicar",
+      "Puerto de MariaDB"
+    ],
+    "correct": 0,
+    "explanation": "El primer número es el puerto del host."
+  },
+  {
+    "id": "UT1-041",
+    "unit": "UT1",
+    "question": "Durante la revisión del código, ¿Qué conserva los datos de MariaDB entre recreaciones?",
+    "options": [
+      "db_data",
+      "depends_on",
+      "Dockerfile",
+      "fastcgi_pass"
+    ],
+    "correct": 0,
+    "explanation": "El volumen nombrado db_data se monta en /var/lib/mysql."
+  },
+  {
+    "id": "UT1-042",
+    "unit": "UT1",
+    "question": "Durante la revisión del código, ¿Qué bloque transmite DB_PASSWORD al contenedor PHP?",
+    "options": [
+      "environment del servicio php",
+      "Solo el archivo .env",
+      "ports de nginx",
+      "depends_on"
+    ],
+    "correct": 0,
+    "explanation": "La interpolación del .env no implica inyección automática en cualquier contenedor."
+  },
+  {
+    "id": "UT1-043",
+    "unit": "UT1",
+    "question": "Durante la revisión del código, ¿Qué hace PDO en index.php?",
+    "options": [
+      "Conecta y consulta MariaDB",
+      "Publica el puerto 8080",
+      "Arranca Nginx",
+      "Crea la imagen de Docker"
+    ],
+    "correct": 0,
+    "explanation": "PDO es la interfaz de acceso a base de datos usada en el script."
+  },
+  {
+    "id": "UT1-044",
+    "unit": "UT1",
+    "question": "Durante la revisión del código, ¿Qué consulta cuenta filas de la tabla prueba?",
+    "options": [
+      "SELECT COUNT(*) FROM prueba",
+      "DELETE FROM prueba",
+      "SELECT * FROM nginx",
+      "CREATE DATABASE prueba"
+    ],
+    "correct": 0,
+    "explanation": "COUNT(*) devuelve el número de filas."
+  },
+  {
+    "id": "UT1-045",
+    "unit": "UT1",
+    "question": "Durante la revisión del código, ¿Qué archivo configura el reenvío de .php a PHP-FPM?",
+    "options": [
+      "nginx/default.conf",
+      "sql/init.sql",
+      ".env.example",
+      "README.md"
+    ],
+    "correct": 0,
+    "explanation": "La configuración de Nginx contiene la ubicación y destino FastCGI."
+  },
+  {
+    "id": "UT1-046",
+    "unit": "UT1",
+    "question": "Durante la revisión del código, ¿Qué indica un 502 al solicitar PHP?",
+    "options": [
+      "Posible fallo de comunicación Nginx-PHP-FPM",
+      "Que el PDF se ha borrado siempre",
+      "Que el navegador ejecuta PHP",
+      "Que falta el campo name"
+    ],
+    "correct": 0,
+    "explanation": "Un 502 suele apuntar al upstream; se revisan configuración y logs."
+  },
+  {
+    "id": "UT1-047",
+    "unit": "UT1",
+    "question": "Durante la revisión del código, ¿Qué hace depends_on por sí solo?",
+    "options": [
+      "Ordena dependencias de arranque, no asegura preparación funcional",
+      "Garantiza que SQL esté inicializado",
+      "Crea tablas automáticamente",
+      "Comparte todas las variables"
+    ],
+    "correct": 0,
+    "explanation": "El orden de arranque no equivale a disponibilidad funcional."
+  },
+  {
+    "id": "UT1-048",
+    "unit": "UT1",
+    "question": "Durante la revisión del código, ¿Qué ocurre si se cambia init.sql con un volumen ya inicializado?",
+    "options": [
+      "No se reaplica automáticamente en la base existente",
+      "Se ejecuta en cada petición",
+      "Se borra el volumen siempre",
+      "Se modifica index.php"
+    ],
+    "correct": 0,
+    "explanation": "Los scripts de inicialización se aplican al crear la base por primera vez."
+  },
+  {
+    "id": "UT1-049",
+    "unit": "UT1",
+    "question": "En un caso de examen, ¿Qué servicio responde normalmente a una petición de un PDF estático?",
+    "options": [
+      "Nginx",
+      "MariaDB",
+      "PHP-FPM",
+      "PDO"
+    ],
+    "correct": 0,
+    "explanation": "Nginx puede servir un archivo estático directamente."
+  },
+  {
+    "id": "UT1-050",
+    "unit": "UT1",
+    "question": "En un caso de examen, ¿Qué servicio ejecuta el código PHP del proyecto?",
+    "options": [
+      "PHP-FPM",
+      "MariaDB",
+      "El navegador",
+      "Git"
+    ],
+    "correct": 0,
+    "explanation": "PHP-FPM ejecuta PHP en el servidor."
+  },
+  {
+    "id": "UT1-051",
+    "unit": "UT1",
+    "question": "En un caso de examen, ¿Qué nombre usa PHP para localizar MariaDB en la red de Compose?",
+    "options": [
+      "db",
+      "localhost del contenedor PHP",
+      "8080",
+      "nginx"
+    ],
+    "correct": 0,
+    "explanation": "El nombre de servicio db actúa como hostname dentro de la red."
+  },
+  {
+    "id": "UT1-052",
+    "unit": "UT1",
+    "question": "En un caso de examen, ¿Qué significa 8080:80 en ports?",
+    "options": [
+      "Puerto 8080 del host hacia el 80 del contenedor",
+      "Puerto 80 del host hacia el 8080 del contenedor",
+      "Dos puertos internos sin publicar",
+      "Puerto de MariaDB"
+    ],
+    "correct": 0,
+    "explanation": "El primer número es el puerto del host."
+  },
+  {
+    "id": "UT1-053",
+    "unit": "UT1",
+    "question": "En un caso de examen, ¿Qué conserva los datos de MariaDB entre recreaciones?",
+    "options": [
+      "db_data",
+      "depends_on",
+      "Dockerfile",
+      "fastcgi_pass"
+    ],
+    "correct": 0,
+    "explanation": "El volumen nombrado db_data se monta en /var/lib/mysql."
+  },
+  {
+    "id": "UT1-054",
+    "unit": "UT1",
+    "question": "En un caso de examen, ¿Qué bloque transmite DB_PASSWORD al contenedor PHP?",
+    "options": [
+      "environment del servicio php",
+      "Solo el archivo .env",
+      "ports de nginx",
+      "depends_on"
+    ],
+    "correct": 0,
+    "explanation": "La interpolación del .env no implica inyección automática en cualquier contenedor."
+  },
+  {
+    "id": "UT1-055",
+    "unit": "UT1",
+    "question": "En un caso de examen, ¿Qué hace PDO en index.php?",
+    "options": [
+      "Conecta y consulta MariaDB",
+      "Publica el puerto 8080",
+      "Arranca Nginx",
+      "Crea la imagen de Docker"
+    ],
+    "correct": 0,
+    "explanation": "PDO es la interfaz de acceso a base de datos usada en el script."
+  },
+  {
+    "id": "UT1-056",
+    "unit": "UT1",
+    "question": "En un caso de examen, ¿Qué consulta cuenta filas de la tabla prueba?",
+    "options": [
+      "SELECT COUNT(*) FROM prueba",
+      "DELETE FROM prueba",
+      "SELECT * FROM nginx",
+      "CREATE DATABASE prueba"
+    ],
+    "correct": 0,
+    "explanation": "COUNT(*) devuelve el número de filas."
+  },
+  {
+    "id": "UT1-057",
+    "unit": "UT1",
+    "question": "En un caso de examen, ¿Qué archivo configura el reenvío de .php a PHP-FPM?",
+    "options": [
+      "nginx/default.conf",
+      "sql/init.sql",
+      ".env.example",
+      "README.md"
+    ],
+    "correct": 0,
+    "explanation": "La configuración de Nginx contiene la ubicación y destino FastCGI."
+  },
+  {
+    "id": "UT1-058",
+    "unit": "UT1",
+    "question": "En un caso de examen, ¿Qué indica un 502 al solicitar PHP?",
+    "options": [
+      "Posible fallo de comunicación Nginx-PHP-FPM",
+      "Que el PDF se ha borrado siempre",
+      "Que el navegador ejecuta PHP",
+      "Que falta el campo name"
+    ],
+    "correct": 0,
+    "explanation": "Un 502 suele apuntar al upstream; se revisan configuración y logs."
+  },
+  {
+    "id": "UT1-059",
+    "unit": "UT1",
+    "question": "En un caso de examen, ¿Qué hace depends_on por sí solo?",
+    "options": [
+      "Ordena dependencias de arranque, no asegura preparación funcional",
+      "Garantiza que SQL esté inicializado",
+      "Crea tablas automáticamente",
+      "Comparte todas las variables"
+    ],
+    "correct": 0,
+    "explanation": "El orden de arranque no equivale a disponibilidad funcional."
+  },
+  {
+    "id": "UT1-060",
+    "unit": "UT1",
+    "question": "En un caso de examen, ¿Qué ocurre si se cambia init.sql con un volumen ya inicializado?",
+    "options": [
+      "No se reaplica automáticamente en la base existente",
+      "Se ejecuta en cada petición",
+      "Se borra el volumen siempre",
+      "Se modifica index.php"
+    ],
+    "correct": 0,
+    "explanation": "Los scripts de inicialización se aplican al crear la base por primera vez."
+  },
+  {
+    "id": "UT1-061",
+    "unit": "UT1",
+    "question": "Al explicar el flujo, ¿Qué servicio responde normalmente a una petición de un PDF estático?",
+    "options": [
+      "Nginx",
+      "MariaDB",
+      "PHP-FPM",
+      "PDO"
+    ],
+    "correct": 0,
+    "explanation": "Nginx puede servir un archivo estático directamente."
+  },
+  {
+    "id": "UT1-062",
+    "unit": "UT1",
+    "question": "Al explicar el flujo, ¿Qué servicio ejecuta el código PHP del proyecto?",
+    "options": [
+      "PHP-FPM",
+      "MariaDB",
+      "El navegador",
+      "Git"
+    ],
+    "correct": 0,
+    "explanation": "PHP-FPM ejecuta PHP en el servidor."
+  },
+  {
+    "id": "UT1-063",
+    "unit": "UT1",
+    "question": "Al explicar el flujo, ¿Qué nombre usa PHP para localizar MariaDB en la red de Compose?",
+    "options": [
+      "db",
+      "localhost del contenedor PHP",
+      "8080",
+      "nginx"
+    ],
+    "correct": 0,
+    "explanation": "El nombre de servicio db actúa como hostname dentro de la red."
+  },
+  {
+    "id": "UT1-064",
+    "unit": "UT1",
+    "question": "Al explicar el flujo, ¿Qué significa 8080:80 en ports?",
+    "options": [
+      "Puerto 8080 del host hacia el 80 del contenedor",
+      "Puerto 80 del host hacia el 8080 del contenedor",
+      "Dos puertos internos sin publicar",
+      "Puerto de MariaDB"
+    ],
+    "correct": 0,
+    "explanation": "El primer número es el puerto del host."
+  },
+  {
+    "id": "UT1-065",
+    "unit": "UT1",
+    "question": "Al explicar el flujo, ¿Qué conserva los datos de MariaDB entre recreaciones?",
+    "options": [
+      "db_data",
+      "depends_on",
+      "Dockerfile",
+      "fastcgi_pass"
+    ],
+    "correct": 0,
+    "explanation": "El volumen nombrado db_data se monta en /var/lib/mysql."
+  },
+  {
+    "id": "UT1-066",
+    "unit": "UT1",
+    "question": "Al explicar el flujo, ¿Qué bloque transmite DB_PASSWORD al contenedor PHP?",
+    "options": [
+      "environment del servicio php",
+      "Solo el archivo .env",
+      "ports de nginx",
+      "depends_on"
+    ],
+    "correct": 0,
+    "explanation": "La interpolación del .env no implica inyección automática en cualquier contenedor."
+  },
+  {
+    "id": "UT1-067",
+    "unit": "UT1",
+    "question": "Al explicar el flujo, ¿Qué hace PDO en index.php?",
+    "options": [
+      "Conecta y consulta MariaDB",
+      "Publica el puerto 8080",
+      "Arranca Nginx",
+      "Crea la imagen de Docker"
+    ],
+    "correct": 0,
+    "explanation": "PDO es la interfaz de acceso a base de datos usada en el script."
+  },
+  {
+    "id": "UT1-068",
+    "unit": "UT1",
+    "question": "Al explicar el flujo, ¿Qué consulta cuenta filas de la tabla prueba?",
+    "options": [
+      "SELECT COUNT(*) FROM prueba",
+      "DELETE FROM prueba",
+      "SELECT * FROM nginx",
+      "CREATE DATABASE prueba"
+    ],
+    "correct": 0,
+    "explanation": "COUNT(*) devuelve el número de filas."
+  },
+  {
+    "id": "UT1-069",
+    "unit": "UT1",
+    "question": "Al explicar el flujo, ¿Qué archivo configura el reenvío de .php a PHP-FPM?",
+    "options": [
+      "nginx/default.conf",
+      "sql/init.sql",
+      ".env.example",
+      "README.md"
+    ],
+    "correct": 0,
+    "explanation": "La configuración de Nginx contiene la ubicación y destino FastCGI."
+  },
+  {
+    "id": "UT1-070",
+    "unit": "UT1",
+    "question": "Al explicar el flujo, ¿Qué indica un 502 al solicitar PHP?",
+    "options": [
+      "Posible fallo de comunicación Nginx-PHP-FPM",
+      "Que el PDF se ha borrado siempre",
+      "Que el navegador ejecuta PHP",
+      "Que falta el campo name"
+    ],
+    "correct": 0,
+    "explanation": "Un 502 suele apuntar al upstream; se revisan configuración y logs."
+  },
+  {
+    "id": "UT1-071",
+    "unit": "UT1",
+    "question": "Al explicar el flujo, ¿Qué hace depends_on por sí solo?",
+    "options": [
+      "Ordena dependencias de arranque, no asegura preparación funcional",
+      "Garantiza que SQL esté inicializado",
+      "Crea tablas automáticamente",
+      "Comparte todas las variables"
+    ],
+    "correct": 0,
+    "explanation": "El orden de arranque no equivale a disponibilidad funcional."
+  },
+  {
+    "id": "UT1-072",
+    "unit": "UT1",
+    "question": "Al explicar el flujo, ¿Qué ocurre si se cambia init.sql con un volumen ya inicializado?",
+    "options": [
+      "No se reaplica automáticamente en la base existente",
+      "Se ejecuta en cada petición",
+      "Se borra el volumen siempre",
+      "Se modifica index.php"
+    ],
+    "correct": 0,
+    "explanation": "Los scripts de inicialización se aplican al crear la base por primera vez."
+  },
+  {
+    "id": "UT1-073",
+    "unit": "UT1",
+    "question": "En una prueba de funcionamiento, ¿Qué servicio responde normalmente a una petición de un PDF estático?",
+    "options": [
+      "Nginx",
+      "MariaDB",
+      "PHP-FPM",
+      "PDO"
+    ],
+    "correct": 0,
+    "explanation": "Nginx puede servir un archivo estático directamente."
+  },
+  {
+    "id": "UT1-074",
+    "unit": "UT1",
+    "question": "En una prueba de funcionamiento, ¿Qué servicio ejecuta el código PHP del proyecto?",
+    "options": [
+      "PHP-FPM",
+      "MariaDB",
+      "El navegador",
+      "Git"
+    ],
+    "correct": 0,
+    "explanation": "PHP-FPM ejecuta PHP en el servidor."
+  },
+  {
+    "id": "UT1-075",
+    "unit": "UT1",
+    "question": "En una prueba de funcionamiento, ¿Qué nombre usa PHP para localizar MariaDB en la red de Compose?",
+    "options": [
+      "db",
+      "localhost del contenedor PHP",
+      "8080",
+      "nginx"
+    ],
+    "correct": 0,
+    "explanation": "El nombre de servicio db actúa como hostname dentro de la red."
+  },
+  {
+    "id": "UT1-076",
+    "unit": "UT1",
+    "question": "En una prueba de funcionamiento, ¿Qué significa 8080:80 en ports?",
+    "options": [
+      "Puerto 8080 del host hacia el 80 del contenedor",
+      "Puerto 80 del host hacia el 8080 del contenedor",
+      "Dos puertos internos sin publicar",
+      "Puerto de MariaDB"
+    ],
+    "correct": 0,
+    "explanation": "El primer número es el puerto del host."
+  },
+  {
+    "id": "UT1-077",
+    "unit": "UT1",
+    "question": "En una prueba de funcionamiento, ¿Qué conserva los datos de MariaDB entre recreaciones?",
+    "options": [
+      "db_data",
+      "depends_on",
+      "Dockerfile",
+      "fastcgi_pass"
+    ],
+    "correct": 0,
+    "explanation": "El volumen nombrado db_data se monta en /var/lib/mysql."
+  },
+  {
+    "id": "UT1-078",
+    "unit": "UT1",
+    "question": "En una prueba de funcionamiento, ¿Qué bloque transmite DB_PASSWORD al contenedor PHP?",
+    "options": [
+      "environment del servicio php",
+      "Solo el archivo .env",
+      "ports de nginx",
+      "depends_on"
+    ],
+    "correct": 0,
+    "explanation": "La interpolación del .env no implica inyección automática en cualquier contenedor."
+  },
+  {
+    "id": "UT1-079",
+    "unit": "UT1",
+    "question": "En una prueba de funcionamiento, ¿Qué hace PDO en index.php?",
+    "options": [
+      "Conecta y consulta MariaDB",
+      "Publica el puerto 8080",
+      "Arranca Nginx",
+      "Crea la imagen de Docker"
+    ],
+    "correct": 0,
+    "explanation": "PDO es la interfaz de acceso a base de datos usada en el script."
+  },
+  {
+    "id": "UT1-080",
+    "unit": "UT1",
+    "question": "En una prueba de funcionamiento, ¿Qué consulta cuenta filas de la tabla prueba?",
+    "options": [
+      "SELECT COUNT(*) FROM prueba",
+      "DELETE FROM prueba",
+      "SELECT * FROM nginx",
+      "CREATE DATABASE prueba"
+    ],
+    "correct": 0,
+    "explanation": "COUNT(*) devuelve el número de filas."
+  },
+  {
+    "id": "UT1-081",
+    "unit": "UT1",
+    "question": "En una prueba de funcionamiento, ¿Qué archivo configura el reenvío de .php a PHP-FPM?",
+    "options": [
+      "nginx/default.conf",
+      "sql/init.sql",
+      ".env.example",
+      "README.md"
+    ],
+    "correct": 0,
+    "explanation": "La configuración de Nginx contiene la ubicación y destino FastCGI."
+  },
+  {
+    "id": "UT1-082",
+    "unit": "UT1",
+    "question": "En una prueba de funcionamiento, ¿Qué indica un 502 al solicitar PHP?",
+    "options": [
+      "Posible fallo de comunicación Nginx-PHP-FPM",
+      "Que el PDF se ha borrado siempre",
+      "Que el navegador ejecuta PHP",
+      "Que falta el campo name"
+    ],
+    "correct": 0,
+    "explanation": "Un 502 suele apuntar al upstream; se revisan configuración y logs."
+  },
+  {
+    "id": "UT1-083",
+    "unit": "UT1",
+    "question": "En una prueba de funcionamiento, ¿Qué hace depends_on por sí solo?",
+    "options": [
+      "Ordena dependencias de arranque, no asegura preparación funcional",
+      "Garantiza que SQL esté inicializado",
+      "Crea tablas automáticamente",
+      "Comparte todas las variables"
+    ],
+    "correct": 0,
+    "explanation": "El orden de arranque no equivale a disponibilidad funcional."
+  },
+  {
+    "id": "UT1-084",
+    "unit": "UT1",
+    "question": "En una prueba de funcionamiento, ¿Qué ocurre si se cambia init.sql con un volumen ya inicializado?",
+    "options": [
+      "No se reaplica automáticamente en la base existente",
+      "Se ejecuta en cada petición",
+      "Se borra el volumen siempre",
+      "Se modifica index.php"
+    ],
+    "correct": 0,
+    "explanation": "Los scripts de inicialización se aplican al crear la base por primera vez."
+  },
+  {
+    "id": "UT1-085",
+    "unit": "UT1",
+    "question": "Si se pide identificar el componente, ¿Qué servicio responde normalmente a una petición de un PDF estático?",
+    "options": [
+      "Nginx",
+      "MariaDB",
+      "PHP-FPM",
+      "PDO"
+    ],
+    "correct": 0,
+    "explanation": "Nginx puede servir un archivo estático directamente."
+  },
+  {
+    "id": "UT1-086",
+    "unit": "UT1",
+    "question": "Si se pide identificar el componente, ¿Qué servicio ejecuta el código PHP del proyecto?",
+    "options": [
+      "PHP-FPM",
+      "MariaDB",
+      "El navegador",
+      "Git"
+    ],
+    "correct": 0,
+    "explanation": "PHP-FPM ejecuta PHP en el servidor."
+  },
+  {
+    "id": "UT1-087",
+    "unit": "UT1",
+    "question": "Si se pide identificar el componente, ¿Qué nombre usa PHP para localizar MariaDB en la red de Compose?",
+    "options": [
+      "db",
+      "localhost del contenedor PHP",
+      "8080",
+      "nginx"
+    ],
+    "correct": 0,
+    "explanation": "El nombre de servicio db actúa como hostname dentro de la red."
+  },
+  {
+    "id": "UT1-088",
+    "unit": "UT1",
+    "question": "Si se pide identificar el componente, ¿Qué significa 8080:80 en ports?",
+    "options": [
+      "Puerto 8080 del host hacia el 80 del contenedor",
+      "Puerto 80 del host hacia el 8080 del contenedor",
+      "Dos puertos internos sin publicar",
+      "Puerto de MariaDB"
+    ],
+    "correct": 0,
+    "explanation": "El primer número es el puerto del host."
+  },
+  {
+    "id": "UT1-089",
+    "unit": "UT1",
+    "question": "Si se pide identificar el componente, ¿Qué conserva los datos de MariaDB entre recreaciones?",
+    "options": [
+      "db_data",
+      "depends_on",
+      "Dockerfile",
+      "fastcgi_pass"
+    ],
+    "correct": 0,
+    "explanation": "El volumen nombrado db_data se monta en /var/lib/mysql."
+  },
+  {
+    "id": "UT1-090",
+    "unit": "UT1",
+    "question": "Si se pide identificar el componente, ¿Qué bloque transmite DB_PASSWORD al contenedor PHP?",
+    "options": [
+      "environment del servicio php",
+      "Solo el archivo .env",
+      "ports de nginx",
+      "depends_on"
+    ],
+    "correct": 0,
+    "explanation": "La interpolación del .env no implica inyección automática en cualquier contenedor."
+  },
+  {
+    "id": "UT1-091",
+    "unit": "UT1",
+    "question": "Si se pide identificar el componente, ¿Qué hace PDO en index.php?",
+    "options": [
+      "Conecta y consulta MariaDB",
+      "Publica el puerto 8080",
+      "Arranca Nginx",
+      "Crea la imagen de Docker"
+    ],
+    "correct": 0,
+    "explanation": "PDO es la interfaz de acceso a base de datos usada en el script."
+  },
+  {
+    "id": "UT1-092",
+    "unit": "UT1",
+    "question": "Si se pide identificar el componente, ¿Qué consulta cuenta filas de la tabla prueba?",
+    "options": [
+      "SELECT COUNT(*) FROM prueba",
+      "DELETE FROM prueba",
+      "SELECT * FROM nginx",
+      "CREATE DATABASE prueba"
+    ],
+    "correct": 0,
+    "explanation": "COUNT(*) devuelve el número de filas."
+  },
+  {
+    "id": "UT1-093",
+    "unit": "UT1",
+    "question": "Si se pide identificar el componente, ¿Qué archivo configura el reenvío de .php a PHP-FPM?",
+    "options": [
+      "nginx/default.conf",
+      "sql/init.sql",
+      ".env.example",
+      "README.md"
+    ],
+    "correct": 0,
+    "explanation": "La configuración de Nginx contiene la ubicación y destino FastCGI."
+  },
+  {
+    "id": "UT1-094",
+    "unit": "UT1",
+    "question": "Si se pide identificar el componente, ¿Qué indica un 502 al solicitar PHP?",
+    "options": [
+      "Posible fallo de comunicación Nginx-PHP-FPM",
+      "Que el PDF se ha borrado siempre",
+      "Que el navegador ejecuta PHP",
+      "Que falta el campo name"
+    ],
+    "correct": 0,
+    "explanation": "Un 502 suele apuntar al upstream; se revisan configuración y logs."
+  },
+  {
+    "id": "UT1-095",
+    "unit": "UT1",
+    "question": "Si se pide identificar el componente, ¿Qué hace depends_on por sí solo?",
+    "options": [
+      "Ordena dependencias de arranque, no asegura preparación funcional",
+      "Garantiza que SQL esté inicializado",
+      "Crea tablas automáticamente",
+      "Comparte todas las variables"
+    ],
+    "correct": 0,
+    "explanation": "El orden de arranque no equivale a disponibilidad funcional."
+  },
+  {
+    "id": "UT1-096",
+    "unit": "UT1",
+    "question": "Si se pide identificar el componente, ¿Qué ocurre si se cambia init.sql con un volumen ya inicializado?",
+    "options": [
+      "No se reaplica automáticamente en la base existente",
+      "Se ejecuta en cada petición",
+      "Se borra el volumen siempre",
+      "Se modifica index.php"
+    ],
+    "correct": 0,
+    "explanation": "Los scripts de inicialización se aplican al crear la base por primera vez."
+  },
+  {
+    "id": "UT1-097",
+    "unit": "UT1",
+    "question": "En una revisión técnica, ¿Qué servicio responde normalmente a una petición de un PDF estático?",
+    "options": [
+      "Nginx",
+      "MariaDB",
+      "PHP-FPM",
+      "PDO"
+    ],
+    "correct": 0,
+    "explanation": "Nginx puede servir un archivo estático directamente."
+  },
+  {
+    "id": "UT1-098",
+    "unit": "UT1",
+    "question": "En una revisión técnica, ¿Qué servicio ejecuta el código PHP del proyecto?",
+    "options": [
+      "PHP-FPM",
+      "MariaDB",
+      "El navegador",
+      "Git"
+    ],
+    "correct": 0,
+    "explanation": "PHP-FPM ejecuta PHP en el servidor."
+  },
+  {
+    "id": "UT1-099",
+    "unit": "UT1",
+    "question": "En una revisión técnica, ¿Qué nombre usa PHP para localizar MariaDB en la red de Compose?",
+    "options": [
+      "db",
+      "localhost del contenedor PHP",
+      "8080",
+      "nginx"
+    ],
+    "correct": 0,
+    "explanation": "El nombre de servicio db actúa como hostname dentro de la red."
+  },
+  {
+    "id": "UT1-100",
+    "unit": "UT1",
+    "question": "En una revisión técnica, ¿Qué significa 8080:80 en ports?",
+    "options": [
+      "Puerto 8080 del host hacia el 80 del contenedor",
+      "Puerto 80 del host hacia el 8080 del contenedor",
+      "Dos puertos internos sin publicar",
+      "Puerto de MariaDB"
+    ],
+    "correct": 0,
+    "explanation": "El primer número es el puerto del host."
+  },
+  {
+    "id": "UT1-101",
+    "unit": "UT1",
+    "question": "En una revisión técnica, ¿Qué conserva los datos de MariaDB entre recreaciones?",
+    "options": [
+      "db_data",
+      "depends_on",
+      "Dockerfile",
+      "fastcgi_pass"
+    ],
+    "correct": 0,
+    "explanation": "El volumen nombrado db_data se monta en /var/lib/mysql."
+  },
+  {
+    "id": "UT1-102",
+    "unit": "UT1",
+    "question": "En una revisión técnica, ¿Qué bloque transmite DB_PASSWORD al contenedor PHP?",
+    "options": [
+      "environment del servicio php",
+      "Solo el archivo .env",
+      "ports de nginx",
+      "depends_on"
+    ],
+    "correct": 0,
+    "explanation": "La interpolación del .env no implica inyección automática en cualquier contenedor."
+  },
+  {
+    "id": "UT1-103",
+    "unit": "UT1",
+    "question": "En una revisión técnica, ¿Qué hace PDO en index.php?",
+    "options": [
+      "Conecta y consulta MariaDB",
+      "Publica el puerto 8080",
+      "Arranca Nginx",
+      "Crea la imagen de Docker"
+    ],
+    "correct": 0,
+    "explanation": "PDO es la interfaz de acceso a base de datos usada en el script."
+  },
+  {
+    "id": "UT1-104",
+    "unit": "UT1",
+    "question": "En una revisión técnica, ¿Qué consulta cuenta filas de la tabla prueba?",
+    "options": [
+      "SELECT COUNT(*) FROM prueba",
+      "DELETE FROM prueba",
+      "SELECT * FROM nginx",
+      "CREATE DATABASE prueba"
+    ],
+    "correct": 0,
+    "explanation": "COUNT(*) devuelve el número de filas."
+  },
+  {
+    "id": "UT1-105",
+    "unit": "UT1",
+    "question": "En una revisión técnica, ¿Qué archivo configura el reenvío de .php a PHP-FPM?",
+    "options": [
+      "nginx/default.conf",
+      "sql/init.sql",
+      ".env.example",
+      "README.md"
+    ],
+    "correct": 0,
+    "explanation": "La configuración de Nginx contiene la ubicación y destino FastCGI."
+  },
+  {
+    "id": "UT1-106",
+    "unit": "UT1",
+    "question": "En una revisión técnica, ¿Qué indica un 502 al solicitar PHP?",
+    "options": [
+      "Posible fallo de comunicación Nginx-PHP-FPM",
+      "Que el PDF se ha borrado siempre",
+      "Que el navegador ejecuta PHP",
+      "Que falta el campo name"
+    ],
+    "correct": 0,
+    "explanation": "Un 502 suele apuntar al upstream; se revisan configuración y logs."
+  },
+  {
+    "id": "UT1-107",
+    "unit": "UT1",
+    "question": "En una revisión técnica, ¿Qué hace depends_on por sí solo?",
+    "options": [
+      "Ordena dependencias de arranque, no asegura preparación funcional",
+      "Garantiza que SQL esté inicializado",
+      "Crea tablas automáticamente",
+      "Comparte todas las variables"
+    ],
+    "correct": 0,
+    "explanation": "El orden de arranque no equivale a disponibilidad funcional."
+  },
+  {
+    "id": "UT1-108",
+    "unit": "UT1",
+    "question": "En una revisión técnica, ¿Qué ocurre si se cambia init.sql con un volumen ya inicializado?",
+    "options": [
+      "No se reaplica automáticamente en la base existente",
+      "Se ejecuta en cada petición",
+      "Se borra el volumen siempre",
+      "Se modifica index.php"
+    ],
+    "correct": 0,
+    "explanation": "Los scripts de inicialización se aplican al crear la base por primera vez."
+  },
+  {
+    "id": "UT1-109",
+    "unit": "UT1",
+    "question": "Según los archivos de la práctica, ¿Qué servicio responde normalmente a una petición de un PDF estático?",
+    "options": [
+      "Nginx",
+      "MariaDB",
+      "PHP-FPM",
+      "PDO"
+    ],
+    "correct": 0,
+    "explanation": "Nginx puede servir un archivo estático directamente."
+  },
+  {
+    "id": "UT1-110",
+    "unit": "UT1",
+    "question": "Según los archivos de la práctica, ¿Qué servicio ejecuta el código PHP del proyecto?",
+    "options": [
+      "PHP-FPM",
+      "MariaDB",
+      "El navegador",
+      "Git"
+    ],
+    "correct": 0,
+    "explanation": "PHP-FPM ejecuta PHP en el servidor."
+  },
+  {
+    "id": "UT1-111",
+    "unit": "UT1",
+    "question": "Según los archivos de la práctica, ¿Qué nombre usa PHP para localizar MariaDB en la red de Compose?",
+    "options": [
+      "db",
+      "localhost del contenedor PHP",
+      "8080",
+      "nginx"
+    ],
+    "correct": 0,
+    "explanation": "El nombre de servicio db actúa como hostname dentro de la red."
+  },
+  {
+    "id": "UT1-112",
+    "unit": "UT1",
+    "question": "Según los archivos de la práctica, ¿Qué significa 8080:80 en ports?",
+    "options": [
+      "Puerto 8080 del host hacia el 80 del contenedor",
+      "Puerto 80 del host hacia el 8080 del contenedor",
+      "Dos puertos internos sin publicar",
+      "Puerto de MariaDB"
+    ],
+    "correct": 0,
+    "explanation": "El primer número es el puerto del host."
+  },
+  {
+    "id": "UT1-113",
+    "unit": "UT1",
+    "question": "Según los archivos de la práctica, ¿Qué conserva los datos de MariaDB entre recreaciones?",
+    "options": [
+      "db_data",
+      "depends_on",
+      "Dockerfile",
+      "fastcgi_pass"
+    ],
+    "correct": 0,
+    "explanation": "El volumen nombrado db_data se monta en /var/lib/mysql."
+  },
+  {
+    "id": "UT1-114",
+    "unit": "UT1",
+    "question": "Según los archivos de la práctica, ¿Qué bloque transmite DB_PASSWORD al contenedor PHP?",
+    "options": [
+      "environment del servicio php",
+      "Solo el archivo .env",
+      "ports de nginx",
+      "depends_on"
+    ],
+    "correct": 0,
+    "explanation": "La interpolación del .env no implica inyección automática en cualquier contenedor."
+  },
+  {
+    "id": "UT1-115",
+    "unit": "UT1",
+    "question": "Según los archivos de la práctica, ¿Qué hace PDO en index.php?",
+    "options": [
+      "Conecta y consulta MariaDB",
+      "Publica el puerto 8080",
+      "Arranca Nginx",
+      "Crea la imagen de Docker"
+    ],
+    "correct": 0,
+    "explanation": "PDO es la interfaz de acceso a base de datos usada en el script."
+  },
+  {
+    "id": "UT1-116",
+    "unit": "UT1",
+    "question": "Según los archivos de la práctica, ¿Qué consulta cuenta filas de la tabla prueba?",
+    "options": [
+      "SELECT COUNT(*) FROM prueba",
+      "DELETE FROM prueba",
+      "SELECT * FROM nginx",
+      "CREATE DATABASE prueba"
+    ],
+    "correct": 0,
+    "explanation": "COUNT(*) devuelve el número de filas."
+  },
+  {
+    "id": "UT1-117",
+    "unit": "UT1",
+    "question": "Según los archivos de la práctica, ¿Qué archivo configura el reenvío de .php a PHP-FPM?",
+    "options": [
+      "nginx/default.conf",
+      "sql/init.sql",
+      ".env.example",
+      "README.md"
+    ],
+    "correct": 0,
+    "explanation": "La configuración de Nginx contiene la ubicación y destino FastCGI."
+  },
+  {
+    "id": "UT1-118",
+    "unit": "UT1",
+    "question": "Según los archivos de la práctica, ¿Qué indica un 502 al solicitar PHP?",
+    "options": [
+      "Posible fallo de comunicación Nginx-PHP-FPM",
+      "Que el PDF se ha borrado siempre",
+      "Que el navegador ejecuta PHP",
+      "Que falta el campo name"
+    ],
+    "correct": 0,
+    "explanation": "Un 502 suele apuntar al upstream; se revisan configuración y logs."
+  },
+  {
+    "id": "UT1-119",
+    "unit": "UT1",
+    "question": "Según los archivos de la práctica, ¿Qué hace depends_on por sí solo?",
+    "options": [
+      "Ordena dependencias de arranque, no asegura preparación funcional",
+      "Garantiza que SQL esté inicializado",
+      "Crea tablas automáticamente",
+      "Comparte todas las variables"
+    ],
+    "correct": 0,
+    "explanation": "El orden de arranque no equivale a disponibilidad funcional."
+  },
+  {
+    "id": "UT1-120",
+    "unit": "UT1",
+    "question": "Según los archivos de la práctica, ¿Qué ocurre si se cambia init.sql con un volumen ya inicializado?",
+    "options": [
+      "No se reaplica automáticamente en la base existente",
+      "Se ejecuta en cada petición",
+      "Se borra el volumen siempre",
+      "Se modifica index.php"
+    ],
+    "correct": 0,
+    "explanation": "Los scripts de inicialización se aplican al crear la base por primera vez."
+  },
+  {
+    "id": "UT2-001",
+    "unit": "UT2",
+    "question": "En el proyecto entregado, ¿Qué atributo HTML permite recibir un campo en $_POST por su clave?",
+    "options": [
+      "name",
+      "id",
+      "class",
+      "title"
+    ],
+    "correct": 0,
+    "explanation": "El atributo name determina la clave enviada."
+  },
+  {
+    "id": "UT2-002",
+    "unit": "UT2",
+    "question": "En el proyecto entregado, ¿Qué método utiliza el formulario de presupuesto?",
+    "options": [
+      "POST",
+      "PUT",
+      "DELETE",
+      "PATCH"
+    ],
+    "correct": 0,
+    "explanation": "El formulario envía datos con method=post."
+  },
+  {
+    "id": "UT2-003",
+    "unit": "UT2",
+    "question": "En el proyecto entregado, ¿Qué función elimina espacios al principio y al final?",
+    "options": [
+      "trim",
+      "isset",
+      "header",
+      "password_verify"
+    ],
+    "correct": 0,
+    "explanation": "trim elimina espacios exteriores de una cadena."
+  },
+  {
+    "id": "UT2-004",
+    "unit": "UT2",
+    "question": "En el proyecto entregado, ¿Qué función valida el formato de correo?",
+    "options": [
+      "filter_var con FILTER_VALIDATE_EMAIL",
+      "htmlspecialchars",
+      "session_start",
+      "count"
+    ],
+    "correct": 0,
+    "explanation": "FILTER_VALIDATE_EMAIL comprueba el formato de correo."
+  },
+  {
+    "id": "UT2-005",
+    "unit": "UT2",
+    "question": "En el proyecto entregado, ¿Qué intervalo de meses acepta la práctica de presupuesto?",
+    "options": [
+      "1 a 24",
+      "0 a 24",
+      "1 a 12",
+      "2 a 36"
+    ],
+    "correct": 0,
+    "explanation": "La validación rechaza valores inferiores a 1 o superiores a 24."
+  },
+  {
+    "id": "UT2-006",
+    "unit": "UT2",
+    "question": "En el proyecto entregado, ¿Cuánto cuesta al mes el plan Profesional sin extras?",
+    "options": [
+      "9 €",
+      "5 €",
+      "15 €",
+      "12 €"
+    ],
+    "correct": 0,
+    "explanation": "La función obtenerPrecioPlan devuelve 9 para Profesional."
+  },
+  {
+    "id": "UT2-007",
+    "unit": "UT2",
+    "question": "En el proyecto entregado, ¿Cuánto suman al mes backup y soporte juntos?",
+    "options": [
+      "5 €",
+      "2 €",
+      "3 €",
+      "8 €"
+    ],
+    "correct": 0,
+    "explanation": "Backup añade 2 y soporte 3."
+  },
+  {
+    "id": "UT2-008",
+    "unit": "UT2",
+    "question": "En el proyecto entregado, ¿Qué función compara una contraseña con su hash?",
+    "options": [
+      "password_verify",
+      "htmlspecialchars",
+      "trim",
+      "session_destroy"
+    ],
+    "correct": 0,
+    "explanation": "password_verify verifica contraseñas hasheadas."
+  },
+  {
+    "id": "UT2-009",
+    "unit": "UT2",
+    "question": "En el proyecto entregado, ¿Qué función se llama para iniciar la sesión?",
+    "options": [
+      "session_start",
+      "session_destroy",
+      "isset",
+      "header"
+    ],
+    "correct": 0,
+    "explanation": "session_start permite recuperar el estado de sesión."
+  },
+  {
+    "id": "UT2-010",
+    "unit": "UT2",
+    "question": "En el proyecto entregado, ¿Qué archivo protege el acceso a la zona privada?",
+    "options": [
+      "panel.php",
+      "logout.php",
+      "compose.yaml",
+      "init.sql"
+    ],
+    "correct": 0,
+    "explanation": "panel.php comprueba $_SESSION[usuario] antes de mostrar contenido."
+  },
+  {
+    "id": "UT2-011",
+    "unit": "UT2",
+    "question": "En el proyecto entregado, ¿Cuántas notas permite guardar el panel por sesión?",
+    "options": [
+      "3",
+      "2",
+      "5",
+      "10"
+    ],
+    "correct": 0,
+    "explanation": "Se comprueba count($_SESSION[notas]) >= 3."
+  },
+  {
+    "id": "UT2-012",
+    "unit": "UT2",
+    "question": "En el proyecto entregado, ¿Qué evita el patrón POST-Redirect-GET?",
+    "options": [
+      "Reenvío accidental de una nota al recargar",
+      "Que PHP ejecute funciones",
+      "Que se use HTTPS",
+      "Que exista una sesión"
+    ],
+    "correct": 0,
+    "explanation": "Tras guardar se redirige a GET para evitar repetir el POST."
+  },
+  {
+    "id": "UT2-013",
+    "unit": "UT2",
+    "question": "En el proyecto entregado, ¿Qué función renueva el identificador tras login correcto?",
+    "options": [
+      "session_regenerate_id",
+      "session_destroy",
+      "filter_var",
+      "getenv"
+    ],
+    "correct": 0,
+    "explanation": "La práctica renueva el identificador de sesión al autenticarse."
+  },
+  {
+    "id": "UT2-014",
+    "unit": "UT2",
+    "question": "En el proyecto entregado, ¿Qué hace htmlspecialchars al mostrar un nombre?",
+    "options": [
+      "Escapa caracteres especiales de HTML",
+      "Cifra la contraseña",
+      "Valida el email",
+      "Abre MariaDB"
+    ],
+    "correct": 0,
+    "explanation": "Escapa la salida para evitar interpretar etiquetas como HTML."
+  },
+  {
+    "id": "UT2-015",
+    "unit": "UT2",
+    "question": "En el proyecto entregado, ¿Dónde se guardan el usuario autenticado y las notas?",
+    "options": [
+      "En $_SESSION",
+      "En $_GET",
+      "En el Dockerfile",
+      "En nginx/default.conf"
+    ],
+    "correct": 0,
+    "explanation": "El estado de usuario y notas se almacena en la sesión."
+  },
+  {
+    "id": "UT2-016",
+    "unit": "UT2",
+    "question": "Al revisar un fallo, ¿Qué atributo HTML permite recibir un campo en $_POST por su clave?",
+    "options": [
+      "name",
+      "id",
+      "class",
+      "title"
+    ],
+    "correct": 0,
+    "explanation": "El atributo name determina la clave enviada."
+  },
+  {
+    "id": "UT2-017",
+    "unit": "UT2",
+    "question": "Al revisar un fallo, ¿Qué método utiliza el formulario de presupuesto?",
+    "options": [
+      "POST",
+      "PUT",
+      "DELETE",
+      "PATCH"
+    ],
+    "correct": 0,
+    "explanation": "El formulario envía datos con method=post."
+  },
+  {
+    "id": "UT2-018",
+    "unit": "UT2",
+    "question": "Al revisar un fallo, ¿Qué función elimina espacios al principio y al final?",
+    "options": [
+      "trim",
+      "isset",
+      "header",
+      "password_verify"
+    ],
+    "correct": 0,
+    "explanation": "trim elimina espacios exteriores de una cadena."
+  },
+  {
+    "id": "UT2-019",
+    "unit": "UT2",
+    "question": "Al revisar un fallo, ¿Qué función valida el formato de correo?",
+    "options": [
+      "filter_var con FILTER_VALIDATE_EMAIL",
+      "htmlspecialchars",
+      "session_start",
+      "count"
+    ],
+    "correct": 0,
+    "explanation": "FILTER_VALIDATE_EMAIL comprueba el formato de correo."
+  },
+  {
+    "id": "UT2-020",
+    "unit": "UT2",
+    "question": "Al revisar un fallo, ¿Qué intervalo de meses acepta la práctica de presupuesto?",
+    "options": [
+      "1 a 24",
+      "0 a 24",
+      "1 a 12",
+      "2 a 36"
+    ],
+    "correct": 0,
+    "explanation": "La validación rechaza valores inferiores a 1 o superiores a 24."
+  },
+  {
+    "id": "UT2-021",
+    "unit": "UT2",
+    "question": "Al revisar un fallo, ¿Cuánto cuesta al mes el plan Profesional sin extras?",
+    "options": [
+      "9 €",
+      "5 €",
+      "15 €",
+      "12 €"
+    ],
+    "correct": 0,
+    "explanation": "La función obtenerPrecioPlan devuelve 9 para Profesional."
+  },
+  {
+    "id": "UT2-022",
+    "unit": "UT2",
+    "question": "Al revisar un fallo, ¿Cuánto suman al mes backup y soporte juntos?",
+    "options": [
+      "5 €",
+      "2 €",
+      "3 €",
+      "8 €"
+    ],
+    "correct": 0,
+    "explanation": "Backup añade 2 y soporte 3."
+  },
+  {
+    "id": "UT2-023",
+    "unit": "UT2",
+    "question": "Al revisar un fallo, ¿Qué función compara una contraseña con su hash?",
+    "options": [
+      "password_verify",
+      "htmlspecialchars",
+      "trim",
+      "session_destroy"
+    ],
+    "correct": 0,
+    "explanation": "password_verify verifica contraseñas hasheadas."
+  },
+  {
+    "id": "UT2-024",
+    "unit": "UT2",
+    "question": "Al revisar un fallo, ¿Qué función se llama para iniciar la sesión?",
+    "options": [
+      "session_start",
+      "session_destroy",
+      "isset",
+      "header"
+    ],
+    "correct": 0,
+    "explanation": "session_start permite recuperar el estado de sesión."
+  },
+  {
+    "id": "UT2-025",
+    "unit": "UT2",
+    "question": "Al revisar un fallo, ¿Qué archivo protege el acceso a la zona privada?",
+    "options": [
+      "panel.php",
+      "logout.php",
+      "compose.yaml",
+      "init.sql"
+    ],
+    "correct": 0,
+    "explanation": "panel.php comprueba $_SESSION[usuario] antes de mostrar contenido."
+  },
+  {
+    "id": "UT2-026",
+    "unit": "UT2",
+    "question": "Al revisar un fallo, ¿Cuántas notas permite guardar el panel por sesión?",
+    "options": [
+      "3",
+      "2",
+      "5",
+      "10"
+    ],
+    "correct": 0,
+    "explanation": "Se comprueba count($_SESSION[notas]) >= 3."
+  },
+  {
+    "id": "UT2-027",
+    "unit": "UT2",
+    "question": "Al revisar un fallo, ¿Qué evita el patrón POST-Redirect-GET?",
+    "options": [
+      "Reenvío accidental de una nota al recargar",
+      "Que PHP ejecute funciones",
+      "Que se use HTTPS",
+      "Que exista una sesión"
+    ],
+    "correct": 0,
+    "explanation": "Tras guardar se redirige a GET para evitar repetir el POST."
+  },
+  {
+    "id": "UT2-028",
+    "unit": "UT2",
+    "question": "Al revisar un fallo, ¿Qué función renueva el identificador tras login correcto?",
+    "options": [
+      "session_regenerate_id",
+      "session_destroy",
+      "filter_var",
+      "getenv"
+    ],
+    "correct": 0,
+    "explanation": "La práctica renueva el identificador de sesión al autenticarse."
+  },
+  {
+    "id": "UT2-029",
+    "unit": "UT2",
+    "question": "Al revisar un fallo, ¿Qué hace htmlspecialchars al mostrar un nombre?",
+    "options": [
+      "Escapa caracteres especiales de HTML",
+      "Cifra la contraseña",
+      "Valida el email",
+      "Abre MariaDB"
+    ],
+    "correct": 0,
+    "explanation": "Escapa la salida para evitar interpretar etiquetas como HTML."
+  },
+  {
+    "id": "UT2-030",
+    "unit": "UT2",
+    "question": "Al revisar un fallo, ¿Dónde se guardan el usuario autenticado y las notas?",
+    "options": [
+      "En $_SESSION",
+      "En $_GET",
+      "En el Dockerfile",
+      "En nginx/default.conf"
+    ],
+    "correct": 0,
+    "explanation": "El estado de usuario y notas se almacena en la sesión."
+  },
+  {
+    "id": "UT2-031",
+    "unit": "UT2",
+    "question": "Para justificar una modificación, ¿Qué atributo HTML permite recibir un campo en $_POST por su clave?",
+    "options": [
+      "name",
+      "id",
+      "class",
+      "title"
+    ],
+    "correct": 0,
+    "explanation": "El atributo name determina la clave enviada."
+  },
+  {
+    "id": "UT2-032",
+    "unit": "UT2",
+    "question": "Para justificar una modificación, ¿Qué método utiliza el formulario de presupuesto?",
+    "options": [
+      "POST",
+      "PUT",
+      "DELETE",
+      "PATCH"
+    ],
+    "correct": 0,
+    "explanation": "El formulario envía datos con method=post."
+  },
+  {
+    "id": "UT2-033",
+    "unit": "UT2",
+    "question": "Para justificar una modificación, ¿Qué función elimina espacios al principio y al final?",
+    "options": [
+      "trim",
+      "isset",
+      "header",
+      "password_verify"
+    ],
+    "correct": 0,
+    "explanation": "trim elimina espacios exteriores de una cadena."
+  },
+  {
+    "id": "UT2-034",
+    "unit": "UT2",
+    "question": "Para justificar una modificación, ¿Qué función valida el formato de correo?",
+    "options": [
+      "filter_var con FILTER_VALIDATE_EMAIL",
+      "htmlspecialchars",
+      "session_start",
+      "count"
+    ],
+    "correct": 0,
+    "explanation": "FILTER_VALIDATE_EMAIL comprueba el formato de correo."
+  },
+  {
+    "id": "UT2-035",
+    "unit": "UT2",
+    "question": "Para justificar una modificación, ¿Qué intervalo de meses acepta la práctica de presupuesto?",
+    "options": [
+      "1 a 24",
+      "0 a 24",
+      "1 a 12",
+      "2 a 36"
+    ],
+    "correct": 0,
+    "explanation": "La validación rechaza valores inferiores a 1 o superiores a 24."
+  },
+  {
+    "id": "UT2-036",
+    "unit": "UT2",
+    "question": "Para justificar una modificación, ¿Cuánto cuesta al mes el plan Profesional sin extras?",
+    "options": [
+      "9 €",
+      "5 €",
+      "15 €",
+      "12 €"
+    ],
+    "correct": 0,
+    "explanation": "La función obtenerPrecioPlan devuelve 9 para Profesional."
+  },
+  {
+    "id": "UT2-037",
+    "unit": "UT2",
+    "question": "Para justificar una modificación, ¿Cuánto suman al mes backup y soporte juntos?",
+    "options": [
+      "5 €",
+      "2 €",
+      "3 €",
+      "8 €"
+    ],
+    "correct": 0,
+    "explanation": "Backup añade 2 y soporte 3."
+  },
+  {
+    "id": "UT2-038",
+    "unit": "UT2",
+    "question": "Para justificar una modificación, ¿Qué función compara una contraseña con su hash?",
+    "options": [
+      "password_verify",
+      "htmlspecialchars",
+      "trim",
+      "session_destroy"
+    ],
+    "correct": 0,
+    "explanation": "password_verify verifica contraseñas hasheadas."
+  },
+  {
+    "id": "UT2-039",
+    "unit": "UT2",
+    "question": "Para justificar una modificación, ¿Qué función se llama para iniciar la sesión?",
+    "options": [
+      "session_start",
+      "session_destroy",
+      "isset",
+      "header"
+    ],
+    "correct": 0,
+    "explanation": "session_start permite recuperar el estado de sesión."
+  },
+  {
+    "id": "UT2-040",
+    "unit": "UT2",
+    "question": "Para justificar una modificación, ¿Qué archivo protege el acceso a la zona privada?",
+    "options": [
+      "panel.php",
+      "logout.php",
+      "compose.yaml",
+      "init.sql"
+    ],
+    "correct": 0,
+    "explanation": "panel.php comprueba $_SESSION[usuario] antes de mostrar contenido."
+  },
+  {
+    "id": "UT2-041",
+    "unit": "UT2",
+    "question": "Para justificar una modificación, ¿Cuántas notas permite guardar el panel por sesión?",
+    "options": [
+      "3",
+      "2",
+      "5",
+      "10"
+    ],
+    "correct": 0,
+    "explanation": "Se comprueba count($_SESSION[notas]) >= 3."
+  },
+  {
+    "id": "UT2-042",
+    "unit": "UT2",
+    "question": "Para justificar una modificación, ¿Qué evita el patrón POST-Redirect-GET?",
+    "options": [
+      "Reenvío accidental de una nota al recargar",
+      "Que PHP ejecute funciones",
+      "Que se use HTTPS",
+      "Que exista una sesión"
+    ],
+    "correct": 0,
+    "explanation": "Tras guardar se redirige a GET para evitar repetir el POST."
+  },
+  {
+    "id": "UT2-043",
+    "unit": "UT2",
+    "question": "Para justificar una modificación, ¿Qué función renueva el identificador tras login correcto?",
+    "options": [
+      "session_regenerate_id",
+      "session_destroy",
+      "filter_var",
+      "getenv"
+    ],
+    "correct": 0,
+    "explanation": "La práctica renueva el identificador de sesión al autenticarse."
+  },
+  {
+    "id": "UT2-044",
+    "unit": "UT2",
+    "question": "Para justificar una modificación, ¿Qué hace htmlspecialchars al mostrar un nombre?",
+    "options": [
+      "Escapa caracteres especiales de HTML",
+      "Cifra la contraseña",
+      "Valida el email",
+      "Abre MariaDB"
+    ],
+    "correct": 0,
+    "explanation": "Escapa la salida para evitar interpretar etiquetas como HTML."
+  },
+  {
+    "id": "UT2-045",
+    "unit": "UT2",
+    "question": "Para justificar una modificación, ¿Dónde se guardan el usuario autenticado y las notas?",
+    "options": [
+      "En $_SESSION",
+      "En $_GET",
+      "En el Dockerfile",
+      "En nginx/default.conf"
+    ],
+    "correct": 0,
+    "explanation": "El estado de usuario y notas se almacena en la sesión."
+  },
+  {
+    "id": "UT2-046",
+    "unit": "UT2",
+    "question": "Durante la revisión del código, ¿Qué atributo HTML permite recibir un campo en $_POST por su clave?",
+    "options": [
+      "name",
+      "id",
+      "class",
+      "title"
+    ],
+    "correct": 0,
+    "explanation": "El atributo name determina la clave enviada."
+  },
+  {
+    "id": "UT2-047",
+    "unit": "UT2",
+    "question": "Durante la revisión del código, ¿Qué método utiliza el formulario de presupuesto?",
+    "options": [
+      "POST",
+      "PUT",
+      "DELETE",
+      "PATCH"
+    ],
+    "correct": 0,
+    "explanation": "El formulario envía datos con method=post."
+  },
+  {
+    "id": "UT2-048",
+    "unit": "UT2",
+    "question": "Durante la revisión del código, ¿Qué función elimina espacios al principio y al final?",
+    "options": [
+      "trim",
+      "isset",
+      "header",
+      "password_verify"
+    ],
+    "correct": 0,
+    "explanation": "trim elimina espacios exteriores de una cadena."
+  },
+  {
+    "id": "UT2-049",
+    "unit": "UT2",
+    "question": "Durante la revisión del código, ¿Qué función valida el formato de correo?",
+    "options": [
+      "filter_var con FILTER_VALIDATE_EMAIL",
+      "htmlspecialchars",
+      "session_start",
+      "count"
+    ],
+    "correct": 0,
+    "explanation": "FILTER_VALIDATE_EMAIL comprueba el formato de correo."
+  },
+  {
+    "id": "UT2-050",
+    "unit": "UT2",
+    "question": "Durante la revisión del código, ¿Qué intervalo de meses acepta la práctica de presupuesto?",
+    "options": [
+      "1 a 24",
+      "0 a 24",
+      "1 a 12",
+      "2 a 36"
+    ],
+    "correct": 0,
+    "explanation": "La validación rechaza valores inferiores a 1 o superiores a 24."
+  },
+  {
+    "id": "UT2-051",
+    "unit": "UT2",
+    "question": "Durante la revisión del código, ¿Cuánto cuesta al mes el plan Profesional sin extras?",
+    "options": [
+      "9 €",
+      "5 €",
+      "15 €",
+      "12 €"
+    ],
+    "correct": 0,
+    "explanation": "La función obtenerPrecioPlan devuelve 9 para Profesional."
+  },
+  {
+    "id": "UT2-052",
+    "unit": "UT2",
+    "question": "Durante la revisión del código, ¿Cuánto suman al mes backup y soporte juntos?",
+    "options": [
+      "5 €",
+      "2 €",
+      "3 €",
+      "8 €"
+    ],
+    "correct": 0,
+    "explanation": "Backup añade 2 y soporte 3."
+  },
+  {
+    "id": "UT2-053",
+    "unit": "UT2",
+    "question": "Durante la revisión del código, ¿Qué función compara una contraseña con su hash?",
+    "options": [
+      "password_verify",
+      "htmlspecialchars",
+      "trim",
+      "session_destroy"
+    ],
+    "correct": 0,
+    "explanation": "password_verify verifica contraseñas hasheadas."
+  },
+  {
+    "id": "UT2-054",
+    "unit": "UT2",
+    "question": "Durante la revisión del código, ¿Qué función se llama para iniciar la sesión?",
+    "options": [
+      "session_start",
+      "session_destroy",
+      "isset",
+      "header"
+    ],
+    "correct": 0,
+    "explanation": "session_start permite recuperar el estado de sesión."
+  },
+  {
+    "id": "UT2-055",
+    "unit": "UT2",
+    "question": "Durante la revisión del código, ¿Qué archivo protege el acceso a la zona privada?",
+    "options": [
+      "panel.php",
+      "logout.php",
+      "compose.yaml",
+      "init.sql"
+    ],
+    "correct": 0,
+    "explanation": "panel.php comprueba $_SESSION[usuario] antes de mostrar contenido."
+  },
+  {
+    "id": "UT2-056",
+    "unit": "UT2",
+    "question": "Durante la revisión del código, ¿Cuántas notas permite guardar el panel por sesión?",
+    "options": [
+      "3",
+      "2",
+      "5",
+      "10"
+    ],
+    "correct": 0,
+    "explanation": "Se comprueba count($_SESSION[notas]) >= 3."
+  },
+  {
+    "id": "UT2-057",
+    "unit": "UT2",
+    "question": "Durante la revisión del código, ¿Qué evita el patrón POST-Redirect-GET?",
+    "options": [
+      "Reenvío accidental de una nota al recargar",
+      "Que PHP ejecute funciones",
+      "Que se use HTTPS",
+      "Que exista una sesión"
+    ],
+    "correct": 0,
+    "explanation": "Tras guardar se redirige a GET para evitar repetir el POST."
+  },
+  {
+    "id": "UT2-058",
+    "unit": "UT2",
+    "question": "Durante la revisión del código, ¿Qué función renueva el identificador tras login correcto?",
+    "options": [
+      "session_regenerate_id",
+      "session_destroy",
+      "filter_var",
+      "getenv"
+    ],
+    "correct": 0,
+    "explanation": "La práctica renueva el identificador de sesión al autenticarse."
+  },
+  {
+    "id": "UT2-059",
+    "unit": "UT2",
+    "question": "Durante la revisión del código, ¿Qué hace htmlspecialchars al mostrar un nombre?",
+    "options": [
+      "Escapa caracteres especiales de HTML",
+      "Cifra la contraseña",
+      "Valida el email",
+      "Abre MariaDB"
+    ],
+    "correct": 0,
+    "explanation": "Escapa la salida para evitar interpretar etiquetas como HTML."
+  },
+  {
+    "id": "UT2-060",
+    "unit": "UT2",
+    "question": "Durante la revisión del código, ¿Dónde se guardan el usuario autenticado y las notas?",
+    "options": [
+      "En $_SESSION",
+      "En $_GET",
+      "En el Dockerfile",
+      "En nginx/default.conf"
+    ],
+    "correct": 0,
+    "explanation": "El estado de usuario y notas se almacena en la sesión."
+  },
+  {
+    "id": "UT2-061",
+    "unit": "UT2",
+    "question": "En un caso de examen, ¿Qué atributo HTML permite recibir un campo en $_POST por su clave?",
+    "options": [
+      "name",
+      "id",
+      "class",
+      "title"
+    ],
+    "correct": 0,
+    "explanation": "El atributo name determina la clave enviada."
+  },
+  {
+    "id": "UT2-062",
+    "unit": "UT2",
+    "question": "En un caso de examen, ¿Qué método utiliza el formulario de presupuesto?",
+    "options": [
+      "POST",
+      "PUT",
+      "DELETE",
+      "PATCH"
+    ],
+    "correct": 0,
+    "explanation": "El formulario envía datos con method=post."
+  },
+  {
+    "id": "UT2-063",
+    "unit": "UT2",
+    "question": "En un caso de examen, ¿Qué función elimina espacios al principio y al final?",
+    "options": [
+      "trim",
+      "isset",
+      "header",
+      "password_verify"
+    ],
+    "correct": 0,
+    "explanation": "trim elimina espacios exteriores de una cadena."
+  },
+  {
+    "id": "UT2-064",
+    "unit": "UT2",
+    "question": "En un caso de examen, ¿Qué función valida el formato de correo?",
+    "options": [
+      "filter_var con FILTER_VALIDATE_EMAIL",
+      "htmlspecialchars",
+      "session_start",
+      "count"
+    ],
+    "correct": 0,
+    "explanation": "FILTER_VALIDATE_EMAIL comprueba el formato de correo."
+  },
+  {
+    "id": "UT2-065",
+    "unit": "UT2",
+    "question": "En un caso de examen, ¿Qué intervalo de meses acepta la práctica de presupuesto?",
+    "options": [
+      "1 a 24",
+      "0 a 24",
+      "1 a 12",
+      "2 a 36"
+    ],
+    "correct": 0,
+    "explanation": "La validación rechaza valores inferiores a 1 o superiores a 24."
+  },
+  {
+    "id": "UT2-066",
+    "unit": "UT2",
+    "question": "En un caso de examen, ¿Cuánto cuesta al mes el plan Profesional sin extras?",
+    "options": [
+      "9 €",
+      "5 €",
+      "15 €",
+      "12 €"
+    ],
+    "correct": 0,
+    "explanation": "La función obtenerPrecioPlan devuelve 9 para Profesional."
+  },
+  {
+    "id": "UT2-067",
+    "unit": "UT2",
+    "question": "En un caso de examen, ¿Cuánto suman al mes backup y soporte juntos?",
+    "options": [
+      "5 €",
+      "2 €",
+      "3 €",
+      "8 €"
+    ],
+    "correct": 0,
+    "explanation": "Backup añade 2 y soporte 3."
+  },
+  {
+    "id": "UT2-068",
+    "unit": "UT2",
+    "question": "En un caso de examen, ¿Qué función compara una contraseña con su hash?",
+    "options": [
+      "password_verify",
+      "htmlspecialchars",
+      "trim",
+      "session_destroy"
+    ],
+    "correct": 0,
+    "explanation": "password_verify verifica contraseñas hasheadas."
+  },
+  {
+    "id": "UT2-069",
+    "unit": "UT2",
+    "question": "En un caso de examen, ¿Qué función se llama para iniciar la sesión?",
+    "options": [
+      "session_start",
+      "session_destroy",
+      "isset",
+      "header"
+    ],
+    "correct": 0,
+    "explanation": "session_start permite recuperar el estado de sesión."
+  },
+  {
+    "id": "UT2-070",
+    "unit": "UT2",
+    "question": "En un caso de examen, ¿Qué archivo protege el acceso a la zona privada?",
+    "options": [
+      "panel.php",
+      "logout.php",
+      "compose.yaml",
+      "init.sql"
+    ],
+    "correct": 0,
+    "explanation": "panel.php comprueba $_SESSION[usuario] antes de mostrar contenido."
+  },
+  {
+    "id": "UT2-071",
+    "unit": "UT2",
+    "question": "En un caso de examen, ¿Cuántas notas permite guardar el panel por sesión?",
+    "options": [
+      "3",
+      "2",
+      "5",
+      "10"
+    ],
+    "correct": 0,
+    "explanation": "Se comprueba count($_SESSION[notas]) >= 3."
+  },
+  {
+    "id": "UT2-072",
+    "unit": "UT2",
+    "question": "En un caso de examen, ¿Qué evita el patrón POST-Redirect-GET?",
+    "options": [
+      "Reenvío accidental de una nota al recargar",
+      "Que PHP ejecute funciones",
+      "Que se use HTTPS",
+      "Que exista una sesión"
+    ],
+    "correct": 0,
+    "explanation": "Tras guardar se redirige a GET para evitar repetir el POST."
+  },
+  {
+    "id": "UT2-073",
+    "unit": "UT2",
+    "question": "En un caso de examen, ¿Qué función renueva el identificador tras login correcto?",
+    "options": [
+      "session_regenerate_id",
+      "session_destroy",
+      "filter_var",
+      "getenv"
+    ],
+    "correct": 0,
+    "explanation": "La práctica renueva el identificador de sesión al autenticarse."
+  },
+  {
+    "id": "UT2-074",
+    "unit": "UT2",
+    "question": "En un caso de examen, ¿Qué hace htmlspecialchars al mostrar un nombre?",
+    "options": [
+      "Escapa caracteres especiales de HTML",
+      "Cifra la contraseña",
+      "Valida el email",
+      "Abre MariaDB"
+    ],
+    "correct": 0,
+    "explanation": "Escapa la salida para evitar interpretar etiquetas como HTML."
+  },
+  {
+    "id": "UT2-075",
+    "unit": "UT2",
+    "question": "En un caso de examen, ¿Dónde se guardan el usuario autenticado y las notas?",
+    "options": [
+      "En $_SESSION",
+      "En $_GET",
+      "En el Dockerfile",
+      "En nginx/default.conf"
+    ],
+    "correct": 0,
+    "explanation": "El estado de usuario y notas se almacena en la sesión."
+  },
+  {
+    "id": "UT2-076",
+    "unit": "UT2",
+    "question": "Al explicar el flujo, ¿Qué atributo HTML permite recibir un campo en $_POST por su clave?",
+    "options": [
+      "name",
+      "id",
+      "class",
+      "title"
+    ],
+    "correct": 0,
+    "explanation": "El atributo name determina la clave enviada."
+  },
+  {
+    "id": "UT2-077",
+    "unit": "UT2",
+    "question": "Al explicar el flujo, ¿Qué método utiliza el formulario de presupuesto?",
+    "options": [
+      "POST",
+      "PUT",
+      "DELETE",
+      "PATCH"
+    ],
+    "correct": 0,
+    "explanation": "El formulario envía datos con method=post."
+  },
+  {
+    "id": "UT2-078",
+    "unit": "UT2",
+    "question": "Al explicar el flujo, ¿Qué función elimina espacios al principio y al final?",
+    "options": [
+      "trim",
+      "isset",
+      "header",
+      "password_verify"
+    ],
+    "correct": 0,
+    "explanation": "trim elimina espacios exteriores de una cadena."
+  },
+  {
+    "id": "UT2-079",
+    "unit": "UT2",
+    "question": "Al explicar el flujo, ¿Qué función valida el formato de correo?",
+    "options": [
+      "filter_var con FILTER_VALIDATE_EMAIL",
+      "htmlspecialchars",
+      "session_start",
+      "count"
+    ],
+    "correct": 0,
+    "explanation": "FILTER_VALIDATE_EMAIL comprueba el formato de correo."
+  },
+  {
+    "id": "UT2-080",
+    "unit": "UT2",
+    "question": "Al explicar el flujo, ¿Qué intervalo de meses acepta la práctica de presupuesto?",
+    "options": [
+      "1 a 24",
+      "0 a 24",
+      "1 a 12",
+      "2 a 36"
+    ],
+    "correct": 0,
+    "explanation": "La validación rechaza valores inferiores a 1 o superiores a 24."
+  },
+  {
+    "id": "UT2-081",
+    "unit": "UT2",
+    "question": "Al explicar el flujo, ¿Cuánto cuesta al mes el plan Profesional sin extras?",
+    "options": [
+      "9 €",
+      "5 €",
+      "15 €",
+      "12 €"
+    ],
+    "correct": 0,
+    "explanation": "La función obtenerPrecioPlan devuelve 9 para Profesional."
+  },
+  {
+    "id": "UT2-082",
+    "unit": "UT2",
+    "question": "Al explicar el flujo, ¿Cuánto suman al mes backup y soporte juntos?",
+    "options": [
+      "5 €",
+      "2 €",
+      "3 €",
+      "8 €"
+    ],
+    "correct": 0,
+    "explanation": "Backup añade 2 y soporte 3."
+  },
+  {
+    "id": "UT2-083",
+    "unit": "UT2",
+    "question": "Al explicar el flujo, ¿Qué función compara una contraseña con su hash?",
+    "options": [
+      "password_verify",
+      "htmlspecialchars",
+      "trim",
+      "session_destroy"
+    ],
+    "correct": 0,
+    "explanation": "password_verify verifica contraseñas hasheadas."
+  },
+  {
+    "id": "UT2-084",
+    "unit": "UT2",
+    "question": "Al explicar el flujo, ¿Qué función se llama para iniciar la sesión?",
+    "options": [
+      "session_start",
+      "session_destroy",
+      "isset",
+      "header"
+    ],
+    "correct": 0,
+    "explanation": "session_start permite recuperar el estado de sesión."
+  },
+  {
+    "id": "UT2-085",
+    "unit": "UT2",
+    "question": "Al explicar el flujo, ¿Qué archivo protege el acceso a la zona privada?",
+    "options": [
+      "panel.php",
+      "logout.php",
+      "compose.yaml",
+      "init.sql"
+    ],
+    "correct": 0,
+    "explanation": "panel.php comprueba $_SESSION[usuario] antes de mostrar contenido."
+  },
+  {
+    "id": "UT2-086",
+    "unit": "UT2",
+    "question": "Al explicar el flujo, ¿Cuántas notas permite guardar el panel por sesión?",
+    "options": [
+      "3",
+      "2",
+      "5",
+      "10"
+    ],
+    "correct": 0,
+    "explanation": "Se comprueba count($_SESSION[notas]) >= 3."
+  },
+  {
+    "id": "UT2-087",
+    "unit": "UT2",
+    "question": "Al explicar el flujo, ¿Qué evita el patrón POST-Redirect-GET?",
+    "options": [
+      "Reenvío accidental de una nota al recargar",
+      "Que PHP ejecute funciones",
+      "Que se use HTTPS",
+      "Que exista una sesión"
+    ],
+    "correct": 0,
+    "explanation": "Tras guardar se redirige a GET para evitar repetir el POST."
+  },
+  {
+    "id": "UT2-088",
+    "unit": "UT2",
+    "question": "Al explicar el flujo, ¿Qué función renueva el identificador tras login correcto?",
+    "options": [
+      "session_regenerate_id",
+      "session_destroy",
+      "filter_var",
+      "getenv"
+    ],
+    "correct": 0,
+    "explanation": "La práctica renueva el identificador de sesión al autenticarse."
+  },
+  {
+    "id": "UT2-089",
+    "unit": "UT2",
+    "question": "Al explicar el flujo, ¿Qué hace htmlspecialchars al mostrar un nombre?",
+    "options": [
+      "Escapa caracteres especiales de HTML",
+      "Cifra la contraseña",
+      "Valida el email",
+      "Abre MariaDB"
+    ],
+    "correct": 0,
+    "explanation": "Escapa la salida para evitar interpretar etiquetas como HTML."
+  },
+  {
+    "id": "UT2-090",
+    "unit": "UT2",
+    "question": "Al explicar el flujo, ¿Dónde se guardan el usuario autenticado y las notas?",
+    "options": [
+      "En $_SESSION",
+      "En $_GET",
+      "En el Dockerfile",
+      "En nginx/default.conf"
+    ],
+    "correct": 0,
+    "explanation": "El estado de usuario y notas se almacena en la sesión."
+  },
+  {
+    "id": "UT2-091",
+    "unit": "UT2",
+    "question": "En una prueba de funcionamiento, ¿Qué atributo HTML permite recibir un campo en $_POST por su clave?",
+    "options": [
+      "name",
+      "id",
+      "class",
+      "title"
+    ],
+    "correct": 0,
+    "explanation": "El atributo name determina la clave enviada."
+  },
+  {
+    "id": "UT2-092",
+    "unit": "UT2",
+    "question": "En una prueba de funcionamiento, ¿Qué método utiliza el formulario de presupuesto?",
+    "options": [
+      "POST",
+      "PUT",
+      "DELETE",
+      "PATCH"
+    ],
+    "correct": 0,
+    "explanation": "El formulario envía datos con method=post."
+  },
+  {
+    "id": "UT2-093",
+    "unit": "UT2",
+    "question": "En una prueba de funcionamiento, ¿Qué función elimina espacios al principio y al final?",
+    "options": [
+      "trim",
+      "isset",
+      "header",
+      "password_verify"
+    ],
+    "correct": 0,
+    "explanation": "trim elimina espacios exteriores de una cadena."
+  },
+  {
+    "id": "UT2-094",
+    "unit": "UT2",
+    "question": "En una prueba de funcionamiento, ¿Qué función valida el formato de correo?",
+    "options": [
+      "filter_var con FILTER_VALIDATE_EMAIL",
+      "htmlspecialchars",
+      "session_start",
+      "count"
+    ],
+    "correct": 0,
+    "explanation": "FILTER_VALIDATE_EMAIL comprueba el formato de correo."
+  },
+  {
+    "id": "UT2-095",
+    "unit": "UT2",
+    "question": "En una prueba de funcionamiento, ¿Qué intervalo de meses acepta la práctica de presupuesto?",
+    "options": [
+      "1 a 24",
+      "0 a 24",
+      "1 a 12",
+      "2 a 36"
+    ],
+    "correct": 0,
+    "explanation": "La validación rechaza valores inferiores a 1 o superiores a 24."
+  },
+  {
+    "id": "UT2-096",
+    "unit": "UT2",
+    "question": "En una prueba de funcionamiento, ¿Cuánto cuesta al mes el plan Profesional sin extras?",
+    "options": [
+      "9 €",
+      "5 €",
+      "15 €",
+      "12 €"
+    ],
+    "correct": 0,
+    "explanation": "La función obtenerPrecioPlan devuelve 9 para Profesional."
+  },
+  {
+    "id": "UT2-097",
+    "unit": "UT2",
+    "question": "En una prueba de funcionamiento, ¿Cuánto suman al mes backup y soporte juntos?",
+    "options": [
+      "5 €",
+      "2 €",
+      "3 €",
+      "8 €"
+    ],
+    "correct": 0,
+    "explanation": "Backup añade 2 y soporte 3."
+  },
+  {
+    "id": "UT2-098",
+    "unit": "UT2",
+    "question": "En una prueba de funcionamiento, ¿Qué función compara una contraseña con su hash?",
+    "options": [
+      "password_verify",
+      "htmlspecialchars",
+      "trim",
+      "session_destroy"
+    ],
+    "correct": 0,
+    "explanation": "password_verify verifica contraseñas hasheadas."
+  },
+  {
+    "id": "UT2-099",
+    "unit": "UT2",
+    "question": "En una prueba de funcionamiento, ¿Qué función se llama para iniciar la sesión?",
+    "options": [
+      "session_start",
+      "session_destroy",
+      "isset",
+      "header"
+    ],
+    "correct": 0,
+    "explanation": "session_start permite recuperar el estado de sesión."
+  },
+  {
+    "id": "UT2-100",
+    "unit": "UT2",
+    "question": "En una prueba de funcionamiento, ¿Qué archivo protege el acceso a la zona privada?",
+    "options": [
+      "panel.php",
+      "logout.php",
+      "compose.yaml",
+      "init.sql"
+    ],
+    "correct": 0,
+    "explanation": "panel.php comprueba $_SESSION[usuario] antes de mostrar contenido."
+  },
+  {
+    "id": "UT2-101",
+    "unit": "UT2",
+    "question": "En una prueba de funcionamiento, ¿Cuántas notas permite guardar el panel por sesión?",
+    "options": [
+      "3",
+      "2",
+      "5",
+      "10"
+    ],
+    "correct": 0,
+    "explanation": "Se comprueba count($_SESSION[notas]) >= 3."
+  },
+  {
+    "id": "UT2-102",
+    "unit": "UT2",
+    "question": "En una prueba de funcionamiento, ¿Qué evita el patrón POST-Redirect-GET?",
+    "options": [
+      "Reenvío accidental de una nota al recargar",
+      "Que PHP ejecute funciones",
+      "Que se use HTTPS",
+      "Que exista una sesión"
+    ],
+    "correct": 0,
+    "explanation": "Tras guardar se redirige a GET para evitar repetir el POST."
+  },
+  {
+    "id": "UT2-103",
+    "unit": "UT2",
+    "question": "En una prueba de funcionamiento, ¿Qué función renueva el identificador tras login correcto?",
+    "options": [
+      "session_regenerate_id",
+      "session_destroy",
+      "filter_var",
+      "getenv"
+    ],
+    "correct": 0,
+    "explanation": "La práctica renueva el identificador de sesión al autenticarse."
+  },
+  {
+    "id": "UT2-104",
+    "unit": "UT2",
+    "question": "En una prueba de funcionamiento, ¿Qué hace htmlspecialchars al mostrar un nombre?",
+    "options": [
+      "Escapa caracteres especiales de HTML",
+      "Cifra la contraseña",
+      "Valida el email",
+      "Abre MariaDB"
+    ],
+    "correct": 0,
+    "explanation": "Escapa la salida para evitar interpretar etiquetas como HTML."
+  },
+  {
+    "id": "UT2-105",
+    "unit": "UT2",
+    "question": "En una prueba de funcionamiento, ¿Dónde se guardan el usuario autenticado y las notas?",
+    "options": [
+      "En $_SESSION",
+      "En $_GET",
+      "En el Dockerfile",
+      "En nginx/default.conf"
+    ],
+    "correct": 0,
+    "explanation": "El estado de usuario y notas se almacena en la sesión."
+  },
+  {
+    "id": "UT2-106",
+    "unit": "UT2",
+    "question": "Si se pide identificar el componente, ¿Qué atributo HTML permite recibir un campo en $_POST por su clave?",
+    "options": [
+      "name",
+      "id",
+      "class",
+      "title"
+    ],
+    "correct": 0,
+    "explanation": "El atributo name determina la clave enviada."
+  },
+  {
+    "id": "UT2-107",
+    "unit": "UT2",
+    "question": "Si se pide identificar el componente, ¿Qué método utiliza el formulario de presupuesto?",
+    "options": [
+      "POST",
+      "PUT",
+      "DELETE",
+      "PATCH"
+    ],
+    "correct": 0,
+    "explanation": "El formulario envía datos con method=post."
+  },
+  {
+    "id": "UT2-108",
+    "unit": "UT2",
+    "question": "Si se pide identificar el componente, ¿Qué función elimina espacios al principio y al final?",
+    "options": [
+      "trim",
+      "isset",
+      "header",
+      "password_verify"
+    ],
+    "correct": 0,
+    "explanation": "trim elimina espacios exteriores de una cadena."
+  },
+  {
+    "id": "UT2-109",
+    "unit": "UT2",
+    "question": "Si se pide identificar el componente, ¿Qué función valida el formato de correo?",
+    "options": [
+      "filter_var con FILTER_VALIDATE_EMAIL",
+      "htmlspecialchars",
+      "session_start",
+      "count"
+    ],
+    "correct": 0,
+    "explanation": "FILTER_VALIDATE_EMAIL comprueba el formato de correo."
+  },
+  {
+    "id": "UT2-110",
+    "unit": "UT2",
+    "question": "Si se pide identificar el componente, ¿Qué intervalo de meses acepta la práctica de presupuesto?",
+    "options": [
+      "1 a 24",
+      "0 a 24",
+      "1 a 12",
+      "2 a 36"
+    ],
+    "correct": 0,
+    "explanation": "La validación rechaza valores inferiores a 1 o superiores a 24."
+  },
+  {
+    "id": "UT2-111",
+    "unit": "UT2",
+    "question": "Si se pide identificar el componente, ¿Cuánto cuesta al mes el plan Profesional sin extras?",
+    "options": [
+      "9 €",
+      "5 €",
+      "15 €",
+      "12 €"
+    ],
+    "correct": 0,
+    "explanation": "La función obtenerPrecioPlan devuelve 9 para Profesional."
+  },
+  {
+    "id": "UT2-112",
+    "unit": "UT2",
+    "question": "Si se pide identificar el componente, ¿Cuánto suman al mes backup y soporte juntos?",
+    "options": [
+      "5 €",
+      "2 €",
+      "3 €",
+      "8 €"
+    ],
+    "correct": 0,
+    "explanation": "Backup añade 2 y soporte 3."
+  },
+  {
+    "id": "UT2-113",
+    "unit": "UT2",
+    "question": "Si se pide identificar el componente, ¿Qué función compara una contraseña con su hash?",
+    "options": [
+      "password_verify",
+      "htmlspecialchars",
+      "trim",
+      "session_destroy"
+    ],
+    "correct": 0,
+    "explanation": "password_verify verifica contraseñas hasheadas."
+  },
+  {
+    "id": "UT2-114",
+    "unit": "UT2",
+    "question": "Si se pide identificar el componente, ¿Qué función se llama para iniciar la sesión?",
+    "options": [
+      "session_start",
+      "session_destroy",
+      "isset",
+      "header"
+    ],
+    "correct": 0,
+    "explanation": "session_start permite recuperar el estado de sesión."
+  },
+  {
+    "id": "UT2-115",
+    "unit": "UT2",
+    "question": "Si se pide identificar el componente, ¿Qué archivo protege el acceso a la zona privada?",
+    "options": [
+      "panel.php",
+      "logout.php",
+      "compose.yaml",
+      "init.sql"
+    ],
+    "correct": 0,
+    "explanation": "panel.php comprueba $_SESSION[usuario] antes de mostrar contenido."
+  },
+  {
+    "id": "UT2-116",
+    "unit": "UT2",
+    "question": "Si se pide identificar el componente, ¿Cuántas notas permite guardar el panel por sesión?",
+    "options": [
+      "3",
+      "2",
+      "5",
+      "10"
+    ],
+    "correct": 0,
+    "explanation": "Se comprueba count($_SESSION[notas]) >= 3."
+  },
+  {
+    "id": "UT2-117",
+    "unit": "UT2",
+    "question": "Si se pide identificar el componente, ¿Qué evita el patrón POST-Redirect-GET?",
+    "options": [
+      "Reenvío accidental de una nota al recargar",
+      "Que PHP ejecute funciones",
+      "Que se use HTTPS",
+      "Que exista una sesión"
+    ],
+    "correct": 0,
+    "explanation": "Tras guardar se redirige a GET para evitar repetir el POST."
+  },
+  {
+    "id": "UT2-118",
+    "unit": "UT2",
+    "question": "Si se pide identificar el componente, ¿Qué función renueva el identificador tras login correcto?",
+    "options": [
+      "session_regenerate_id",
+      "session_destroy",
+      "filter_var",
+      "getenv"
+    ],
+    "correct": 0,
+    "explanation": "La práctica renueva el identificador de sesión al autenticarse."
+  },
+  {
+    "id": "UT2-119",
+    "unit": "UT2",
+    "question": "Si se pide identificar el componente, ¿Qué hace htmlspecialchars al mostrar un nombre?",
+    "options": [
+      "Escapa caracteres especiales de HTML",
+      "Cifra la contraseña",
+      "Valida el email",
+      "Abre MariaDB"
+    ],
+    "correct": 0,
+    "explanation": "Escapa la salida para evitar interpretar etiquetas como HTML."
+  },
+  {
+    "id": "UT2-120",
+    "unit": "UT2",
+    "question": "Si se pide identificar el componente, ¿Dónde se guardan el usuario autenticado y las notas?",
+    "options": [
+      "En $_SESSION",
+      "En $_GET",
+      "En el Dockerfile",
+      "En nginx/default.conf"
+    ],
+    "correct": 0,
+    "explanation": "El estado de usuario y notas se almacena en la sesión."
+  }
+]

@@ -1,0 +1,2402 @@
+[
+  {
+    "t": "Bash",
+    "q": "¿Qué representa $1 en un script?",
+    "a": [
+      "El primer argumento",
+      "El número de argumentos",
+      "El PID",
+      "El nombre del usuario"
+    ],
+    "correct": 0,
+    "e": "$1 es el primer parámetro posicional."
+  },
+  {
+    "t": "Bash",
+    "q": "¿Qué representa $#?",
+    "a": [
+      "Cantidad de argumentos",
+      "Todos los argumentos",
+      "Último argumento",
+      "Código de salida"
+    ],
+    "correct": 0,
+    "e": "$# cuenta los argumentos."
+  },
+  {
+    "t": "Bash",
+    "q": "¿Qué representa $0?",
+    "a": [
+      "Nombre o ruta usada para invocar el script",
+      "Primer argumento",
+      "PID del padre",
+      "Nombre del equipo"
+    ],
+    "correct": 0,
+    "e": "$0 es la forma de invocación del script."
+  },
+  {
+    "t": "Bash",
+    "q": "¿Qué representa $?",
+    "a": [
+      "Estado de salida del último comando",
+      "PID actual",
+      "Cantidad de ficheros",
+      "Última variable"
+    ],
+    "correct": 0,
+    "e": "0 suele indicar éxito."
+  },
+  {
+    "t": "Bash",
+    "q": "¿Cómo se asigna correctamente una variable?",
+    "a": [
+      "nombre=\"Ana\"",
+      "nombre = \"Ana\"",
+      "$nombre=\"Ana\"",
+      "set nombre = Ana"
+    ],
+    "correct": 0,
+    "e": "No se dejan espacios alrededor de =."
+  },
+  {
+    "t": "Bash",
+    "q": "¿Qué hace read -p?",
+    "a": [
+      "Muestra un mensaje y lee entrada",
+      "Lee un fichero completo",
+      "Elimina una variable",
+      "Imprime una variable"
+    ],
+    "correct": 0,
+    "e": "read -p presenta un prompt y guarda lo escrito."
+  },
+  {
+    "t": "Bash",
+    "q": "¿Qué hace $(date +%F)?",
+    "a": [
+      "Captura la salida de date",
+      "Crea un proceso zombi",
+      "Calcula una suma",
+      "Comprueba un fichero"
+    ],
+    "correct": 0,
+    "e": "$(...) es sustitución de comandos."
+  },
+  {
+    "t": "Bash",
+    "q": "¿Qué significa [[ -f \"$ruta\" ]]?",
+    "a": [
+      "La ruta es un fichero regular",
+      "La ruta es un directorio",
+      "La ruta es ejecutable",
+      "La ruta no existe"
+    ],
+    "correct": 0,
+    "e": "-f comprueba fichero regular."
+  },
+  {
+    "t": "Bash",
+    "q": "¿Qué significa [[ -d \"$ruta\" ]]?",
+    "a": [
+      "La ruta es un directorio",
+      "La ruta es un fichero",
+      "La ruta es legible",
+      "La ruta está vacía"
+    ],
+    "correct": 0,
+    "e": "-d comprueba directorio."
+  },
+  {
+    "t": "Bash",
+    "q": "¿Qué significa -x aplicado a un fichero?",
+    "a": [
+      "Permiso de ejecución",
+      "Que está vacío",
+      "Que es un enlace",
+      "Que es un directorio"
+    ],
+    "correct": 0,
+    "e": "-x comprueba permiso de ejecución."
+  },
+  {
+    "t": "Bash",
+    "q": "¿Qué operador numérico significa mayor o igual?",
+    "a": [
+      "-ge",
+      "-gt",
+      "-le",
+      "-eq"
+    ],
+    "correct": 0,
+    "e": "-ge significa greater or equal."
+  },
+  {
+    "t": "Bash",
+    "q": "¿Qué operador numérico significa distinto?",
+    "a": [
+      "-ne",
+      "-eq",
+      "-lt",
+      "-ge"
+    ],
+    "correct": 0,
+    "e": "-ne significa not equal."
+  },
+  {
+    "t": "Bash",
+    "q": "¿Qué calcula $((7 / 2)) en Bash?",
+    "a": [
+      "3",
+      "3.5",
+      "4",
+      "Error"
+    ],
+    "correct": 0,
+    "e": "La aritmética de Bash usa enteros."
+  },
+  {
+    "t": "Bash",
+    "q": "¿Qué calcula $((7 % 2))?",
+    "a": [
+      "1",
+      "3",
+      "2",
+      "0"
+    ],
+    "correct": 0,
+    "e": "% devuelve el resto de la división."
+  },
+  {
+    "t": "Bash",
+    "q": "¿Para qué sirve bc?",
+    "a": [
+      "Para operaciones con decimales",
+      "Para listar procesos",
+      "Para modificar permisos",
+      "Para borrar comentarios"
+    ],
+    "correct": 0,
+    "e": "bc permite cálculos decimales."
+  },
+  {
+    "t": "Bash",
+    "q": "¿Qué palabra inicia una rama adicional de if?",
+    "a": [
+      "elif",
+      "elseif",
+      "else if",
+      "case"
+    ],
+    "correct": 0,
+    "e": "Bash utiliza elif."
+  },
+  {
+    "t": "Bash",
+    "q": "¿Qué cierra un bloque if?",
+    "a": [
+      "fi",
+      "done",
+      "esac",
+      "end"
+    ],
+    "correct": 0,
+    "e": "fi cierra if."
+  },
+  {
+    "t": "Bash",
+    "q": "¿Qué cierra un bloque case?",
+    "a": [
+      "esac",
+      "fi",
+      "done",
+      "endcase"
+    ],
+    "correct": 0,
+    "e": "esac cierra case."
+  },
+  {
+    "t": "Bash",
+    "q": "¿Qué cierra un bucle for o while?",
+    "a": [
+      "done",
+      "fi",
+      "esac",
+      "end"
+    ],
+    "correct": 0,
+    "e": "done cierra los bucles."
+  },
+  {
+    "t": "Bash",
+    "q": "¿Qué hace break dentro de un bucle?",
+    "a": [
+      "Sale del bucle",
+      "Salta a la siguiente vuelta",
+      "Finaliza todos los procesos",
+      "Reinicia el contador"
+    ],
+    "correct": 0,
+    "e": "break abandona el bucle."
+  },
+  {
+    "t": "Bash",
+    "q": "¿Qué hace continue dentro de un bucle?",
+    "a": [
+      "Pasa a la siguiente iteración",
+      "Sale del script",
+      "Termina el bucle",
+      "Repite la instrucción anterior"
+    ],
+    "correct": 0,
+    "e": "continue omite el resto de la iteración actual."
+  },
+  {
+    "t": "Bash",
+    "q": "¿Cuándo se ejecuta un bucle while?",
+    "a": [
+      "Mientras su condición sea verdadera",
+      "Solo una vez",
+      "Hasta que su condición sea verdadera",
+      "Solo si hay parámetros"
+    ],
+    "correct": 0,
+    "e": "while repite mientras la condición tenga éxito."
+  },
+  {
+    "t": "Bash",
+    "q": "¿Qué estructura es apropiada para elegir entre alta, baja y consulta?",
+    "a": [
+      "case",
+      "for",
+      "sed",
+      "wc"
+    ],
+    "correct": 0,
+    "e": "case selecciona entre patrones."
+  },
+  {
+    "t": "Bash",
+    "q": "¿Cómo se llama una función definida como saluda() { ...; }?",
+    "a": [
+      "saluda Pepe",
+      "saluda(Pepe)",
+      "call saluda Pepe",
+      "function.run saluda"
+    ],
+    "correct": 0,
+    "e": "En Bash se llama con su nombre y argumentos separados por espacios."
+  },
+  {
+    "t": "Bash",
+    "q": "¿Qué significa return 0 en una función?",
+    "a": [
+      "Éxito",
+      "Fallo",
+      "Devuelve el texto 0",
+      "Termina Linux"
+    ],
+    "correct": 0,
+    "e": "return establece un código de estado, 0 es éxito."
+  },
+  {
+    "t": "Bash",
+    "q": "¿Qué hace echo \"$1\" dentro de una función?",
+    "a": [
+      "Imprime el primer argumento de la función",
+      "Imprime siempre el primer argumento del script",
+      "Devuelve el código 1",
+      "Imprime el PID"
+    ],
+    "correct": 0,
+    "e": "Los parámetros posicionales dentro de la función son los de esa llamada."
+  },
+  {
+    "t": "Bash",
+    "q": "¿Qué hace grep -c ERROR fichero.log?",
+    "a": [
+      "Cuenta líneas que contienen ERROR",
+      "Cuenta todas las apariciones exactas",
+      "Elimina errores",
+      "Ordena los errores"
+    ],
+    "correct": 0,
+    "e": "grep -c cuenta líneas coincidentes, no necesariamente apariciones."
+  },
+  {
+    "t": "Bash",
+    "q": "¿Qué hace wc -l?",
+    "a": [
+      "Cuenta líneas",
+      "Cuenta bytes",
+      "Cuenta palabras",
+      "Muestra la última línea"
+    ],
+    "correct": 0,
+    "e": "wc -l devuelve el número de líneas."
+  },
+  {
+    "t": "Bash",
+    "q": "¿Qué hace una tubería |?",
+    "a": [
+      "Envía la salida de un comando a la entrada de otro",
+      "Guarda un archivo",
+      "Ejecuta como root",
+      "Compara dos cadenas"
+    ],
+    "correct": 0,
+    "e": "La tubería conecta procesos."
+  },
+  {
+    "t": "Bash",
+    "q": "¿Qué hace > salida.txt?",
+    "a": [
+      "Redirige la salida sobrescribiendo el fichero",
+      "Añade al final siempre",
+      "Lee del fichero",
+      "Muestra permisos"
+    ],
+    "correct": 0,
+    "e": "> trunca o crea el fichero de destino."
+  },
+  {
+    "t": "Bash",
+    "q": "¿Qué hace >> salida.txt?",
+    "a": [
+      "Añade la salida al final",
+      "Borra el fichero",
+      "Lee una línea",
+      "Cambia permisos"
+    ],
+    "correct": 0,
+    "e": ">> añade sin truncar el contenido existente."
+  },
+  {
+    "t": "Bash",
+    "q": "¿Qué representa ^ en una expresión regular?",
+    "a": [
+      "Inicio de línea o cadena",
+      "Fin de línea",
+      "Cualquier carácter",
+      "Uno o más"
+    ],
+    "correct": 0,
+    "e": "^ ancla el inicio."
+  },
+  {
+    "t": "Bash",
+    "q": "¿Qué representa $ al final de una expresión regular?",
+    "a": [
+      "Final de línea o cadena",
+      "Primer argumento",
+      "Cualquier dígito",
+      "Separador de campos"
+    ],
+    "correct": 0,
+    "e": "$ ancla el final del patrón."
+  },
+  {
+    "t": "Bash",
+    "q": "¿Qué significa [0-9]+ en regex extendida?",
+    "a": [
+      "Uno o más dígitos",
+      "Exactamente un dígito",
+      "Cero o un dígito",
+      "Una letra o un número"
+    ],
+    "correct": 0,
+    "e": "+ significa una o más repeticiones."
+  },
+  {
+    "t": "Bash",
+    "q": "¿Qué significa [a-z]{3,6}?",
+    "a": [
+      "Entre 3 y 6 letras minúsculas consecutivas",
+      "Exactamente 36 letras",
+      "Solo tres números",
+      "Cualquier carácter"
+    ],
+    "correct": 0,
+    "e": "{3,6} indica un intervalo de repeticiones."
+  },
+  {
+    "t": "Bash",
+    "q": "¿Qué hace [[ \"$dato\" =~ $patron ]]?",
+    "a": [
+      "Comprueba si el texto coincide con la expresión regular",
+      "Asigna el patrón",
+      "Sustituye texto",
+      "Compara números exclusivamente"
+    ],
+    "correct": 0,
+    "e": "=~ realiza coincidencia con regex."
+  },
+  {
+    "t": "Bash",
+    "q": "¿Qué regex valida una cadena compuesta solo por dígitos y no vacía?",
+    "a": [
+      "^[0-9]+$",
+      "[0-9]*",
+      "^[a-z]+$",
+      "^[0-9]?$"
+    ],
+    "correct": 0,
+    "e": "^ y $ anclan y + exige al menos un dígito."
+  },
+  {
+    "t": "Bash",
+    "q": "¿Qué regex reconoce una extensión .log al final?",
+    "a": [
+      "\\.log$",
+      ".log^",
+      "^log\\.",
+      "[log]$"
+    ],
+    "correct": 0,
+    "e": "\\. representa un punto literal."
+  },
+  {
+    "t": "Bash",
+    "q": "¿Qué hace el operador | dentro de una regex extendida?",
+    "a": [
+      "Alternativa entre patrones",
+      "Tubería entre comandos",
+      "Suma",
+      "Fin de línea"
+    ],
+    "correct": 0,
+    "e": "En regex extendida | significa o."
+  },
+  {
+    "t": "Bash",
+    "q": "¿Qué significa ? en una regex extendida?",
+    "a": [
+      "Cero o una aparición del elemento anterior",
+      "Una o más",
+      "Cualquier número",
+      "Inicio de línea"
+    ],
+    "correct": 0,
+    "e": "? hace opcional el elemento anterior."
+  },
+  {
+    "t": "Bash",
+    "q": "¿Qué hace sed \"s/rojo/azul/g\"?",
+    "a": [
+      "Sustituye todas las apariciones por línea",
+      "Sustituye solo la primera del fichero",
+      "Elimina todas las líneas",
+      "Cuenta palabras"
+    ],
+    "correct": 0,
+    "e": "La bandera g sustituye todas las coincidencias de cada línea."
+  },
+  {
+    "t": "Bash",
+    "q": "¿Qué hace sed \"/^#/d\" archivo?",
+    "a": [
+      "Omite líneas que empiezan por #",
+      "Borra el archivo original",
+      "Añade comentarios",
+      "Muestra solo comentarios"
+    ],
+    "correct": 0,
+    "e": "d elimina líneas de la salida; sin -i no modifica el original."
+  },
+  {
+    "t": "Bash",
+    "q": "¿Qué hace sed -i?",
+    "a": [
+      "Edita el fichero en el sitio",
+      "Muestra solo la primera línea",
+      "Hace una copia automáticamente siempre",
+      "Imprime el número de líneas"
+    ],
+    "correct": 0,
+    "e": "-i aplica cambios al fichero; se recomienda trabajar sobre copias."
+  },
+  {
+    "t": "Bash",
+    "q": "¿Qué hace sed -n \"1,3p\" archivo?",
+    "a": [
+      "Muestra las tres primeras líneas",
+      "Elimina las tres primeras",
+      "Duplica tres líneas",
+      "Muestra la tercera palabra"
+    ],
+    "correct": 0,
+    "e": "-n suprime impresión automática y p imprime el rango."
+  },
+  {
+    "t": "Bash",
+    "q": "¿Qué hace cut -d: -f1 /etc/passwd?",
+    "a": [
+      "Extrae el primer campo separado por :",
+      "Muestra el primer carácter",
+      "Borra usuarios",
+      "Extrae el último campo"
+    ],
+    "correct": 0,
+    "e": "cut separa por delimitador y selecciona campos."
+  },
+  {
+    "t": "Bash",
+    "q": "¿Qué hace ${archivo##*/}?",
+    "a": [
+      "Obtiene el nombre final sin la ruta",
+      "Obtiene la extensión",
+      "Borra el fichero",
+      "Obtiene el directorio padre"
+    ],
+    "correct": 0,
+    "e": "##*/ elimina el prefijo más largo que termina en /."
+  },
+  {
+    "t": "Bash",
+    "q": "¿Qué hace ${#cadena}?",
+    "a": [
+      "Devuelve la longitud de la cadena",
+      "Cuenta argumentos",
+      "Devuelve el PID",
+      "Extrae la primera letra"
+    ],
+    "correct": 0,
+    "e": "${#var} mide longitud de cadena."
+  },
+  {
+    "t": "Bash",
+    "q": "¿Qué comprueba [[ -z \"$dato\" ]]?",
+    "a": [
+      "Que la cadena está vacía",
+      "Que es un número",
+      "Que el archivo existe",
+      "Que la cadena no está vacía"
+    ],
+    "correct": 0,
+    "e": "-z verifica longitud cero."
+  },
+  {
+    "t": "Bash",
+    "q": "¿Qué hace find carpeta -maxdepth 1 -type f?",
+    "a": [
+      "Busca ficheros sin entrar en subcarpetas",
+      "Busca solo directorios",
+      "Borra ficheros",
+      "Busca recursivamente sin límite"
+    ],
+    "correct": 0,
+    "e": "-maxdepth 1 limita la profundidad."
+  },
+  {
+    "t": "Bash",
+    "q": "¿Qué hace chmod +x script.sh?",
+    "a": [
+      "Añade permiso de ejecución",
+      "Ejecuta el script",
+      "Cambia el propietario",
+      "Muestra el contenido"
+    ],
+    "correct": 0,
+    "e": "chmod modifica permisos."
+  },
+  {
+    "t": "Bash",
+    "q": "¿Qué significa exit 1?",
+    "a": [
+      "Termina el script indicando error",
+      "Termina con éxito",
+      "Pausa el script",
+      "Repite el script"
+    ],
+    "correct": 0,
+    "e": "Un código distinto de cero indica fallo por convención."
+  },
+  {
+    "t": "Procesos",
+    "q": "¿Qué significa PID?",
+    "a": [
+      "Identificador de proceso",
+      "Prioridad de entrada",
+      "Identificador de usuario",
+      "Ruta del intérprete"
+    ],
+    "correct": 0,
+    "e": "PID identifica un proceso."
+  },
+  {
+    "t": "Procesos",
+    "q": "¿Qué significa PPID?",
+    "a": [
+      "PID del proceso padre",
+      "PID del proceso anterior",
+      "Prioridad del proceso",
+      "PID principal del sistema"
+    ],
+    "correct": 0,
+    "e": "PPID identifica el proceso padre."
+  },
+  {
+    "t": "Procesos",
+    "q": "¿Qué muestra ps?",
+    "a": [
+      "Información de procesos",
+      "Espacio libre",
+      "Permisos de archivos",
+      "Configuración de red"
+    ],
+    "correct": 0,
+    "e": "ps consulta procesos."
+  },
+  {
+    "t": "Procesos",
+    "q": "¿Qué hace ps -p 1234?",
+    "a": [
+      "Consulta el proceso con PID 1234",
+      "Finaliza el PID 1234",
+      "Cambia su prioridad",
+      "Crea el proceso 1234"
+    ],
+    "correct": 0,
+    "e": "-p selecciona un PID."
+  },
+  {
+    "t": "Procesos",
+    "q": "¿Qué permite ps -u usuario?",
+    "a": [
+      "Mostrar procesos de un usuario",
+      "Cambiar usuario",
+      "Eliminar cuenta",
+      "Ver uso de disco"
+    ],
+    "correct": 0,
+    "e": "-u selecciona procesos por usuario."
+  },
+  {
+    "t": "Procesos",
+    "q": "¿Qué muestra ps -eo pid,user,%cpu,comm?",
+    "a": [
+      "PID, usuario, CPU y comando de los procesos",
+      "Solo procesos detenidos",
+      "Permisos de ejecutables",
+      "Memoria libre"
+    ],
+    "correct": 0,
+    "e": "-e selecciona todos y -o personaliza columnas."
+  },
+  {
+    "t": "Procesos",
+    "q": "¿Qué hace ps --sort=-%cpu?",
+    "a": [
+      "Ordena por CPU de mayor a menor",
+      "Ordena por PID ascendente",
+      "Termina procesos de mucha CPU",
+      "Muestra solo un proceso"
+    ],
+    "correct": 0,
+    "e": "El signo - invierte el orden para mayor a menor."
+  },
+  {
+    "t": "Procesos",
+    "q": "¿Qué hace kill -SIGTERM PID?",
+    "a": [
+      "Solicita terminar el proceso",
+      "Fuerza terminación inmediata sin gestión",
+      "Suspende el proceso",
+      "Cambia su prioridad"
+    ],
+    "correct": 0,
+    "e": "SIGTERM solicita terminación ordenada."
+  },
+  {
+    "t": "Procesos",
+    "q": "¿Qué hace kill -SIGKILL PID?",
+    "a": [
+      "Fuerza la terminación del proceso",
+      "Solicita guardar y salir",
+      "Reanuda el proceso",
+      "Cambia su usuario"
+    ],
+    "correct": 0,
+    "e": "SIGKILL no puede capturarse ni ignorarse."
+  },
+  {
+    "t": "Procesos",
+    "q": "¿Qué hace SIGSTOP?",
+    "a": [
+      "Detiene temporalmente un proceso",
+      "Finaliza siempre el proceso",
+      "Lo reanuda",
+      "Cambia su prioridad"
+    ],
+    "correct": 0,
+    "e": "SIGSTOP suspende la ejecución."
+  },
+  {
+    "t": "Procesos",
+    "q": "¿Qué hace SIGCONT?",
+    "a": [
+      "Reanuda un proceso detenido",
+      "Lo termina",
+      "Lo convierte en zombi",
+      "Lo ejecuta como root"
+    ],
+    "correct": 0,
+    "e": "SIGCONT continúa la ejecución."
+  },
+  {
+    "t": "Procesos",
+    "q": "¿Qué hace renice?",
+    "a": [
+      "Modifica el valor nice de un proceso existente",
+      "Termina un proceso",
+      "Crea un proceso",
+      "Muestra logs"
+    ],
+    "correct": 0,
+    "e": "renice cambia la prioridad nice."
+  },
+  {
+    "t": "Procesos",
+    "q": "¿Qué valor nice tiene mayor prioridad?",
+    "a": [
+      "-20",
+      "19",
+      "10",
+      "0"
+    ],
+    "correct": 0,
+    "e": "Cuanto menor el valor nice, mayor la prioridad de planificación habitual."
+  },
+  {
+    "t": "Procesos",
+    "q": "¿Cuál es el rango habitual de nice en Linux?",
+    "a": [
+      "-20 a 19",
+      "0 a 100",
+      "1 a 65535",
+      "-1 a 1"
+    ],
+    "correct": 0,
+    "e": "nice suele oscilar entre -20 y 19."
+  },
+  {
+    "t": "Procesos",
+    "q": "¿Qué indica el estado Z en ps?",
+    "a": [
+      "Proceso zombi",
+      "Proceso ejecutándose",
+      "Proceso detenido",
+      "Proceso sin permisos"
+    ],
+    "correct": 0,
+    "e": "Un zombi terminó pero aún no fue recogido por su padre."
+  },
+  {
+    "t": "Procesos",
+    "q": "¿Qué indica el estado R en ps?",
+    "a": [
+      "En ejecución o ejecutable",
+      "Zombi",
+      "Detenido",
+      "Dormido ininterrumpible"
+    ],
+    "correct": 0,
+    "e": "R significa running o runnable."
+  },
+  {
+    "t": "Procesos",
+    "q": "¿Qué indica el estado S en ps?",
+    "a": [
+      "Sueño interrumpible",
+      "Zombi",
+      "Terminado",
+      "Detenido"
+    ],
+    "correct": 0,
+    "e": "S corresponde a sleeping interrumpible."
+  },
+  {
+    "t": "Procesos",
+    "q": "¿Qué indica el estado T en ps?",
+    "a": [
+      "Proceso detenido",
+      "Proceso zombi",
+      "Proceso en ejecución",
+      "Proceso huérfano"
+    ],
+    "correct": 0,
+    "e": "T indica stopped o trazado."
+  },
+  {
+    "t": "Procesos",
+    "q": "¿Qué hace el símbolo & al final de un comando?",
+    "a": [
+      "Lo inicia en segundo plano",
+      "Lo ejecuta como root",
+      "Lo termina",
+      "Lo encadena a sed"
+    ],
+    "correct": 0,
+    "e": "& ejecuta el comando en segundo plano en el shell."
+  },
+  {
+    "t": "Procesos",
+    "q": "¿Qué comando muestra trabajos del shell actual?",
+    "a": [
+      "jobs",
+      "ps -ef",
+      "id",
+      "wc"
+    ],
+    "correct": 0,
+    "e": "jobs muestra trabajos gestionados por el shell."
+  },
+  {
+    "t": "Procesos",
+    "q": "¿Qué hace fg?",
+    "a": [
+      "Trae un trabajo al primer plano",
+      "Envía una señal SIGKILL",
+      "Busca archivos",
+      "Cambia la prioridad"
+    ],
+    "correct": 0,
+    "e": "fg lleva un job al primer plano."
+  },
+  {
+    "t": "Procesos",
+    "q": "¿Qué hace bg?",
+    "a": [
+      "Continúa un trabajo detenido en segundo plano",
+      "Borra un proceso",
+      "Cambia su propietario",
+      "Lista usuarios"
+    ],
+    "correct": 0,
+    "e": "bg reanuda un trabajo en segundo plano."
+  },
+  {
+    "t": "Procesos",
+    "q": "¿Qué hace wait en un script?",
+    "a": [
+      "Espera a que terminen procesos hijos indicados",
+      "Detiene todos los procesos del sistema",
+      "Modifica la prioridad",
+      "Borra registros"
+    ],
+    "correct": 0,
+    "e": "wait espera a hijos del shell."
+  },
+  {
+    "t": "Procesos",
+    "q": "¿Qué comando permite comprobar si existe un PID concreto?",
+    "a": [
+      "ps -p \"$pid\"",
+      "chmod \"$pid\"",
+      "sed \"$pid\"",
+      "wc \"$pid\""
+    ],
+    "correct": 0,
+    "e": "ps -p selecciona un proceso por PID."
+  },
+  {
+    "t": "Procesos",
+    "q": "¿Qué muestra ps -p \"$pid\" -o comm=?",
+    "a": [
+      "Nombre del comando sin cabecera",
+      "Todos los procesos",
+      "Usuario y contraseña",
+      "Tiempo de arranque del sistema"
+    ],
+    "correct": 0,
+    "e": "comm= muestra solo el nombre del ejecutable sin cabecera."
+  },
+  {
+    "t": "Procesos",
+    "q": "¿Qué hace logger -t aso-backup \"Copia creada\"?",
+    "a": [
+      "Escribe un evento en el registro del sistema con etiqueta",
+      "Crea un fichero de backup",
+      "Muestra procesos",
+      "Elimina logs"
+    ],
+    "correct": 0,
+    "e": "logger envía mensajes al registro del sistema."
+  },
+  {
+    "t": "Procesos",
+    "q": "¿Qué permite journalctl -t aso-backup?",
+    "a": [
+      "Consultar entradas con esa etiqueta",
+      "Modificar prioridades",
+      "Cambiar permisos",
+      "Mostrar puertos TCP"
+    ],
+    "correct": 0,
+    "e": "-t filtra por identificador syslog."
+  },
+  {
+    "t": "Procesos",
+    "q": "¿Qué representa $EUID?",
+    "a": [
+      "ID efectivo del usuario",
+      "PID efectivo",
+      "Número de procesos",
+      "Nombre de la shell"
+    ],
+    "correct": 0,
+    "e": "$EUID es el identificador de usuario efectivo."
+  },
+  {
+    "t": "Procesos",
+    "q": "¿Qué comprueba [[ $EUID -eq 0 ]]?",
+    "a": [
+      "Que el script se ejecuta con UID efectivo root",
+      "Que no hay procesos",
+      "Que el script ha fallado",
+      "Que el usuario no existe"
+    ],
+    "correct": 0,
+    "e": "UID efectivo 0 corresponde a root."
+  },
+  {
+    "t": "Procesos",
+    "q": "¿Qué sucede normalmente al reducir nice a un valor negativo sin privilegios?",
+    "a": [
+      "Se deniega por falta de permisos",
+      "Siempre funciona",
+      "Finaliza el proceso",
+      "Cambia el PID"
+    ],
+    "correct": 0,
+    "e": "Aumentar prioridad suele requerir privilegios."
+  },
+  {
+    "t": "Procesos",
+    "q": "¿Qué hace sleep 3?",
+    "a": [
+      "Espera aproximadamente tres segundos",
+      "Termina el proceso 3",
+      "Crea tres procesos",
+      "Muestra tres procesos"
+    ],
+    "correct": 0,
+    "e": "sleep pausa el proceso durante el tiempo indicado."
+  },
+  {
+    "t": "Bash",
+    "q": "Si a=5 y b=2, ¿qué muestra echo $((a % b))?",
+    "a": [
+      "1",
+      "2",
+      "7",
+      "10"
+    ],
+    "correct": 0,
+    "e": "El operador % calcula el resto de la división entera."
+  },
+  {
+    "t": "Bash",
+    "q": "Si a=8 y b=3, ¿qué muestra echo $((a % b))?",
+    "a": [
+      "2",
+      "2",
+      "11",
+      "24"
+    ],
+    "correct": 0,
+    "e": "El operador % calcula el resto de la división entera."
+  },
+  {
+    "t": "Bash",
+    "q": "Si a=11 y b=4, ¿qué muestra echo $((a % b))?",
+    "a": [
+      "3",
+      "2",
+      "15",
+      "44"
+    ],
+    "correct": 0,
+    "e": "El operador % calcula el resto de la división entera."
+  },
+  {
+    "t": "Bash",
+    "q": "Si a=14 y b=5, ¿qué muestra echo $((a % b))?",
+    "a": [
+      "4",
+      "2",
+      "19",
+      "70"
+    ],
+    "correct": 0,
+    "e": "El operador % calcula el resto de la división entera."
+  },
+  {
+    "t": "Bash",
+    "q": "Si a=17 y b=6, ¿qué muestra echo $((a % b))?",
+    "a": [
+      "5",
+      "2",
+      "23",
+      "102"
+    ],
+    "correct": 0,
+    "e": "El operador % calcula el resto de la división entera."
+  },
+  {
+    "t": "Bash",
+    "q": "Si a=20 y b=7, ¿qué muestra echo $((a % b))?",
+    "a": [
+      "6",
+      "2",
+      "27",
+      "140"
+    ],
+    "correct": 0,
+    "e": "El operador % calcula el resto de la división entera."
+  },
+  {
+    "t": "Bash",
+    "q": "Si a=23 y b=8, ¿qué muestra echo $((a % b))?",
+    "a": [
+      "7",
+      "2",
+      "31",
+      "184"
+    ],
+    "correct": 0,
+    "e": "El operador % calcula el resto de la división entera."
+  },
+  {
+    "t": "Bash",
+    "q": "Si a=26 y b=9, ¿qué muestra echo $((a % b))?",
+    "a": [
+      "8",
+      "2",
+      "35",
+      "234"
+    ],
+    "correct": 0,
+    "e": "El operador % calcula el resto de la división entera."
+  },
+  {
+    "t": "Bash",
+    "q": "Si a=29 y b=10, ¿qué muestra echo $((a % b))?",
+    "a": [
+      "9",
+      "2",
+      "39",
+      "290"
+    ],
+    "correct": 0,
+    "e": "El operador % calcula el resto de la división entera."
+  },
+  {
+    "t": "Bash",
+    "q": "Si a=32 y b=11, ¿qué muestra echo $((a % b))?",
+    "a": [
+      "10",
+      "2",
+      "43",
+      "352"
+    ],
+    "correct": 0,
+    "e": "El operador % calcula el resto de la división entera."
+  },
+  {
+    "t": "Bash",
+    "q": "Si a=35 y b=12, ¿qué muestra echo $((a % b))?",
+    "a": [
+      "11",
+      "2",
+      "47",
+      "420"
+    ],
+    "correct": 0,
+    "e": "El operador % calcula el resto de la división entera."
+  },
+  {
+    "t": "Bash",
+    "q": "Si a=38 y b=13, ¿qué muestra echo $((a % b))?",
+    "a": [
+      "12",
+      "2",
+      "51",
+      "494"
+    ],
+    "correct": 0,
+    "e": "El operador % calcula el resto de la división entera."
+  },
+  {
+    "t": "Bash",
+    "q": "Si a=41 y b=14, ¿qué muestra echo $((a % b))?",
+    "a": [
+      "13",
+      "2",
+      "55",
+      "574"
+    ],
+    "correct": 0,
+    "e": "El operador % calcula el resto de la división entera."
+  },
+  {
+    "t": "Bash",
+    "q": "Si a=44 y b=15, ¿qué muestra echo $((a % b))?",
+    "a": [
+      "14",
+      "2",
+      "59",
+      "660"
+    ],
+    "correct": 0,
+    "e": "El operador % calcula el resto de la división entera."
+  },
+  {
+    "t": "Bash",
+    "q": "Si a=47 y b=16, ¿qué muestra echo $((a % b))?",
+    "a": [
+      "15",
+      "2",
+      "63",
+      "752"
+    ],
+    "correct": 0,
+    "e": "El operador % calcula el resto de la división entera."
+  },
+  {
+    "t": "Bash",
+    "q": "Si a=50 y b=17, ¿qué muestra echo $((a % b))?",
+    "a": [
+      "16",
+      "2",
+      "67",
+      "850"
+    ],
+    "correct": 0,
+    "e": "El operador % calcula el resto de la división entera."
+  },
+  {
+    "t": "Bash",
+    "q": "Si a=53 y b=18, ¿qué muestra echo $((a % b))?",
+    "a": [
+      "17",
+      "2",
+      "71",
+      "954"
+    ],
+    "correct": 0,
+    "e": "El operador % calcula el resto de la división entera."
+  },
+  {
+    "t": "Bash",
+    "q": "Si a=56 y b=19, ¿qué muestra echo $((a % b))?",
+    "a": [
+      "18",
+      "2",
+      "75",
+      "1064"
+    ],
+    "correct": 0,
+    "e": "El operador % calcula el resto de la división entera."
+  },
+  {
+    "t": "Bash",
+    "q": "Si a=59 y b=20, ¿qué muestra echo $((a % b))?",
+    "a": [
+      "19",
+      "2",
+      "79",
+      "1180"
+    ],
+    "correct": 0,
+    "e": "El operador % calcula el resto de la división entera."
+  },
+  {
+    "t": "Bash",
+    "q": "Si a=62 y b=21, ¿qué muestra echo $((a % b))?",
+    "a": [
+      "20",
+      "2",
+      "83",
+      "1302"
+    ],
+    "correct": 0,
+    "e": "El operador % calcula el resto de la división entera."
+  },
+  {
+    "t": "Bash",
+    "q": "Si a=7 y b=3, ¿qué muestra echo $((a / b))?",
+    "a": [
+      "2",
+      "2.33",
+      "1",
+      "10"
+    ],
+    "correct": 0,
+    "e": "La división aritmética de Bash descarta la parte decimal."
+  },
+  {
+    "t": "Bash",
+    "q": "Si a=9 y b=4, ¿qué muestra echo $((a / b))?",
+    "a": [
+      "2",
+      "2.25",
+      "1",
+      "13"
+    ],
+    "correct": 0,
+    "e": "La división aritmética de Bash descarta la parte decimal."
+  },
+  {
+    "t": "Bash",
+    "q": "Si a=11 y b=5, ¿qué muestra echo $((a / b))?",
+    "a": [
+      "2",
+      "2.2",
+      "1",
+      "16"
+    ],
+    "correct": 0,
+    "e": "La división aritmética de Bash descarta la parte decimal."
+  },
+  {
+    "t": "Bash",
+    "q": "Si a=13 y b=6, ¿qué muestra echo $((a / b))?",
+    "a": [
+      "2",
+      "2.17",
+      "1",
+      "19"
+    ],
+    "correct": 0,
+    "e": "La división aritmética de Bash descarta la parte decimal."
+  },
+  {
+    "t": "Bash",
+    "q": "Si a=15 y b=7, ¿qué muestra echo $((a / b))?",
+    "a": [
+      "2",
+      "2.14",
+      "1",
+      "22"
+    ],
+    "correct": 0,
+    "e": "La división aritmética de Bash descarta la parte decimal."
+  },
+  {
+    "t": "Bash",
+    "q": "Si a=17 y b=8, ¿qué muestra echo $((a / b))?",
+    "a": [
+      "2",
+      "2.12",
+      "1",
+      "25"
+    ],
+    "correct": 0,
+    "e": "La división aritmética de Bash descarta la parte decimal."
+  },
+  {
+    "t": "Bash",
+    "q": "Si a=19 y b=9, ¿qué muestra echo $((a / b))?",
+    "a": [
+      "2",
+      "2.11",
+      "1",
+      "28"
+    ],
+    "correct": 0,
+    "e": "La división aritmética de Bash descarta la parte decimal."
+  },
+  {
+    "t": "Bash",
+    "q": "Si a=21 y b=10, ¿qué muestra echo $((a / b))?",
+    "a": [
+      "2",
+      "2.1",
+      "1",
+      "31"
+    ],
+    "correct": 0,
+    "e": "La división aritmética de Bash descarta la parte decimal."
+  },
+  {
+    "t": "Bash",
+    "q": "Si a=23 y b=11, ¿qué muestra echo $((a / b))?",
+    "a": [
+      "2",
+      "2.09",
+      "1",
+      "34"
+    ],
+    "correct": 0,
+    "e": "La división aritmética de Bash descarta la parte decimal."
+  },
+  {
+    "t": "Bash",
+    "q": "Si a=25 y b=12, ¿qué muestra echo $((a / b))?",
+    "a": [
+      "2",
+      "2.08",
+      "1",
+      "37"
+    ],
+    "correct": 0,
+    "e": "La división aritmética de Bash descarta la parte decimal."
+  },
+  {
+    "t": "Bash",
+    "q": "Si a=27 y b=13, ¿qué muestra echo $((a / b))?",
+    "a": [
+      "2",
+      "2.08",
+      "1",
+      "40"
+    ],
+    "correct": 0,
+    "e": "La división aritmética de Bash descarta la parte decimal."
+  },
+  {
+    "t": "Bash",
+    "q": "Si a=29 y b=14, ¿qué muestra echo $((a / b))?",
+    "a": [
+      "2",
+      "2.07",
+      "1",
+      "43"
+    ],
+    "correct": 0,
+    "e": "La división aritmética de Bash descarta la parte decimal."
+  },
+  {
+    "t": "Bash",
+    "q": "Si a=31 y b=15, ¿qué muestra echo $((a / b))?",
+    "a": [
+      "2",
+      "2.07",
+      "1",
+      "46"
+    ],
+    "correct": 0,
+    "e": "La división aritmética de Bash descarta la parte decimal."
+  },
+  {
+    "t": "Bash",
+    "q": "Si a=33 y b=16, ¿qué muestra echo $((a / b))?",
+    "a": [
+      "2",
+      "2.06",
+      "1",
+      "49"
+    ],
+    "correct": 0,
+    "e": "La división aritmética de Bash descarta la parte decimal."
+  },
+  {
+    "t": "Bash",
+    "q": "Si a=35 y b=17, ¿qué muestra echo $((a / b))?",
+    "a": [
+      "2",
+      "2.06",
+      "1",
+      "52"
+    ],
+    "correct": 0,
+    "e": "La división aritmética de Bash descarta la parte decimal."
+  },
+  {
+    "t": "Bash",
+    "q": "En [[ $a -eq $b ]], ¿qué comparación se realiza?",
+    "a": [
+      "igual",
+      "menor",
+      "distinto",
+      "mayor"
+    ],
+    "correct": 0,
+    "e": "-eq es un operador de comparación numérica de Bash."
+  },
+  {
+    "t": "Bash",
+    "q": "En [[ $a -ne $b ]], ¿qué comparación se realiza?",
+    "a": [
+      "distinto",
+      "igual",
+      "mayor o igual",
+      "menor"
+    ],
+    "correct": 0,
+    "e": "-ne es un operador de comparación numérica de Bash."
+  },
+  {
+    "t": "Bash",
+    "q": "En [[ $a -lt $b ]], ¿qué comparación se realiza?",
+    "a": [
+      "menor",
+      "menor o igual",
+      "mayor",
+      "igual"
+    ],
+    "correct": 0,
+    "e": "-lt es un operador de comparación numérica de Bash."
+  },
+  {
+    "t": "Bash",
+    "q": "En [[ $a -le $b ]], ¿qué comparación se realiza?",
+    "a": [
+      "menor o igual",
+      "menor",
+      "mayor o igual",
+      "distinto"
+    ],
+    "correct": 0,
+    "e": "-le es un operador de comparación numérica de Bash."
+  },
+  {
+    "t": "Bash",
+    "q": "En [[ $a -gt $b ]], ¿qué comparación se realiza?",
+    "a": [
+      "mayor",
+      "menor",
+      "mayor o igual",
+      "igual"
+    ],
+    "correct": 0,
+    "e": "-gt es un operador de comparación numérica de Bash."
+  },
+  {
+    "t": "Bash",
+    "q": "En [[ $a -ge $b ]], ¿qué comparación se realiza?",
+    "a": [
+      "mayor o igual",
+      "mayor",
+      "menor o igual",
+      "distinto"
+    ],
+    "correct": 0,
+    "e": "-ge es un operador de comparación numérica de Bash."
+  },
+  {
+    "t": "Bash",
+    "q": "¿Qué evalúa [[ -e \"$ruta\" ]]?",
+    "a": [
+      "La ruta existe",
+      "Es un ejecutable",
+      "Es un directorio",
+      "Es un enlace"
+    ],
+    "correct": 0,
+    "e": "-e comprueba existencia."
+  },
+  {
+    "t": "Bash",
+    "q": "¿Qué evalúa [[ -r \"$ruta\" ]]?",
+    "a": [
+      "El usuario tiene permiso de lectura",
+      "Es un fichero regular",
+      "Está vacío",
+      "Es un directorio"
+    ],
+    "correct": 0,
+    "e": "-r comprueba acceso de lectura."
+  },
+  {
+    "t": "Bash",
+    "q": "¿Qué evalúa [[ -w \"$ruta\" ]]?",
+    "a": [
+      "El usuario tiene permiso de escritura",
+      "Tiene permisos de ejecución",
+      "Es un enlace",
+      "Está vacío"
+    ],
+    "correct": 0,
+    "e": "-w comprueba acceso de escritura."
+  },
+  {
+    "t": "Bash",
+    "q": "¿Qué evalúa [[ -s \"$ruta\" ]]?",
+    "a": [
+      "El fichero existe y su tamaño es mayor que cero",
+      "Es una carpeta",
+      "Es un enlace",
+      "Tiene cero bytes"
+    ],
+    "correct": 0,
+    "e": "-s comprueba tamaño no nulo."
+  },
+  {
+    "t": "Bash",
+    "q": "¿Qué evalúa [[ -L \"$ruta\" ]]?",
+    "a": [
+      "Es un enlace simbólico",
+      "Es una carpeta",
+      "Es ejecutable",
+      "Es un archivo de log"
+    ],
+    "correct": 0,
+    "e": "-L comprueba enlace simbólico."
+  },
+  {
+    "t": "Bash",
+    "q": "¿Qué describe la expresión regular ^[0-9]+$?",
+    "a": [
+      "Una o más cifras y ningún otro carácter",
+      "Solo una cifra",
+      "Cualquier texto con un dígito",
+      "Una o más letras"
+    ],
+    "correct": 0,
+    "e": "Los anclajes, clases de caracteres y cuantificadores determinan el formato aceptado."
+  },
+  {
+    "t": "Bash",
+    "q": "¿Qué describe la expresión regular ^[a-z]{3,8}$?",
+    "a": [
+      "De tres a ocho letras minúsculas",
+      "De tres a ocho números",
+      "Exactamente ocho letras",
+      "Letras mayúsculas opcionales"
+    ],
+    "correct": 0,
+    "e": "Los anclajes, clases de caracteres y cuantificadores determinan el formato aceptado."
+  },
+  {
+    "t": "Bash",
+    "q": "¿Qué describe la expresión regular \\.log$?",
+    "a": [
+      "Termina literalmente en .log",
+      "Empieza por log",
+      "Contiene cualquier carácter seguido de log",
+      "Termina en log sin punto"
+    ],
+    "correct": 0,
+    "e": "Los anclajes, clases de caracteres y cuantificadores determinan el formato aceptado."
+  },
+  {
+    "t": "Bash",
+    "q": "¿Qué describe la expresión regular ^https?://?",
+    "a": [
+      "Empieza por http:// o https://",
+      "Solo empieza por https://",
+      "Contiene http en cualquier lugar",
+      "Termina por https"
+    ],
+    "correct": 0,
+    "e": "Los anclajes, clases de caracteres y cuantificadores determinan el formato aceptado."
+  },
+  {
+    "t": "Bash",
+    "q": "¿Qué describe la expresión regular ^[A-Z][0-9]{2}$?",
+    "a": [
+      "Una mayúscula seguida de dos cifras",
+      "Dos mayúsculas y una cifra",
+      "Una minúscula seguida de dos cifras",
+      "Cualquier letra y dos cifras"
+    ],
+    "correct": 0,
+    "e": "Los anclajes, clases de caracteres y cuantificadores determinan el formato aceptado."
+  },
+  {
+    "t": "Bash",
+    "q": "¿Qué hace el comando `grep -n ERROR archivo.log`?",
+    "a": [
+      "Muestra líneas coincidentes con su número",
+      "Cuenta líneas",
+      "Sustituye ERROR",
+      "Muestra solo nombres de archivos"
+    ],
+    "correct": 0,
+    "e": "-n añade el número de línea."
+  },
+  {
+    "t": "Bash",
+    "q": "¿Qué hace el comando `grep -i error archivo.log`?",
+    "a": [
+      "Busca sin distinguir mayúsculas y minúsculas",
+      "Busca solo minúsculas",
+      "Ignora líneas vacías",
+      "Cuenta coincidencias"
+    ],
+    "correct": 0,
+    "e": "-i ignora diferencias de mayúsculas."
+  },
+  {
+    "t": "Bash",
+    "q": "¿Qué hace el comando `grep -v \"^#\" config.txt`?",
+    "a": [
+      "Muestra líneas que no comienzan por #",
+      "Muestra solo comentarios",
+      "Borra el fichero",
+      "Cuenta comentarios"
+    ],
+    "correct": 0,
+    "e": "-v invierte la selección de grep."
+  },
+  {
+    "t": "Bash",
+    "q": "¿Qué hace el comando `sed -n \"3p\" archivo.txt`?",
+    "a": [
+      "Imprime la tercera línea",
+      "Elimina tres líneas",
+      "Imprime las tres primeras",
+      "Reemplaza la tercera palabra"
+    ],
+    "correct": 0,
+    "e": "-n evita impresión automática y 3p imprime la línea 3."
+  },
+  {
+    "t": "Bash",
+    "q": "¿Qué hace el comando `sed \"/^$/d\" archivo.txt`?",
+    "a": [
+      "Omite líneas vacías en la salida",
+      "Borra el fichero original",
+      "Elimina todas las líneas",
+      "Imprime solo vacías"
+    ],
+    "correct": 0,
+    "e": "d elimina del flujo de salida las líneas que coinciden."
+  },
+  {
+    "t": "Bash",
+    "q": "¿Qué hace el comando `sed \"s/uno/dos/\" archivo.txt`?",
+    "a": [
+      "Sustituye la primera aparición por línea",
+      "Sustituye todas las apariciones",
+      "Borra las líneas",
+      "Modifica siempre el original"
+    ],
+    "correct": 0,
+    "e": "Sin g, s cambia solo la primera coincidencia de cada línea."
+  },
+  {
+    "t": "Bash",
+    "q": "¿Qué hace el comando `cut -d: -f1 /etc/passwd`?",
+    "a": [
+      "Muestra el primer campo separado por dos puntos",
+      "Muestra la primera línea",
+      "Elimina el primer campo",
+      "Cuenta usuarios"
+    ],
+    "correct": 0,
+    "e": "-d establece delimitador y -f selecciona campo."
+  },
+  {
+    "t": "Bash",
+    "q": "¿Qué hace el comando `head -n 5 archivo.txt`?",
+    "a": [
+      "Muestra las primeras cinco líneas",
+      "Muestra las últimas cinco",
+      "Cuenta cinco líneas",
+      "Ordena cinco líneas"
+    ],
+    "correct": 0,
+    "e": "head muestra el inicio del fichero."
+  },
+  {
+    "t": "Bash",
+    "q": "¿Qué hace el comando `tail -n 5 archivo.txt`?",
+    "a": [
+      "Muestra las últimas cinco líneas",
+      "Muestra las primeras cinco",
+      "Borra cinco líneas",
+      "Muestra cinco columnas"
+    ],
+    "correct": 0,
+    "e": "tail muestra el final del fichero."
+  },
+  {
+    "t": "Bash",
+    "q": "¿Qué hace el comando `sort -u lista.txt`?",
+    "a": [
+      "Ordena y elimina líneas duplicadas adyacentes en la salida ordenada",
+      "Solo cuenta duplicados",
+      "Invierte el orden",
+      "Modifica siempre el fichero"
+    ],
+    "correct": 0,
+    "e": "sort -u produce una lista ordenada sin duplicados."
+  },
+  {
+    "t": "Bash",
+    "q": "¿Qué hace el comando `basename /tmp/copia/servidor.log`?",
+    "a": [
+      "Muestra servidor.log",
+      "Muestra /tmp/copia",
+      "Muestra /tmp",
+      "Muestra solo log"
+    ],
+    "correct": 0,
+    "e": "basename elimina los componentes de directorio."
+  },
+  {
+    "t": "Bash",
+    "q": "¿Qué hace el comando `dirname /tmp/copia/servidor.log`?",
+    "a": [
+      "Muestra /tmp/copia",
+      "Muestra servidor.log",
+      "Muestra /tmp",
+      "Muestra copia"
+    ],
+    "correct": 0,
+    "e": "dirname devuelve la parte de directorio."
+  },
+  {
+    "t": "Bash",
+    "q": "¿Qué hace el comando `find /tmp -maxdepth 1 -type f`?",
+    "a": [
+      "Busca ficheros regulares sin descender en subdirectorios",
+      "Busca solo directorios",
+      "Busca todos los subdirectorios",
+      "Borra ficheros"
+    ],
+    "correct": 0,
+    "e": "-maxdepth 1 limita la profundidad."
+  },
+  {
+    "t": "Bash",
+    "q": "¿Qué hace el comando `echo \"hola\" >> salida.txt`?",
+    "a": [
+      "Añade hola al final del fichero",
+      "Sobrescribe siempre",
+      "Lee desde el fichero",
+      "Elimina el fichero"
+    ],
+    "correct": 0,
+    "e": ">> añade contenido sin truncar."
+  },
+  {
+    "t": "Bash",
+    "q": "¿Qué hace el comando `echo \"hola\" > salida.txt`?",
+    "a": [
+      "Crea o sobrescribe el contenido del fichero",
+      "Añade sin borrar",
+      "Lee una línea",
+      "Cuenta caracteres"
+    ],
+    "correct": 0,
+    "e": "> redirige la salida truncando el fichero."
+  },
+  {
+    "t": "Bash",
+    "q": "¿Cuántas iteraciones realiza `for ((i=1; i<=3; i++))`?",
+    "a": [
+      "3",
+      "2",
+      "4",
+      "4"
+    ],
+    "correct": 0,
+    "e": "El contador recorre ambos extremos porque se usa <=."
+  },
+  {
+    "t": "Bash",
+    "q": "¿Cuántas iteraciones realiza `for ((i=2; i<=5; i++))`?",
+    "a": [
+      "4",
+      "3",
+      "6",
+      "7"
+    ],
+    "correct": 0,
+    "e": "El contador recorre ambos extremos porque se usa <=."
+  },
+  {
+    "t": "Bash",
+    "q": "¿Cuántas iteraciones realiza `for ((i=0; i<=4; i++))`?",
+    "a": [
+      "5",
+      "4",
+      "5",
+      "4"
+    ],
+    "correct": 0,
+    "e": "El contador recorre ambos extremos porque se usa <=."
+  },
+  {
+    "t": "Bash",
+    "q": "¿Cuántas iteraciones realiza `for ((i=3; i<=7; i++))`?",
+    "a": [
+      "5",
+      "4",
+      "8",
+      "10"
+    ],
+    "correct": 0,
+    "e": "El contador recorre ambos extremos porque se usa <=."
+  },
+  {
+    "t": "Bash",
+    "q": "¿Cuántas iteraciones realiza `for ((i=5; i<=9; i++))`?",
+    "a": [
+      "5",
+      "4",
+      "10",
+      "14"
+    ],
+    "correct": 0,
+    "e": "El contador recorre ambos extremos porque se usa <=."
+  },
+  {
+    "t": "Bash",
+    "q": "¿Cuántas iteraciones realiza `for ((i=1; i<=10; i++))`?",
+    "a": [
+      "10",
+      "9",
+      "11",
+      "11"
+    ],
+    "correct": 0,
+    "e": "El contador recorre ambos extremos porque se usa <=."
+  },
+  {
+    "t": "Bash",
+    "q": "¿Cuántas iteraciones realiza `for ((i=0; i<=2; i++))`?",
+    "a": [
+      "3",
+      "2",
+      "3",
+      "2"
+    ],
+    "correct": 0,
+    "e": "El contador recorre ambos extremos porque se usa <=."
+  },
+  {
+    "t": "Bash",
+    "q": "¿Cuántas iteraciones realiza `for ((i=4; i<=6; i++))`?",
+    "a": [
+      "3",
+      "2",
+      "7",
+      "10"
+    ],
+    "correct": 0,
+    "e": "El contador recorre ambos extremos porque se usa <=."
+  },
+  {
+    "t": "Bash",
+    "q": "¿Cuántas iteraciones realiza `for ((i=2; i<=8; i++))`?",
+    "a": [
+      "7",
+      "6",
+      "9",
+      "10"
+    ],
+    "correct": 0,
+    "e": "El contador recorre ambos extremos porque se usa <=."
+  },
+  {
+    "t": "Bash",
+    "q": "¿Cuántas iteraciones realiza `for ((i=3; i<=9; i++))`?",
+    "a": [
+      "7",
+      "6",
+      "10",
+      "12"
+    ],
+    "correct": 0,
+    "e": "El contador recorre ambos extremos porque se usa <=."
+  },
+  {
+    "t": "Bash",
+    "q": "Si archivo=\"reporte.txt\" y texto=\"hola!\", ¿qué muestra `echo \"${archivo%.*}\"`?",
+    "a": [
+      "reporte",
+      "reporte.txt",
+      "txt",
+      "repor"
+    ],
+    "correct": 0,
+    "e": "La expansión de parámetros permite extraer sufijos, longitud o subcadenas."
+  },
+  {
+    "t": "Bash",
+    "q": "Si archivo=\"reporte.txt\" y texto=\"hola!\", ¿qué muestra `echo \"${archivo##*.}\"`?",
+    "a": [
+      "txt",
+      "reporte",
+      "reporte.txt",
+      "archivo"
+    ],
+    "correct": 0,
+    "e": "La expansión de parámetros permite extraer sufijos, longitud o subcadenas."
+  },
+  {
+    "t": "Bash",
+    "q": "Si archivo=\"reporte.txt\" y texto=\"hola!\", ¿qué muestra `echo \"${#texto}\"`?",
+    "a": [
+      "5",
+      "4",
+      "hola",
+      "6"
+    ],
+    "correct": 0,
+    "e": "La expansión de parámetros permite extraer sufijos, longitud o subcadenas."
+  },
+  {
+    "t": "Bash",
+    "q": "Si archivo=\"reporte.txt\" y texto=\"hola!\", ¿qué muestra `echo \"${texto:1:3}\"`?",
+    "a": [
+      "ola",
+      "hol",
+      "la",
+      "hola"
+    ],
+    "correct": 0,
+    "e": "La expansión de parámetros permite extraer sufijos, longitud o subcadenas."
+  },
+  {
+    "t": "Procesos",
+    "q": "¿Qué hace `ps -e`?",
+    "a": [
+      "Muestra procesos de todos los usuarios",
+      "Muestra solo el proceso actual",
+      "Termina todos los procesos",
+      "Muestra solo procesos de root"
+    ],
+    "correct": 0,
+    "e": "-e selecciona todos los procesos."
+  },
+  {
+    "t": "Procesos",
+    "q": "¿Qué hace `ps -o pid,ppid,comm`?",
+    "a": [
+      "Muestra PID, PID padre y nombre del comando",
+      "Cambia el PID",
+      "Muestra solo uso de memoria",
+      "Finaliza procesos hijos"
+    ],
+    "correct": 0,
+    "e": "-o define las columnas."
+  },
+  {
+    "t": "Procesos",
+    "q": "¿Qué hace `ps -p 123 -o pid=`?",
+    "a": [
+      "Muestra el PID seleccionado sin cabecera",
+      "Muestra todos los procesos",
+      "Finaliza el proceso",
+      "Cambia su prioridad"
+    ],
+    "correct": 0,
+    "e": "El signo = quita la cabecera de la columna."
+  },
+  {
+    "t": "Procesos",
+    "q": "¿Qué hace `kill -0 1234`?",
+    "a": [
+      "Comprueba si puede señalarse el proceso, sin enviar señal efectiva",
+      "Finaliza el proceso",
+      "Lo detiene",
+      "Le cambia la prioridad"
+    ],
+    "correct": 0,
+    "e": "La señal 0 sirve para comprobar existencia/permisos, sin enviar una señal real."
+  },
+  {
+    "t": "Procesos",
+    "q": "¿Qué hace `kill -15 1234`?",
+    "a": [
+      "Solicita terminar con SIGTERM",
+      "Fuerza SIGKILL",
+      "Suspende con SIGSTOP",
+      "Reanuda con SIGCONT"
+    ],
+    "correct": 0,
+    "e": "La señal 15 corresponde a SIGTERM."
+  },
+  {
+    "t": "Procesos",
+    "q": "¿Qué hace `kill -9 1234`?",
+    "a": [
+      "Envía SIGKILL",
+      "Envía SIGTERM",
+      "Envía SIGSTOP",
+      "Envía SIGHUP"
+    ],
+    "correct": 0,
+    "e": "La señal 9 es SIGKILL."
+  },
+  {
+    "t": "Procesos",
+    "q": "¿Qué hace `kill -STOP 1234`?",
+    "a": [
+      "Suspende la ejecución del proceso",
+      "Lo elimina",
+      "Lo reanuda",
+      "Le cambia el usuario"
+    ],
+    "correct": 0,
+    "e": "SIGSTOP detiene el proceso temporalmente."
+  },
+  {
+    "t": "Procesos",
+    "q": "¿Qué hace `kill -CONT 1234`?",
+    "a": [
+      "Reanuda un proceso detenido",
+      "Lo elimina",
+      "Lo suspende",
+      "Lo renombra"
+    ],
+    "correct": 0,
+    "e": "SIGCONT continúa la ejecución."
+  },
+  {
+    "t": "Procesos",
+    "q": "¿Qué hace `renice 10 -p 1234`?",
+    "a": [
+      "Intenta establecer nice 10 al PID 1234",
+      "Termina el PID",
+      "Crea 10 procesos",
+      "Muestra sus logs"
+    ],
+    "correct": 0,
+    "e": "renice ajusta el valor nice."
+  },
+  {
+    "t": "Procesos",
+    "q": "¿Qué hace `nice -n 10 comando`?",
+    "a": [
+      "Inicia comando con ajuste nice 10",
+      "Cambia la prioridad de un PID existente",
+      "Finaliza el comando",
+      "Muestra 10 procesos"
+    ],
+    "correct": 0,
+    "e": "nice inicia un comando con un valor de prioridad ajustado."
+  },
+  {
+    "t": "Procesos",
+    "q": "¿Qué hace `jobs -l`?",
+    "a": [
+      "Lista trabajos del shell incluyendo PID",
+      "Lista usuarios",
+      "Muestra todos los procesos del sistema",
+      "Cambia prioridades"
+    ],
+    "correct": 0,
+    "e": "jobs -l incluye identificadores de proceso."
+  },
+  {
+    "t": "Procesos",
+    "q": "¿Qué hace `fg %1`?",
+    "a": [
+      "Lleva el trabajo 1 al primer plano",
+      "Termina el trabajo",
+      "Lo ejecuta como root",
+      "Lo convierte en zombi"
+    ],
+    "correct": 0,
+    "e": "fg trae un trabajo del shell al primer plano."
+  },
+  {
+    "t": "Procesos",
+    "q": "¿Qué hace `bg %1`?",
+    "a": [
+      "Reanuda el trabajo 1 en segundo plano",
+      "Lo lleva al primer plano",
+      "Lo finaliza",
+      "Le cambia nice"
+    ],
+    "correct": 0,
+    "e": "bg continúa un trabajo detenido en segundo plano."
+  },
+  {
+    "t": "Procesos",
+    "q": "¿Qué hace `wait 1234`?",
+    "a": [
+      "Espera al proceso hijo con ese PID si pertenece al shell",
+      "Finaliza ese PID",
+      "Lo suspende",
+      "Lo ejecuta de nuevo"
+    ],
+    "correct": 0,
+    "e": "wait espera a hijos gestionados por el shell."
+  },
+  {
+    "t": "Procesos",
+    "q": "¿Qué hace `sleep 5 &`?",
+    "a": [
+      "Inicia sleep en segundo plano",
+      "Ejecuta como root",
+      "Bloquea el terminal cinco minutos",
+      "Termina el shell"
+    ],
+    "correct": 0,
+    "e": "& ejecuta el comando en segundo plano."
+  },
+  {
+    "t": "Procesos",
+    "q": "¿Qué hace `echo $!`?",
+    "a": [
+      "Muestra el PID del último trabajo en segundo plano",
+      "Muestra el PID padre",
+      "Muestra el usuario",
+      "Muestra el código de salida"
+    ],
+    "correct": 0,
+    "e": "$! guarda el PID del último trabajo asíncrono."
+  },
+  {
+    "t": "Procesos",
+    "q": "¿Qué hace `echo $$`?",
+    "a": [
+      "Muestra el PID del shell actual",
+      "Muestra el PID padre",
+      "Muestra el último estado de salida",
+      "Muestra el número de argumentos"
+    ],
+    "correct": 0,
+    "e": "$$ representa el PID del shell."
+  },
+  {
+    "t": "Procesos",
+    "q": "¿Qué hace `echo $PPID`?",
+    "a": [
+      "Muestra el PID padre del shell",
+      "Muestra el PID actual",
+      "Muestra el PID del último trabajo",
+      "Muestra la prioridad"
+    ],
+    "correct": 0,
+    "e": "PPID identifica al padre del shell."
+  },
+  {
+    "t": "Procesos",
+    "q": "¿Qué hace `ps -eo pid,%cpu --sort=-%cpu`?",
+    "a": [
+      "Lista procesos ordenados por uso de CPU descendente",
+      "Ordena CPU ascendente",
+      "Muestra solo el proceso padre",
+      "Cambia las prioridades"
+    ],
+    "correct": 0,
+    "e": "El signo - indica orden descendente."
+  },
+  {
+    "t": "Procesos",
+    "q": "¿Qué hace `journalctl -t aso-backup`?",
+    "a": [
+      "Filtra registros por identificador aso-backup",
+      "Crea copias de seguridad",
+      "Cambia la prioridad",
+      "Elimina logs"
+    ],
+    "correct": 0,
+    "e": "-t filtra por identificador syslog."
+  },
+  {
+    "t": "Procesos",
+    "q": "¿Qué indica el estado `D` en la columna STAT de ps?",
+    "a": [
+      "Sueño ininterrumpible",
+      "Zombi",
+      "Detenido",
+      "Ejecutándose"
+    ],
+    "correct": 0,
+    "e": "Los estados de ps describen la situación del proceso."
+  },
+  {
+    "t": "Procesos",
+    "q": "¿Qué indica el estado `R` en la columna STAT de ps?",
+    "a": [
+      "En ejecución o listo para ejecutarse",
+      "Zombi",
+      "Dormido",
+      "Detenido"
+    ],
+    "correct": 0,
+    "e": "Los estados de ps describen la situación del proceso."
+  },
+  {
+    "t": "Procesos",
+    "q": "¿Qué indica el estado `S` en la columna STAT de ps?",
+    "a": [
+      "Sueño interrumpible",
+      "Zombi",
+      "Detenido",
+      "Ejecutándose"
+    ],
+    "correct": 0,
+    "e": "Los estados de ps describen la situación del proceso."
+  },
+  {
+    "t": "Procesos",
+    "q": "¿Qué indica el estado `T` en la columna STAT de ps?",
+    "a": [
+      "Detenido o trazado",
+      "Zombi",
+      "Ejecutándose",
+      "Dormido"
+    ],
+    "correct": 0,
+    "e": "Los estados de ps describen la situación del proceso."
+  },
+  {
+    "t": "Procesos",
+    "q": "¿Qué indica el estado `Z` en la columna STAT de ps?",
+    "a": [
+      "Zombi",
+      "Ejecutándose",
+      "Dormido",
+      "Detenido"
+    ],
+    "correct": 0,
+    "e": "Los estados de ps describen la situación del proceso."
+  },
+  {
+    "t": "Procesos",
+    "q": "¿Qué prioridad relativa tiene un proceso con nice -20 frente a otro con nice -19 (si ambos valores son válidos)?",
+    "a": [
+      "Mayor prioridad de planificación",
+      "Menor prioridad de planificación",
+      "Exactamente la misma prioridad",
+      "Se termina automáticamente"
+    ],
+    "correct": 0,
+    "e": "Un nice más bajo supone mayor prioridad relativa en la planificación habitual."
+  },
+  {
+    "t": "Procesos",
+    "q": "¿Qué prioridad relativa tiene un proceso con nice -10 frente a otro con nice -9 (si ambos valores son válidos)?",
+    "a": [
+      "Mayor prioridad de planificación",
+      "Menor prioridad de planificación",
+      "Exactamente la misma prioridad",
+      "Se termina automáticamente"
+    ],
+    "correct": 0,
+    "e": "Un nice más bajo supone mayor prioridad relativa en la planificación habitual."
+  },
+  {
+    "t": "Procesos",
+    "q": "¿Qué prioridad relativa tiene un proceso con nice 0 frente a otro con nice 1 (si ambos valores son válidos)?",
+    "a": [
+      "Mayor prioridad de planificación",
+      "Menor prioridad de planificación",
+      "Exactamente la misma prioridad",
+      "Se termina automáticamente"
+    ],
+    "correct": 0,
+    "e": "Un nice más bajo supone mayor prioridad relativa en la planificación habitual."
+  },
+  {
+    "t": "Procesos",
+    "q": "¿Qué prioridad relativa tiene un proceso con nice 5 frente a otro con nice 6 (si ambos valores son válidos)?",
+    "a": [
+      "Mayor prioridad de planificación",
+      "Menor prioridad de planificación",
+      "Exactamente la misma prioridad",
+      "Se termina automáticamente"
+    ],
+    "correct": 0,
+    "e": "Un nice más bajo supone mayor prioridad relativa en la planificación habitual."
+  },
+  {
+    "t": "Procesos",
+    "q": "¿Qué prioridad relativa tiene un proceso con nice 19 frente a otro con nice 20 (si ambos valores son válidos)?",
+    "a": [
+      "Mayor prioridad de planificación",
+      "Menor prioridad de planificación",
+      "Exactamente la misma prioridad",
+      "Se termina automáticamente"
+    ],
+    "correct": 0,
+    "e": "Un nice más bajo supone mayor prioridad relativa en la planificación habitual."
+  },
+  {
+    "t": "Procesos",
+    "q": "Si un proceso tiene PID 1001 y PPID 501, ¿cuál es el identificador de su padre?",
+    "a": [
+      "501",
+      "1001",
+      "1",
+      "1502"
+    ],
+    "correct": 0,
+    "e": "PPID identifica al proceso padre, no al proceso actual."
+  },
+  {
+    "t": "Procesos",
+    "q": "Si un proceso tiene PID 1002 y PPID 502, ¿cuál es el identificador de su padre?",
+    "a": [
+      "502",
+      "1002",
+      "2",
+      "1504"
+    ],
+    "correct": 0,
+    "e": "PPID identifica al proceso padre, no al proceso actual."
+  },
+  {
+    "t": "Procesos",
+    "q": "Si un proceso tiene PID 1003 y PPID 503, ¿cuál es el identificador de su padre?",
+    "a": [
+      "503",
+      "1003",
+      "3",
+      "1506"
+    ],
+    "correct": 0,
+    "e": "PPID identifica al proceso padre, no al proceso actual."
+  },
+  {
+    "t": "Procesos",
+    "q": "Si un proceso tiene PID 1004 y PPID 504, ¿cuál es el identificador de su padre?",
+    "a": [
+      "504",
+      "1004",
+      "4",
+      "1508"
+    ],
+    "correct": 0,
+    "e": "PPID identifica al proceso padre, no al proceso actual."
+  },
+  {
+    "t": "Procesos",
+    "q": "Si un proceso tiene PID 1005 y PPID 505, ¿cuál es el identificador de su padre?",
+    "a": [
+      "505",
+      "1005",
+      "5",
+      "1510"
+    ],
+    "correct": 0,
+    "e": "PPID identifica al proceso padre, no al proceso actual."
+  },
+  {
+    "t": "Procesos",
+    "q": "Si un proceso tiene PID 1006 y PPID 506, ¿cuál es el identificador de su padre?",
+    "a": [
+      "506",
+      "1006",
+      "6",
+      "1512"
+    ],
+    "correct": 0,
+    "e": "PPID identifica al proceso padre, no al proceso actual."
+  },
+  {
+    "t": "Procesos",
+    "q": "Si un proceso tiene PID 1007 y PPID 507, ¿cuál es el identificador de su padre?",
+    "a": [
+      "507",
+      "1007",
+      "7",
+      "1514"
+    ],
+    "correct": 0,
+    "e": "PPID identifica al proceso padre, no al proceso actual."
+  },
+  {
+    "t": "Procesos",
+    "q": "Si un proceso tiene PID 1008 y PPID 508, ¿cuál es el identificador de su padre?",
+    "a": [
+      "508",
+      "1008",
+      "8",
+      "1516"
+    ],
+    "correct": 0,
+    "e": "PPID identifica al proceso padre, no al proceso actual."
+  }
+]

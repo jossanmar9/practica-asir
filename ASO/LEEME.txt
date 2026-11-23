@@ -1,0 +1,7 @@
+ASO - Material completo
+
+- ejercicios/: 83 archivos .sh organizados por temas, con 10 simulacros.
+- test_aso_ut1_ut2.html: test de 20 preguntas aleatorias, correccion automatica, funciona sin internet.
+- banco_200_preguntas.json: banco de 200 preguntas del mismo test (131 Bash y 69 Procesos), con opciones, indice de respuesta correcta y explicacion.
+
+El HTML contiene internamente el mismo banco para funcionar al abrirlo directamente desde el explorador sin servidor local. El JSON se facilita por separado para consultar o editar las preguntas; cambiar el JSON no actualiza automaticamente el HTML.
