@@ -1,0 +1,76 @@
+<!doctype html>
+<html lang="ca">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Exercicis, simulacres i tests d'ASIR: ASO, Python i IAW.">
+  <meta name="theme-color" content="#0b1427">
+  <title>Pràctica ASIR · Entrenament d'exàmens</title>
+  <link rel="stylesheet" href="assets/estil.css">
+  <script src="assets/app.js" defer></script>
+</head>
+<body>
+  <a class="skip" href="#contingut">Ves al contingut</a>
+  <header class="site-header">
+    <div class="container topbar">
+      <a class="brand" href="./" aria-label="Pràctica ASIR, inici"><span class="brand-symbol">~/</span><span>pràctica<span class="brand-accent">ASIR</span></span></a>
+      <nav aria-label="Navegació principal">
+        <a href="#assignatures">Assignatures</a>
+        <a href="#exercicis">Exercicis</a>
+        <a href="#tests">Tests</a>
+        <a class="github" href="https://github.com/jossanmar9/practica-asir" target="_blank" rel="noopener noreferrer">GitHub ↗</a>
+      </nav>
+    </div>
+  </header>
+  <main id="contingut">
+    <section class="hero container">
+      <div class="eyebrow"><span class="dot"></span> 2n d'ASIR · Preparació pràctica</div>
+      <h1>Practica. Equivoca't.<br><span>Aprén i torna-ho a intentar.</span></h1>
+      <p class="lede">Exercicis sense resoldre, simulacres i qüestionaris autocorrectius. Tot el material organitzat en un únic lloc i disponible al repositori.</p>
+      <div class="hero-actions"><a class="button primary" href="#exercicis">Explora els exercicis <span aria-hidden="true">→</span></a><a class="button ghost" href="#tests">Fes un test</a></div>
+      <div class="metrics" aria-label="Resum del repositori"><div><strong>83</strong><span>scripts Bash</span></div><div><strong>225</strong><span>exercicis Python</span></div><div><strong>120</strong><span>casos IAW</span></div><div><strong>920</strong><span>preguntes de test</span></div></div>
+    </section>
+    <section class="container section" id="assignatures">
+      <div class="section-heading"><div><span class="overline">Tria per on començar</span><h2>Assignatures</h2></div><p>Tres formes d'entrenar: terminal, programació i raonament tècnic.</p></div>
+      <div class="subjects">
+        <a class="subject" href="#exercicis" data-subject="ASO"><span class="subject-icon bash">$_</span><span class="subject-sub">Administració de sistemes operatius</span><strong>ASO · Bash</strong><span class="subject-description">Variables, condicions, bucles, regex, sed, processos i 10 simulacres.</span><span class="subject-link">Veure exercicis →</span></a>
+        <a class="subject" href="#exercicis" data-subject="Python"><span class="subject-icon python">Py</span><span class="subject-sub">Introducció a la programació</span><strong>Python</strong><span class="subject-description">UT1, cadenes, condicionals, while, for i 10 simulacres.</span><span class="subject-link">Veure exercicis →</span></a>
+        <a class="subject" href="#exercicis" data-subject="IAW"><span class="subject-icon iaw">&lt;/&gt;</span><span class="subject-sub">Implantació d'aplicacions web</span><strong>IAW · PHP i Docker</strong><span class="subject-description">120 casos escrits de UT1 i UT2, amb solucions orientatives i 10 simulacres.</span><span class="subject-link">Veure exercicis →</span></a>
+      </div>
+    </section>
+    <section class="container section" id="exercicis">
+      <div class="section-heading"><div><span class="overline">Biblioteca d'activitats</span><h2>Exercicis i simulacres</h2></div><p>Busca un exercici, consulta l'enunciat i marca'l quan el superes. El progrés es guarda només en este navegador.</p></div>
+      <div class="library">
+        <div class="filters">
+          <div class="segmented" role="group" aria-label="Filtrar per assignatura">
+            <button type="button" data-filter-area="Totes" class="selected">Totes</button>
+            <button type="button" data-filter-area="ASO">ASO</button>
+            <button type="button" data-filter-area="Python">Python</button>
+            <button type="button" data-filter-area="IAW">IAW</button>
+          </div>
+          <label class="field search"><span class="sr-only">Busca exercicis</span><input id="search" type="search" placeholder="Busca per tema, nom o fitxer…" autocomplete="off"></label>
+          <label class="field select"><span class="sr-only">Nivell</span><select id="level"><option value="">Tots els nivells</option><option value="Practicar">Practicar</option><option value="Entregar">Entregar</option><option value="Simulacre">Simulacres</option><option value="Casos">Casos IAW</option><option value="Altres">Altres exercicis</option></select></label>
+        </div>
+        <div class="library-status"><span id="summary" aria-live="polite">Carregant exercicis…</span><span id="progress" class="progress"></span><button type="button" id="export-progress" class="export" title="Exporta el seguiment en un CSV per guardar una còpia">Exporta progrés ↓</button></div>
+        <div id="exercise-list" class="exercise-list" aria-live="polite"></div>
+        <div class="library-footer"><button type="button" id="more" class="button ghost" hidden>Mostra'n més</button></div>
+      </div>
+    </section>
+    <section class="container section" id="tests">
+      <div class="section-heading"><div><span class="overline">Autoavaluació</span><h2>Tests teòrics</h2></div><p>20 preguntes aleatòries per intent. Correcció immediata i explicació de les respostes.</p></div>
+      <div class="tests">
+        <article class="test-card"><div class="test-top"><span>01 · ASO</span><span class="pill">200 preguntes</span></div><h3>Bash i processos Linux</h3><p>UT1 i UT2. Combina els dos temes o estudia'n un per separat.</p><a class="button primary" href="ASO/test_aso_ut1_ut2.html">Comença el test →</a></article>
+        <article class="test-card"><div class="test-top"><span>02 · PYTHON</span><span class="pill">480 preguntes</span></div><h3>Programació en Python</h3><p>Cadenes, condicionals, bucles while i for.</p><a class="button primary" href="Python/test_teorico/test_python_480_preguntas.html">Comença el test →</a></article>
+        <article class="test-card"><div class="test-top"><span>03 · IAW</span><span class="pill">240 preguntes</span></div><h3>Docker, PHP i sessions</h3><p>Repàs de la teoria de UT1 i UT2. Per a l'examen escrit, prioritza els casos de raonament.</p><a class="button primary" href="IAW/05_Test_HTML/test_IAW.html">Comença el test →</a></article>
+      </div>
+      <p class="note">Els tests són material d'entrenament, no preguntes oficials. La penalització de −0,5 per resposta incorrecta és una configuració de pràctica, no una garantia del sistema de puntuació de cada examen.</p>
+    </section>
+    <section class="container section help">
+      <div><span class="overline">Com utilitzar la web</span><h2>Tria, resol i comprova.</h2><p>Obri l'enunciat, resol-lo en VS Code o en el terminal i prova casos normals i límit. Després marca'l com a superat. En IAW, respon per escrit: què passa, què canviaries i com ho comprovaries.</p></div>
+      <div class="help-links"><a href="https://github.com/jossanmar9/practica-asir#readme" target="_blank" rel="noopener noreferrer">Guia del repositori ↗</a><a href="https://github.com/jossanmar9/practica-asir/blob/main/seguiment.csv" target="_blank" rel="noopener noreferrer">Seguiment en CSV ↗</a></div>
+    </section>
+  </main>
+  <footer class="site-footer"><div class="container footer-inner"><span>Pràctica ASIR · Material educatiu no oficial</span><a href="https://github.com/jossanmar9/practica-asir" target="_blank" rel="noopener noreferrer">Veure el repositori a GitHub ↗</a></div></footer>
+  <dialog id="preview" aria-labelledby="preview-title"><div class="modal-header"><div><span class="overline" id="preview-type"></span><h2 id="preview-title">Enunciat</h2></div><button id="close-preview" type="button" class="close" aria-label="Tanca">✕</button></div><div id="preview-body" class="preview-body"></div><div class="modal-actions"><a id="preview-source" class="button ghost" target="_blank" rel="noopener noreferrer">Veure a GitHub ↗</a><a id="preview-download" class="button primary" download>Descarrega el fitxer ↓</a></div></dialog>
+</body>
+</html>

@@ -1,0 +1,3188 @@
+[
+  {
+    "path": "ASO/01_basicos/01_variables/01_identificar_servidor.sh",
+    "title": "Identificar Servidor",
+    "area": "ASO",
+    "unit": "Variables",
+    "level": "Altres"
+  },
+  {
+    "path": "ASO/01_basicos/01_variables/02_etiqueta_backup.sh",
+    "title": "Etiqueta Backup",
+    "area": "ASO",
+    "unit": "Variables",
+    "level": "Altres"
+  },
+  {
+    "path": "ASO/01_basicos/01_variables/03_info_entorno.sh",
+    "title": "Info Entorno",
+    "area": "ASO",
+    "unit": "Variables",
+    "level": "Altres"
+  },
+  {
+    "path": "ASO/01_basicos/01_variables/04_calcular_porcentaje.sh",
+    "title": "Calcular Porcentaje",
+    "area": "ASO",
+    "unit": "Variables",
+    "level": "Altres"
+  },
+  {
+    "path": "ASO/01_basicos/01_variables/05_datos_argumentos.sh",
+    "title": "Datos Argumentos",
+    "area": "ASO",
+    "unit": "Variables",
+    "level": "Altres"
+  },
+  {
+    "path": "ASO/01_basicos/01_variables/06_nombre_archivo.sh",
+    "title": "Nombre Archivo",
+    "area": "ASO",
+    "unit": "Variables",
+    "level": "Altres"
+  },
+  {
+    "path": "ASO/01_basicos/02_condicionales/01_servicio_activo.sh",
+    "title": "Servicio Activo",
+    "area": "ASO",
+    "unit": "Condicionales",
+    "level": "Altres"
+  },
+  {
+    "path": "ASO/01_basicos/02_condicionales/02_espacio_disco.sh",
+    "title": "Espacio Disco",
+    "area": "ASO",
+    "unit": "Condicionales",
+    "level": "Altres"
+  },
+  {
+    "path": "ASO/01_basicos/02_condicionales/03_comprobar_ruta.sh",
+    "title": "Comprobar Ruta",
+    "area": "ASO",
+    "unit": "Condicionales",
+    "level": "Altres"
+  },
+  {
+    "path": "ASO/01_basicos/02_condicionales/04_numero_par.sh",
+    "title": "Numero Par",
+    "area": "ASO",
+    "unit": "Condicionales",
+    "level": "Altres"
+  },
+  {
+    "path": "ASO/01_basicos/02_condicionales/05_permiso_ejecucion.sh",
+    "title": "Permiso Ejecucion",
+    "area": "ASO",
+    "unit": "Condicionales",
+    "level": "Altres"
+  },
+  {
+    "path": "ASO/01_basicos/02_condicionales/06_comparar_puertos.sh",
+    "title": "Comparar Puertos",
+    "area": "ASO",
+    "unit": "Condicionales",
+    "level": "Altres"
+  },
+  {
+    "path": "ASO/01_basicos/03_for/01_contar_hasta_n.sh",
+    "title": "Contar Hasta N",
+    "area": "ASO",
+    "unit": "For",
+    "level": "Altres"
+  },
+  {
+    "path": "ASO/01_basicos/03_for/02_listar_log.sh",
+    "title": "Listar Log",
+    "area": "ASO",
+    "unit": "For",
+    "level": "Altres"
+  },
+  {
+    "path": "ASO/01_basicos/03_for/03_tabla_multiplicar.sh",
+    "title": "Tabla Multiplicar",
+    "area": "ASO",
+    "unit": "For",
+    "level": "Altres"
+  },
+  {
+    "path": "ASO/01_basicos/03_for/04_clasificar_entradas.sh",
+    "title": "Clasificar Entradas",
+    "area": "ASO",
+    "unit": "For",
+    "level": "Altres"
+  },
+  {
+    "path": "ASO/01_basicos/03_for/05_sumar_argumentos.sh",
+    "title": "Sumar Argumentos",
+    "area": "ASO",
+    "unit": "For",
+    "level": "Altres"
+  },
+  {
+    "path": "ASO/01_basicos/03_for/06_contar_extensiones.sh",
+    "title": "Contar Extensiones",
+    "area": "ASO",
+    "unit": "For",
+    "level": "Altres"
+  },
+  {
+    "path": "ASO/01_basicos/04_while/01_contador.sh",
+    "title": "Contador",
+    "area": "ASO",
+    "unit": "While",
+    "level": "Altres"
+  },
+  {
+    "path": "ASO/01_basicos/04_while/02_pedir_puerto.sh",
+    "title": "Pedir Puerto",
+    "area": "ASO",
+    "unit": "While",
+    "level": "Altres"
+  },
+  {
+    "path": "ASO/01_basicos/04_while/03_leer_usuarios.sh",
+    "title": "Leer Usuarios",
+    "area": "ASO",
+    "unit": "While",
+    "level": "Altres"
+  },
+  {
+    "path": "ASO/01_basicos/04_while/04_contar_errores.sh",
+    "title": "Contar Errores",
+    "area": "ASO",
+    "unit": "While",
+    "level": "Altres"
+  },
+  {
+    "path": "ASO/01_basicos/04_while/05_confirmar.sh",
+    "title": "Confirmar",
+    "area": "ASO",
+    "unit": "While",
+    "level": "Altres"
+  },
+  {
+    "path": "ASO/01_basicos/04_while/06_leer_csv.sh",
+    "title": "Leer Csv",
+    "area": "ASO",
+    "unit": "While",
+    "level": "Altres"
+  },
+  {
+    "path": "ASO/01_basicos/05_case/01_menu_estado.sh",
+    "title": "Menu Estado",
+    "area": "ASO",
+    "unit": "Case",
+    "level": "Altres"
+  },
+  {
+    "path": "ASO/01_basicos/05_case/02_tipo_extension.sh",
+    "title": "Tipo Extension",
+    "area": "ASO",
+    "unit": "Case",
+    "level": "Altres"
+  },
+  {
+    "path": "ASO/01_basicos/05_case/03_dia_semana.sh",
+    "title": "Dia Semana",
+    "area": "ASO",
+    "unit": "Case",
+    "level": "Altres"
+  },
+  {
+    "path": "ASO/01_basicos/05_case/04_menu_calculadora.sh",
+    "title": "Menu Calculadora",
+    "area": "ASO",
+    "unit": "Case",
+    "level": "Altres"
+  },
+  {
+    "path": "ASO/01_basicos/05_case/05_menu_consultas.sh",
+    "title": "Menu Consultas",
+    "area": "ASO",
+    "unit": "Case",
+    "level": "Altres"
+  },
+  {
+    "path": "ASO/01_basicos/05_case/06_clasificar_codigo.sh",
+    "title": "Clasificar Codigo",
+    "area": "ASO",
+    "unit": "Case",
+    "level": "Altres"
+  },
+  {
+    "path": "ASO/02_funciones/05_http.sh",
+    "title": "Http",
+    "area": "ASO",
+    "unit": "Funciones",
+    "level": "Altres"
+  },
+  {
+    "path": "ASO/02_funciones/06_extensiones.sh",
+    "title": "Extensiones",
+    "area": "ASO",
+    "unit": "Funciones",
+    "level": "Altres"
+  },
+  {
+    "path": "ASO/02_funciones/07_puerto.sh",
+    "title": "Puerto",
+    "area": "ASO",
+    "unit": "Funciones",
+    "level": "Altres"
+  },
+  {
+    "path": "ASO/02_funciones/25_bytes_gb.sh",
+    "title": "Bytes Gb",
+    "area": "ASO",
+    "unit": "Funciones",
+    "level": "Altres"
+  },
+  {
+    "path": "ASO/02_funciones/26_existe_usuario.sh",
+    "title": "Existe Usuario",
+    "area": "ASO",
+    "unit": "Funciones",
+    "level": "Altres"
+  },
+  {
+    "path": "ASO/02_funciones/27_contar_extensiones.sh",
+    "title": "Contar Extensiones",
+    "area": "ASO",
+    "unit": "Funciones",
+    "level": "Altres"
+  },
+  {
+    "path": "ASO/03_regex/01_validar_numero.sh",
+    "title": "Validar Numero",
+    "area": "ASO",
+    "unit": "Regex",
+    "level": "Altres"
+  },
+  {
+    "path": "ASO/03_regex/02_validar_login.sh",
+    "title": "Validar Login",
+    "area": "ASO",
+    "unit": "Regex",
+    "level": "Altres"
+  },
+  {
+    "path": "ASO/03_regex/03_validar_puerto.sh",
+    "title": "Validar Puerto",
+    "area": "ASO",
+    "unit": "Regex",
+    "level": "Altres"
+  },
+  {
+    "path": "ASO/03_regex/04_validar_ipv4_formato.sh",
+    "title": "Validar Ipv4 Formato",
+    "area": "ASO",
+    "unit": "Regex",
+    "level": "Altres"
+  },
+  {
+    "path": "ASO/03_regex/05_validar_mac.sh",
+    "title": "Validar Mac",
+    "area": "ASO",
+    "unit": "Regex",
+    "level": "Altres"
+  },
+  {
+    "path": "ASO/03_regex/06_validar_correo.sh",
+    "title": "Validar Correo",
+    "area": "ASO",
+    "unit": "Regex",
+    "level": "Altres"
+  },
+  {
+    "path": "ASO/03_regex/07_validar_fecha.sh",
+    "title": "Validar Fecha",
+    "area": "ASO",
+    "unit": "Regex",
+    "level": "Altres"
+  },
+  {
+    "path": "ASO/03_regex/08_validar_codigo_equipo.sh",
+    "title": "Validar Codigo Equipo",
+    "area": "ASO",
+    "unit": "Regex",
+    "level": "Altres"
+  },
+  {
+    "path": "ASO/03_regex/09_filtrar_conf.sh",
+    "title": "Filtrar Conf",
+    "area": "ASO",
+    "unit": "Regex",
+    "level": "Altres"
+  },
+  {
+    "path": "ASO/03_regex/10_filtrar_comentarios.sh",
+    "title": "Filtrar Comentarios",
+    "area": "ASO",
+    "unit": "Regex",
+    "level": "Altres"
+  },
+  {
+    "path": "ASO/03_regex/11_validar_password.sh",
+    "title": "Validar Password",
+    "area": "ASO",
+    "unit": "Regex",
+    "level": "Altres"
+  },
+  {
+    "path": "ASO/03_regex/12_detectar_backup.sh",
+    "title": "Detectar Backup",
+    "area": "ASO",
+    "unit": "Regex",
+    "level": "Altres"
+  },
+  {
+    "path": "ASO/03_regex/13_tipo_ip_privada.sh",
+    "title": "Tipo Ip Privada",
+    "area": "ASO",
+    "unit": "Regex",
+    "level": "Altres"
+  },
+  {
+    "path": "ASO/03_regex/14_validar_ruta_absoluta.sh",
+    "title": "Validar Ruta Absoluta",
+    "area": "ASO",
+    "unit": "Regex",
+    "level": "Altres"
+  },
+  {
+    "path": "ASO/03_regex/15_filtrar_errores.sh",
+    "title": "Filtrar Errores",
+    "area": "ASO",
+    "unit": "Regex",
+    "level": "Altres"
+  },
+  {
+    "path": "ASO/04_sed/12_limpiar.sh",
+    "title": "Limpiar",
+    "area": "ASO",
+    "unit": "Sed",
+    "level": "Altres"
+  },
+  {
+    "path": "ASO/04_sed/13_dominio.sh",
+    "title": "Dominio",
+    "area": "ASO",
+    "unit": "Sed",
+    "level": "Altres"
+  },
+  {
+    "path": "ASO/04_sed/14_anonimizar.sh",
+    "title": "Anonimizar",
+    "area": "ASO",
+    "unit": "Sed",
+    "level": "Altres"
+  },
+  {
+    "path": "ASO/04_sed/30_cambiar_dominio.sh",
+    "title": "Cambiar Dominio",
+    "area": "ASO",
+    "unit": "Sed",
+    "level": "Altres"
+  },
+  {
+    "path": "ASO/04_sed/31_anonimizar_log.sh",
+    "title": "Anonimizar Log",
+    "area": "ASO",
+    "unit": "Sed",
+    "level": "Altres"
+  },
+  {
+    "path": "ASO/04_sed/32_extraer_config.sh",
+    "title": "Extraer Config",
+    "area": "ASO",
+    "unit": "Sed",
+    "level": "Altres"
+  },
+  {
+    "path": "ASO/05_procesos/15_usuario_procesos.sh",
+    "title": "Usuario Procesos",
+    "area": "ASO",
+    "unit": "Procesos",
+    "level": "Altres"
+  },
+  {
+    "path": "ASO/05_procesos/16_top_cpu.sh",
+    "title": "Top Cpu",
+    "area": "ASO",
+    "unit": "Procesos",
+    "level": "Altres"
+  },
+  {
+    "path": "ASO/05_procesos/17_pid.sh",
+    "title": "Pid",
+    "area": "ASO",
+    "unit": "Procesos",
+    "level": "Altres"
+  },
+  {
+    "path": "ASO/05_procesos/18_menu.sh",
+    "title": "Menu",
+    "area": "ASO",
+    "unit": "Procesos",
+    "level": "Altres"
+  },
+  {
+    "path": "ASO/05_procesos/33_buscar_nombre.sh",
+    "title": "Buscar Nombre",
+    "area": "ASO",
+    "unit": "Procesos",
+    "level": "Altres"
+  },
+  {
+    "path": "ASO/05_procesos/34_prioridad_informativa.sh",
+    "title": "Prioridad Informativa",
+    "area": "ASO",
+    "unit": "Procesos",
+    "level": "Altres"
+  },
+  {
+    "path": "ASO/06_simulacros/19_inventario.sh",
+    "title": "Inventario",
+    "area": "ASO",
+    "unit": "Simulacres",
+    "level": "Simulacre"
+  },
+  {
+    "path": "ASO/06_simulacros/20_informe.sh",
+    "title": "Informe",
+    "area": "ASO",
+    "unit": "Simulacres",
+    "level": "Simulacre"
+  },
+  {
+    "path": "ASO/06_simulacros/21_validar_cuentas.sh",
+    "title": "Validar Cuentas",
+    "area": "ASO",
+    "unit": "Simulacres",
+    "level": "Simulacre"
+  },
+  {
+    "path": "ASO/06_simulacros/22_monitor.sh",
+    "title": "Monitor",
+    "area": "ASO",
+    "unit": "Simulacres",
+    "level": "Simulacre"
+  },
+  {
+    "path": "ASO/06_simulacros/35_simulacro3_logs.sh",
+    "title": "Simulacro3 Logs",
+    "area": "ASO",
+    "unit": "Simulacres",
+    "level": "Simulacre"
+  },
+  {
+    "path": "ASO/06_simulacros/36_simulacro3_procesos.sh",
+    "title": "Simulacro3 Procesos",
+    "area": "ASO",
+    "unit": "Simulacres",
+    "level": "Simulacre"
+  },
+  {
+    "path": "ASO/06_simulacros/simulacro_04/01_auditoria_extensiones.sh",
+    "title": "Auditoria Extensiones",
+    "area": "ASO",
+    "unit": "Simulacres",
+    "level": "Simulacre"
+  },
+  {
+    "path": "ASO/06_simulacros/simulacro_04/02_procesos_usuario.sh",
+    "title": "Procesos Usuario",
+    "area": "ASO",
+    "unit": "Simulacres",
+    "level": "Simulacre"
+  },
+  {
+    "path": "ASO/06_simulacros/simulacro_05/01_validar_puertos.sh",
+    "title": "Validar Puertos",
+    "area": "ASO",
+    "unit": "Simulacres",
+    "level": "Simulacre"
+  },
+  {
+    "path": "ASO/06_simulacros/simulacro_05/02_config_sed.sh",
+    "title": "Config Sed",
+    "area": "ASO",
+    "unit": "Simulacres",
+    "level": "Simulacre"
+  },
+  {
+    "path": "ASO/06_simulacros/simulacro_06/01_inventario_usuarios.sh",
+    "title": "Inventario Usuarios",
+    "area": "ASO",
+    "unit": "Simulacres",
+    "level": "Simulacre"
+  },
+  {
+    "path": "ASO/06_simulacros/simulacro_06/02_menu_servicios.sh",
+    "title": "Menu Servicios",
+    "area": "ASO",
+    "unit": "Simulacres",
+    "level": "Simulacre"
+  },
+  {
+    "path": "ASO/06_simulacros/simulacro_07/01_validar_correos.sh",
+    "title": "Validar Correos",
+    "area": "ASO",
+    "unit": "Simulacres",
+    "level": "Simulacre"
+  },
+  {
+    "path": "ASO/06_simulacros/simulacro_07/02_anonimizar_logs.sh",
+    "title": "Anonimizar Logs",
+    "area": "ASO",
+    "unit": "Simulacres",
+    "level": "Simulacre"
+  },
+  {
+    "path": "ASO/06_simulacros/simulacro_08/01_copias_config.sh",
+    "title": "Copias Config",
+    "area": "ASO",
+    "unit": "Simulacres",
+    "level": "Simulacre"
+  },
+  {
+    "path": "ASO/06_simulacros/simulacro_08/02_monitor_cpu.sh",
+    "title": "Monitor Cpu",
+    "area": "ASO",
+    "unit": "Simulacres",
+    "level": "Simulacre"
+  },
+  {
+    "path": "ASO/06_simulacros/simulacro_09/01_clasificar_http.sh",
+    "title": "Clasificar Http",
+    "area": "ASO",
+    "unit": "Simulacres",
+    "level": "Simulacre"
+  },
+  {
+    "path": "ASO/06_simulacros/simulacro_09/02_resumen_logs.sh",
+    "title": "Resumen Logs",
+    "area": "ASO",
+    "unit": "Simulacres",
+    "level": "Simulacre"
+  },
+  {
+    "path": "ASO/06_simulacros/simulacro_10/01_gestion_usuarios_simulada.sh",
+    "title": "Gestion Usuarios Simulada",
+    "area": "ASO",
+    "unit": "Simulacres",
+    "level": "Simulacre"
+  },
+  {
+    "path": "ASO/06_simulacros/simulacro_10/02_gestion_procesos_segura.sh",
+    "title": "Gestion Procesos Segura",
+    "area": "ASO",
+    "unit": "Simulacres",
+    "level": "Simulacre"
+  },
+  {
+    "path": "IAW/01_Casos_UT1/UT1_60_casos.md",
+    "id": "UT1-001",
+    "title": "UT1-001 · Recorrido de una petición",
+    "area": "IAW",
+    "unit": "UT1",
+    "level": "Casos"
+  },
+  {
+    "path": "IAW/01_Casos_UT1/UT1_60_casos.md",
+    "id": "UT1-002",
+    "title": "UT1-002 · Archivo estático",
+    "area": "IAW",
+    "unit": "UT1",
+    "level": "Casos"
+  },
+  {
+    "path": "IAW/01_Casos_UT1/UT1_60_casos.md",
+    "id": "UT1-003",
+    "title": "UT1-003 · Puerto publicado",
+    "area": "IAW",
+    "unit": "UT1",
+    "level": "Casos"
+  },
+  {
+    "path": "IAW/01_Casos_UT1/UT1_60_casos.md",
+    "id": "UT1-004",
+    "title": "UT1-004 · Variable ausente",
+    "area": "IAW",
+    "unit": "UT1",
+    "level": "Casos"
+  },
+  {
+    "path": "IAW/01_Casos_UT1/UT1_60_casos.md",
+    "id": "UT1-005",
+    "title": "UT1-005 · Nombre de host",
+    "area": "IAW",
+    "unit": "UT1",
+    "level": "Casos"
+  },
+  {
+    "path": "IAW/01_Casos_UT1/UT1_60_casos.md",
+    "id": "UT1-006",
+    "title": "UT1-006 · Persistencia de MariaDB",
+    "area": "IAW",
+    "unit": "UT1",
+    "level": "Casos"
+  },
+  {
+    "path": "IAW/01_Casos_UT1/UT1_60_casos.md",
+    "id": "UT1-007",
+    "title": "UT1-007 · Inicialización SQL",
+    "area": "IAW",
+    "unit": "UT1",
+    "level": "Casos"
+  },
+  {
+    "path": "IAW/01_Casos_UT1/UT1_60_casos.md",
+    "id": "UT1-008",
+    "title": "UT1-008 · PHP-FPM inaccesible",
+    "area": "IAW",
+    "unit": "UT1",
+    "level": "Casos"
+  },
+  {
+    "path": "IAW/01_Casos_UT1/UT1_60_casos.md",
+    "id": "UT1-009",
+    "title": "UT1-009 · Archivo Nginx",
+    "area": "IAW",
+    "unit": "UT1",
+    "level": "Casos"
+  },
+  {
+    "path": "IAW/01_Casos_UT1/UT1_60_casos.md",
+    "id": "UT1-010",
+    "title": "UT1-010 · Montaje compartido",
+    "area": "IAW",
+    "unit": "UT1",
+    "level": "Casos"
+  },
+  {
+    "path": "IAW/01_Casos_UT1/UT1_60_casos.md",
+    "id": "UT1-011",
+    "title": "UT1-011 · Dockerfile PHP",
+    "area": "IAW",
+    "unit": "UT1",
+    "level": "Casos"
+  },
+  {
+    "path": "IAW/01_Casos_UT1/UT1_60_casos.md",
+    "id": "UT1-012",
+    "title": "UT1-012 · Consulta de prueba",
+    "area": "IAW",
+    "unit": "UT1",
+    "level": "Casos"
+  },
+  {
+    "path": "IAW/01_Casos_UT1/UT1_60_casos.md",
+    "id": "UT1-013",
+    "title": "UT1-013 · Captura de errores",
+    "area": "IAW",
+    "unit": "UT1",
+    "level": "Casos"
+  },
+  {
+    "path": "IAW/01_Casos_UT1/UT1_60_casos.md",
+    "id": "UT1-014",
+    "title": "UT1-014 · Dependencias",
+    "area": "IAW",
+    "unit": "UT1",
+    "level": "Casos"
+  },
+  {
+    "path": "IAW/01_Casos_UT1/UT1_60_casos.md",
+    "id": "UT1-015",
+    "title": "UT1-015 · Archivo .env.example",
+    "area": "IAW",
+    "unit": "UT1",
+    "level": "Casos"
+  },
+  {
+    "path": "IAW/01_Casos_UT1/UT1_60_casos.md",
+    "id": "UT1-016",
+    "title": "UT1-016 · Recorrido de una petición",
+    "area": "IAW",
+    "unit": "UT1",
+    "level": "Casos"
+  },
+  {
+    "path": "IAW/01_Casos_UT1/UT1_60_casos.md",
+    "id": "UT1-017",
+    "title": "UT1-017 · Archivo estático",
+    "area": "IAW",
+    "unit": "UT1",
+    "level": "Casos"
+  },
+  {
+    "path": "IAW/01_Casos_UT1/UT1_60_casos.md",
+    "id": "UT1-018",
+    "title": "UT1-018 · Puerto publicado",
+    "area": "IAW",
+    "unit": "UT1",
+    "level": "Casos"
+  },
+  {
+    "path": "IAW/01_Casos_UT1/UT1_60_casos.md",
+    "id": "UT1-019",
+    "title": "UT1-019 · Variable ausente",
+    "area": "IAW",
+    "unit": "UT1",
+    "level": "Casos"
+  },
+  {
+    "path": "IAW/01_Casos_UT1/UT1_60_casos.md",
+    "id": "UT1-020",
+    "title": "UT1-020 · Nombre de host",
+    "area": "IAW",
+    "unit": "UT1",
+    "level": "Casos"
+  },
+  {
+    "path": "IAW/01_Casos_UT1/UT1_60_casos.md",
+    "id": "UT1-021",
+    "title": "UT1-021 · Persistencia de MariaDB",
+    "area": "IAW",
+    "unit": "UT1",
+    "level": "Casos"
+  },
+  {
+    "path": "IAW/01_Casos_UT1/UT1_60_casos.md",
+    "id": "UT1-022",
+    "title": "UT1-022 · Inicialización SQL",
+    "area": "IAW",
+    "unit": "UT1",
+    "level": "Casos"
+  },
+  {
+    "path": "IAW/01_Casos_UT1/UT1_60_casos.md",
+    "id": "UT1-023",
+    "title": "UT1-023 · PHP-FPM inaccesible",
+    "area": "IAW",
+    "unit": "UT1",
+    "level": "Casos"
+  },
+  {
+    "path": "IAW/01_Casos_UT1/UT1_60_casos.md",
+    "id": "UT1-024",
+    "title": "UT1-024 · Archivo Nginx",
+    "area": "IAW",
+    "unit": "UT1",
+    "level": "Casos"
+  },
+  {
+    "path": "IAW/01_Casos_UT1/UT1_60_casos.md",
+    "id": "UT1-025",
+    "title": "UT1-025 · Montaje compartido",
+    "area": "IAW",
+    "unit": "UT1",
+    "level": "Casos"
+  },
+  {
+    "path": "IAW/01_Casos_UT1/UT1_60_casos.md",
+    "id": "UT1-026",
+    "title": "UT1-026 · Dockerfile PHP",
+    "area": "IAW",
+    "unit": "UT1",
+    "level": "Casos"
+  },
+  {
+    "path": "IAW/01_Casos_UT1/UT1_60_casos.md",
+    "id": "UT1-027",
+    "title": "UT1-027 · Consulta de prueba",
+    "area": "IAW",
+    "unit": "UT1",
+    "level": "Casos"
+  },
+  {
+    "path": "IAW/01_Casos_UT1/UT1_60_casos.md",
+    "id": "UT1-028",
+    "title": "UT1-028 · Captura de errores",
+    "area": "IAW",
+    "unit": "UT1",
+    "level": "Casos"
+  },
+  {
+    "path": "IAW/01_Casos_UT1/UT1_60_casos.md",
+    "id": "UT1-029",
+    "title": "UT1-029 · Dependencias",
+    "area": "IAW",
+    "unit": "UT1",
+    "level": "Casos"
+  },
+  {
+    "path": "IAW/01_Casos_UT1/UT1_60_casos.md",
+    "id": "UT1-030",
+    "title": "UT1-030 · Archivo .env.example",
+    "area": "IAW",
+    "unit": "UT1",
+    "level": "Casos"
+  },
+  {
+    "path": "IAW/01_Casos_UT1/UT1_60_casos.md",
+    "id": "UT1-031",
+    "title": "UT1-031 · Recorrido de una petición",
+    "area": "IAW",
+    "unit": "UT1",
+    "level": "Casos"
+  },
+  {
+    "path": "IAW/01_Casos_UT1/UT1_60_casos.md",
+    "id": "UT1-032",
+    "title": "UT1-032 · Archivo estático",
+    "area": "IAW",
+    "unit": "UT1",
+    "level": "Casos"
+  },
+  {
+    "path": "IAW/01_Casos_UT1/UT1_60_casos.md",
+    "id": "UT1-033",
+    "title": "UT1-033 · Puerto publicado",
+    "area": "IAW",
+    "unit": "UT1",
+    "level": "Casos"
+  },
+  {
+    "path": "IAW/01_Casos_UT1/UT1_60_casos.md",
+    "id": "UT1-034",
+    "title": "UT1-034 · Variable ausente",
+    "area": "IAW",
+    "unit": "UT1",
+    "level": "Casos"
+  },
+  {
+    "path": "IAW/01_Casos_UT1/UT1_60_casos.md",
+    "id": "UT1-035",
+    "title": "UT1-035 · Nombre de host",
+    "area": "IAW",
+    "unit": "UT1",
+    "level": "Casos"
+  },
+  {
+    "path": "IAW/01_Casos_UT1/UT1_60_casos.md",
+    "id": "UT1-036",
+    "title": "UT1-036 · Persistencia de MariaDB",
+    "area": "IAW",
+    "unit": "UT1",
+    "level": "Casos"
+  },
+  {
+    "path": "IAW/01_Casos_UT1/UT1_60_casos.md",
+    "id": "UT1-037",
+    "title": "UT1-037 · Inicialización SQL",
+    "area": "IAW",
+    "unit": "UT1",
+    "level": "Casos"
+  },
+  {
+    "path": "IAW/01_Casos_UT1/UT1_60_casos.md",
+    "id": "UT1-038",
+    "title": "UT1-038 · PHP-FPM inaccesible",
+    "area": "IAW",
+    "unit": "UT1",
+    "level": "Casos"
+  },
+  {
+    "path": "IAW/01_Casos_UT1/UT1_60_casos.md",
+    "id": "UT1-039",
+    "title": "UT1-039 · Archivo Nginx",
+    "area": "IAW",
+    "unit": "UT1",
+    "level": "Casos"
+  },
+  {
+    "path": "IAW/01_Casos_UT1/UT1_60_casos.md",
+    "id": "UT1-040",
+    "title": "UT1-040 · Montaje compartido",
+    "area": "IAW",
+    "unit": "UT1",
+    "level": "Casos"
+  },
+  {
+    "path": "IAW/01_Casos_UT1/UT1_60_casos.md",
+    "id": "UT1-041",
+    "title": "UT1-041 · Dockerfile PHP",
+    "area": "IAW",
+    "unit": "UT1",
+    "level": "Casos"
+  },
+  {
+    "path": "IAW/01_Casos_UT1/UT1_60_casos.md",
+    "id": "UT1-042",
+    "title": "UT1-042 · Consulta de prueba",
+    "area": "IAW",
+    "unit": "UT1",
+    "level": "Casos"
+  },
+  {
+    "path": "IAW/01_Casos_UT1/UT1_60_casos.md",
+    "id": "UT1-043",
+    "title": "UT1-043 · Captura de errores",
+    "area": "IAW",
+    "unit": "UT1",
+    "level": "Casos"
+  },
+  {
+    "path": "IAW/01_Casos_UT1/UT1_60_casos.md",
+    "id": "UT1-044",
+    "title": "UT1-044 · Dependencias",
+    "area": "IAW",
+    "unit": "UT1",
+    "level": "Casos"
+  },
+  {
+    "path": "IAW/01_Casos_UT1/UT1_60_casos.md",
+    "id": "UT1-045",
+    "title": "UT1-045 · Archivo .env.example",
+    "area": "IAW",
+    "unit": "UT1",
+    "level": "Casos"
+  },
+  {
+    "path": "IAW/01_Casos_UT1/UT1_60_casos.md",
+    "id": "UT1-046",
+    "title": "UT1-046 · Recorrido de una petición",
+    "area": "IAW",
+    "unit": "UT1",
+    "level": "Casos"
+  },
+  {
+    "path": "IAW/01_Casos_UT1/UT1_60_casos.md",
+    "id": "UT1-047",
+    "title": "UT1-047 · Archivo estático",
+    "area": "IAW",
+    "unit": "UT1",
+    "level": "Casos"
+  },
+  {
+    "path": "IAW/01_Casos_UT1/UT1_60_casos.md",
+    "id": "UT1-048",
+    "title": "UT1-048 · Puerto publicado",
+    "area": "IAW",
+    "unit": "UT1",
+    "level": "Casos"
+  },
+  {
+    "path": "IAW/01_Casos_UT1/UT1_60_casos.md",
+    "id": "UT1-049",
+    "title": "UT1-049 · Variable ausente",
+    "area": "IAW",
+    "unit": "UT1",
+    "level": "Casos"
+  },
+  {
+    "path": "IAW/01_Casos_UT1/UT1_60_casos.md",
+    "id": "UT1-050",
+    "title": "UT1-050 · Nombre de host",
+    "area": "IAW",
+    "unit": "UT1",
+    "level": "Casos"
+  },
+  {
+    "path": "IAW/01_Casos_UT1/UT1_60_casos.md",
+    "id": "UT1-051",
+    "title": "UT1-051 · Persistencia de MariaDB",
+    "area": "IAW",
+    "unit": "UT1",
+    "level": "Casos"
+  },
+  {
+    "path": "IAW/01_Casos_UT1/UT1_60_casos.md",
+    "id": "UT1-052",
+    "title": "UT1-052 · Inicialización SQL",
+    "area": "IAW",
+    "unit": "UT1",
+    "level": "Casos"
+  },
+  {
+    "path": "IAW/01_Casos_UT1/UT1_60_casos.md",
+    "id": "UT1-053",
+    "title": "UT1-053 · PHP-FPM inaccesible",
+    "area": "IAW",
+    "unit": "UT1",
+    "level": "Casos"
+  },
+  {
+    "path": "IAW/01_Casos_UT1/UT1_60_casos.md",
+    "id": "UT1-054",
+    "title": "UT1-054 · Archivo Nginx",
+    "area": "IAW",
+    "unit": "UT1",
+    "level": "Casos"
+  },
+  {
+    "path": "IAW/01_Casos_UT1/UT1_60_casos.md",
+    "id": "UT1-055",
+    "title": "UT1-055 · Montaje compartido",
+    "area": "IAW",
+    "unit": "UT1",
+    "level": "Casos"
+  },
+  {
+    "path": "IAW/01_Casos_UT1/UT1_60_casos.md",
+    "id": "UT1-056",
+    "title": "UT1-056 · Dockerfile PHP",
+    "area": "IAW",
+    "unit": "UT1",
+    "level": "Casos"
+  },
+  {
+    "path": "IAW/01_Casos_UT1/UT1_60_casos.md",
+    "id": "UT1-057",
+    "title": "UT1-057 · Consulta de prueba",
+    "area": "IAW",
+    "unit": "UT1",
+    "level": "Casos"
+  },
+  {
+    "path": "IAW/01_Casos_UT1/UT1_60_casos.md",
+    "id": "UT1-058",
+    "title": "UT1-058 · Captura de errores",
+    "area": "IAW",
+    "unit": "UT1",
+    "level": "Casos"
+  },
+  {
+    "path": "IAW/01_Casos_UT1/UT1_60_casos.md",
+    "id": "UT1-059",
+    "title": "UT1-059 · Dependencias",
+    "area": "IAW",
+    "unit": "UT1",
+    "level": "Casos"
+  },
+  {
+    "path": "IAW/01_Casos_UT1/UT1_60_casos.md",
+    "id": "UT1-060",
+    "title": "UT1-060 · Archivo .env.example",
+    "area": "IAW",
+    "unit": "UT1",
+    "level": "Casos"
+  },
+  {
+    "path": "IAW/02_Casos_UT2/UT2_60_casos.md",
+    "id": "UT2-001",
+    "title": "UT2-001 · GET y POST",
+    "area": "IAW",
+    "unit": "UT2",
+    "level": "Casos"
+  },
+  {
+    "path": "IAW/02_Casos_UT2/UT2_60_casos.md",
+    "id": "UT2-002",
+    "title": "UT2-002 · Atributo name",
+    "area": "IAW",
+    "unit": "UT2",
+    "level": "Casos"
+  },
+  {
+    "path": "IAW/02_Casos_UT2/UT2_60_casos.md",
+    "id": "UT2-003",
+    "title": "UT2-003 · Correo inválido",
+    "area": "IAW",
+    "unit": "UT2",
+    "level": "Casos"
+  },
+  {
+    "path": "IAW/02_Casos_UT2/UT2_60_casos.md",
+    "id": "UT2-004",
+    "title": "UT2-004 · Límite de meses",
+    "area": "IAW",
+    "unit": "UT2",
+    "level": "Casos"
+  },
+  {
+    "path": "IAW/02_Casos_UT2/UT2_60_casos.md",
+    "id": "UT2-005",
+    "title": "UT2-005 · Plan nuevo",
+    "area": "IAW",
+    "unit": "UT2",
+    "level": "Casos"
+  },
+  {
+    "path": "IAW/02_Casos_UT2/UT2_60_casos.md",
+    "id": "UT2-006",
+    "title": "UT2-006 · Precio de extras",
+    "area": "IAW",
+    "unit": "UT2",
+    "level": "Casos"
+  },
+  {
+    "path": "IAW/02_Casos_UT2/UT2_60_casos.md",
+    "id": "UT2-007",
+    "title": "UT2-007 · Checkbox ausente",
+    "area": "IAW",
+    "unit": "UT2",
+    "level": "Casos"
+  },
+  {
+    "path": "IAW/02_Casos_UT2/UT2_60_casos.md",
+    "id": "UT2-008",
+    "title": "UT2-008 · Escapar HTML",
+    "area": "IAW",
+    "unit": "UT2",
+    "level": "Casos"
+  },
+  {
+    "path": "IAW/02_Casos_UT2/UT2_60_casos.md",
+    "id": "UT2-009",
+    "title": "UT2-009 · Función de precios",
+    "area": "IAW",
+    "unit": "UT2",
+    "level": "Casos"
+  },
+  {
+    "path": "IAW/02_Casos_UT2/UT2_60_casos.md",
+    "id": "UT2-010",
+    "title": "UT2-010 · Login correcto",
+    "area": "IAW",
+    "unit": "UT2",
+    "level": "Casos"
+  },
+  {
+    "path": "IAW/02_Casos_UT2/UT2_60_casos.md",
+    "id": "UT2-011",
+    "title": "UT2-011 · Login incorrecto",
+    "area": "IAW",
+    "unit": "UT2",
+    "level": "Casos"
+  },
+  {
+    "path": "IAW/02_Casos_UT2/UT2_60_casos.md",
+    "id": "UT2-012",
+    "title": "UT2-012 · Protección del panel",
+    "area": "IAW",
+    "unit": "UT2",
+    "level": "Casos"
+  },
+  {
+    "path": "IAW/02_Casos_UT2/UT2_60_casos.md",
+    "id": "UT2-013",
+    "title": "UT2-013 · Límite de notas",
+    "area": "IAW",
+    "unit": "UT2",
+    "level": "Casos"
+  },
+  {
+    "path": "IAW/02_Casos_UT2/UT2_60_casos.md",
+    "id": "UT2-014",
+    "title": "UT2-014 · Contador de accesos",
+    "area": "IAW",
+    "unit": "UT2",
+    "level": "Casos"
+  },
+  {
+    "path": "IAW/02_Casos_UT2/UT2_60_casos.md",
+    "id": "UT2-015",
+    "title": "UT2-015 · Cerrar sesión",
+    "area": "IAW",
+    "unit": "UT2",
+    "level": "Casos"
+  },
+  {
+    "path": "IAW/02_Casos_UT2/UT2_60_casos.md",
+    "id": "UT2-016",
+    "title": "UT2-016 · Redirección PRG",
+    "area": "IAW",
+    "unit": "UT2",
+    "level": "Casos"
+  },
+  {
+    "path": "IAW/02_Casos_UT2/UT2_60_casos.md",
+    "id": "UT2-017",
+    "title": "UT2-017 · Sesiones aisladas",
+    "area": "IAW",
+    "unit": "UT2",
+    "level": "Casos"
+  },
+  {
+    "path": "IAW/02_Casos_UT2/UT2_60_casos.md",
+    "id": "UT2-018",
+    "title": "UT2-018 · Validación del nombre",
+    "area": "IAW",
+    "unit": "UT2",
+    "level": "Casos"
+  },
+  {
+    "path": "IAW/02_Casos_UT2/UT2_60_casos.md",
+    "id": "UT2-019",
+    "title": "UT2-019 · Número entero",
+    "area": "IAW",
+    "unit": "UT2",
+    "level": "Casos"
+  },
+  {
+    "path": "IAW/02_Casos_UT2/UT2_60_casos.md",
+    "id": "UT2-020",
+    "title": "UT2-020 · Sesión tras login",
+    "area": "IAW",
+    "unit": "UT2",
+    "level": "Casos"
+  },
+  {
+    "path": "IAW/02_Casos_UT2/UT2_60_casos.md",
+    "id": "UT2-021",
+    "title": "UT2-021 · GET y POST",
+    "area": "IAW",
+    "unit": "UT2",
+    "level": "Casos"
+  },
+  {
+    "path": "IAW/02_Casos_UT2/UT2_60_casos.md",
+    "id": "UT2-022",
+    "title": "UT2-022 · Atributo name",
+    "area": "IAW",
+    "unit": "UT2",
+    "level": "Casos"
+  },
+  {
+    "path": "IAW/02_Casos_UT2/UT2_60_casos.md",
+    "id": "UT2-023",
+    "title": "UT2-023 · Correo inválido",
+    "area": "IAW",
+    "unit": "UT2",
+    "level": "Casos"
+  },
+  {
+    "path": "IAW/02_Casos_UT2/UT2_60_casos.md",
+    "id": "UT2-024",
+    "title": "UT2-024 · Límite de meses",
+    "area": "IAW",
+    "unit": "UT2",
+    "level": "Casos"
+  },
+  {
+    "path": "IAW/02_Casos_UT2/UT2_60_casos.md",
+    "id": "UT2-025",
+    "title": "UT2-025 · Plan nuevo",
+    "area": "IAW",
+    "unit": "UT2",
+    "level": "Casos"
+  },
+  {
+    "path": "IAW/02_Casos_UT2/UT2_60_casos.md",
+    "id": "UT2-026",
+    "title": "UT2-026 · Precio de extras",
+    "area": "IAW",
+    "unit": "UT2",
+    "level": "Casos"
+  },
+  {
+    "path": "IAW/02_Casos_UT2/UT2_60_casos.md",
+    "id": "UT2-027",
+    "title": "UT2-027 · Checkbox ausente",
+    "area": "IAW",
+    "unit": "UT2",
+    "level": "Casos"
+  },
+  {
+    "path": "IAW/02_Casos_UT2/UT2_60_casos.md",
+    "id": "UT2-028",
+    "title": "UT2-028 · Escapar HTML",
+    "area": "IAW",
+    "unit": "UT2",
+    "level": "Casos"
+  },
+  {
+    "path": "IAW/02_Casos_UT2/UT2_60_casos.md",
+    "id": "UT2-029",
+    "title": "UT2-029 · Función de precios",
+    "area": "IAW",
+    "unit": "UT2",
+    "level": "Casos"
+  },
+  {
+    "path": "IAW/02_Casos_UT2/UT2_60_casos.md",
+    "id": "UT2-030",
+    "title": "UT2-030 · Login correcto",
+    "area": "IAW",
+    "unit": "UT2",
+    "level": "Casos"
+  },
+  {
+    "path": "IAW/02_Casos_UT2/UT2_60_casos.md",
+    "id": "UT2-031",
+    "title": "UT2-031 · Login incorrecto",
+    "area": "IAW",
+    "unit": "UT2",
+    "level": "Casos"
+  },
+  {
+    "path": "IAW/02_Casos_UT2/UT2_60_casos.md",
+    "id": "UT2-032",
+    "title": "UT2-032 · Protección del panel",
+    "area": "IAW",
+    "unit": "UT2",
+    "level": "Casos"
+  },
+  {
+    "path": "IAW/02_Casos_UT2/UT2_60_casos.md",
+    "id": "UT2-033",
+    "title": "UT2-033 · Límite de notas",
+    "area": "IAW",
+    "unit": "UT2",
+    "level": "Casos"
+  },
+  {
+    "path": "IAW/02_Casos_UT2/UT2_60_casos.md",
+    "id": "UT2-034",
+    "title": "UT2-034 · Contador de accesos",
+    "area": "IAW",
+    "unit": "UT2",
+    "level": "Casos"
+  },
+  {
+    "path": "IAW/02_Casos_UT2/UT2_60_casos.md",
+    "id": "UT2-035",
+    "title": "UT2-035 · Cerrar sesión",
+    "area": "IAW",
+    "unit": "UT2",
+    "level": "Casos"
+  },
+  {
+    "path": "IAW/02_Casos_UT2/UT2_60_casos.md",
+    "id": "UT2-036",
+    "title": "UT2-036 · Redirección PRG",
+    "area": "IAW",
+    "unit": "UT2",
+    "level": "Casos"
+  },
+  {
+    "path": "IAW/02_Casos_UT2/UT2_60_casos.md",
+    "id": "UT2-037",
+    "title": "UT2-037 · Sesiones aisladas",
+    "area": "IAW",
+    "unit": "UT2",
+    "level": "Casos"
+  },
+  {
+    "path": "IAW/02_Casos_UT2/UT2_60_casos.md",
+    "id": "UT2-038",
+    "title": "UT2-038 · Validación del nombre",
+    "area": "IAW",
+    "unit": "UT2",
+    "level": "Casos"
+  },
+  {
+    "path": "IAW/02_Casos_UT2/UT2_60_casos.md",
+    "id": "UT2-039",
+    "title": "UT2-039 · Número entero",
+    "area": "IAW",
+    "unit": "UT2",
+    "level": "Casos"
+  },
+  {
+    "path": "IAW/02_Casos_UT2/UT2_60_casos.md",
+    "id": "UT2-040",
+    "title": "UT2-040 · Sesión tras login",
+    "area": "IAW",
+    "unit": "UT2",
+    "level": "Casos"
+  },
+  {
+    "path": "IAW/02_Casos_UT2/UT2_60_casos.md",
+    "id": "UT2-041",
+    "title": "UT2-041 · GET y POST",
+    "area": "IAW",
+    "unit": "UT2",
+    "level": "Casos"
+  },
+  {
+    "path": "IAW/02_Casos_UT2/UT2_60_casos.md",
+    "id": "UT2-042",
+    "title": "UT2-042 · Atributo name",
+    "area": "IAW",
+    "unit": "UT2",
+    "level": "Casos"
+  },
+  {
+    "path": "IAW/02_Casos_UT2/UT2_60_casos.md",
+    "id": "UT2-043",
+    "title": "UT2-043 · Correo inválido",
+    "area": "IAW",
+    "unit": "UT2",
+    "level": "Casos"
+  },
+  {
+    "path": "IAW/02_Casos_UT2/UT2_60_casos.md",
+    "id": "UT2-044",
+    "title": "UT2-044 · Límite de meses",
+    "area": "IAW",
+    "unit": "UT2",
+    "level": "Casos"
+  },
+  {
+    "path": "IAW/02_Casos_UT2/UT2_60_casos.md",
+    "id": "UT2-045",
+    "title": "UT2-045 · Plan nuevo",
+    "area": "IAW",
+    "unit": "UT2",
+    "level": "Casos"
+  },
+  {
+    "path": "IAW/02_Casos_UT2/UT2_60_casos.md",
+    "id": "UT2-046",
+    "title": "UT2-046 · Precio de extras",
+    "area": "IAW",
+    "unit": "UT2",
+    "level": "Casos"
+  },
+  {
+    "path": "IAW/02_Casos_UT2/UT2_60_casos.md",
+    "id": "UT2-047",
+    "title": "UT2-047 · Checkbox ausente",
+    "area": "IAW",
+    "unit": "UT2",
+    "level": "Casos"
+  },
+  {
+    "path": "IAW/02_Casos_UT2/UT2_60_casos.md",
+    "id": "UT2-048",
+    "title": "UT2-048 · Escapar HTML",
+    "area": "IAW",
+    "unit": "UT2",
+    "level": "Casos"
+  },
+  {
+    "path": "IAW/02_Casos_UT2/UT2_60_casos.md",
+    "id": "UT2-049",
+    "title": "UT2-049 · Función de precios",
+    "area": "IAW",
+    "unit": "UT2",
+    "level": "Casos"
+  },
+  {
+    "path": "IAW/02_Casos_UT2/UT2_60_casos.md",
+    "id": "UT2-050",
+    "title": "UT2-050 · Login correcto",
+    "area": "IAW",
+    "unit": "UT2",
+    "level": "Casos"
+  },
+  {
+    "path": "IAW/02_Casos_UT2/UT2_60_casos.md",
+    "id": "UT2-051",
+    "title": "UT2-051 · Login incorrecto",
+    "area": "IAW",
+    "unit": "UT2",
+    "level": "Casos"
+  },
+  {
+    "path": "IAW/02_Casos_UT2/UT2_60_casos.md",
+    "id": "UT2-052",
+    "title": "UT2-052 · Protección del panel",
+    "area": "IAW",
+    "unit": "UT2",
+    "level": "Casos"
+  },
+  {
+    "path": "IAW/02_Casos_UT2/UT2_60_casos.md",
+    "id": "UT2-053",
+    "title": "UT2-053 · Límite de notas",
+    "area": "IAW",
+    "unit": "UT2",
+    "level": "Casos"
+  },
+  {
+    "path": "IAW/02_Casos_UT2/UT2_60_casos.md",
+    "id": "UT2-054",
+    "title": "UT2-054 · Contador de accesos",
+    "area": "IAW",
+    "unit": "UT2",
+    "level": "Casos"
+  },
+  {
+    "path": "IAW/02_Casos_UT2/UT2_60_casos.md",
+    "id": "UT2-055",
+    "title": "UT2-055 · Cerrar sesión",
+    "area": "IAW",
+    "unit": "UT2",
+    "level": "Casos"
+  },
+  {
+    "path": "IAW/02_Casos_UT2/UT2_60_casos.md",
+    "id": "UT2-056",
+    "title": "UT2-056 · Redirección PRG",
+    "area": "IAW",
+    "unit": "UT2",
+    "level": "Casos"
+  },
+  {
+    "path": "IAW/02_Casos_UT2/UT2_60_casos.md",
+    "id": "UT2-057",
+    "title": "UT2-057 · Sesiones aisladas",
+    "area": "IAW",
+    "unit": "UT2",
+    "level": "Casos"
+  },
+  {
+    "path": "IAW/02_Casos_UT2/UT2_60_casos.md",
+    "id": "UT2-058",
+    "title": "UT2-058 · Validación del nombre",
+    "area": "IAW",
+    "unit": "UT2",
+    "level": "Casos"
+  },
+  {
+    "path": "IAW/02_Casos_UT2/UT2_60_casos.md",
+    "id": "UT2-059",
+    "title": "UT2-059 · Número entero",
+    "area": "IAW",
+    "unit": "UT2",
+    "level": "Casos"
+  },
+  {
+    "path": "IAW/02_Casos_UT2/UT2_60_casos.md",
+    "id": "UT2-060",
+    "title": "UT2-060 · Sesión tras login",
+    "area": "IAW",
+    "unit": "UT2",
+    "level": "Casos"
+  },
+  {
+    "path": "IAW/03_Simulacros/simulacro_01.md",
+    "title": "Simulacro 01",
+    "area": "IAW",
+    "unit": "Simulacres escrits",
+    "level": "Simulacre"
+  },
+  {
+    "path": "IAW/03_Simulacros/simulacro_02.md",
+    "title": "Simulacro 02",
+    "area": "IAW",
+    "unit": "Simulacres escrits",
+    "level": "Simulacre"
+  },
+  {
+    "path": "IAW/03_Simulacros/simulacro_03.md",
+    "title": "Simulacro 03",
+    "area": "IAW",
+    "unit": "Simulacres escrits",
+    "level": "Simulacre"
+  },
+  {
+    "path": "IAW/03_Simulacros/simulacro_04.md",
+    "title": "Simulacro 04",
+    "area": "IAW",
+    "unit": "Simulacres escrits",
+    "level": "Simulacre"
+  },
+  {
+    "path": "IAW/03_Simulacros/simulacro_05.md",
+    "title": "Simulacro 05",
+    "area": "IAW",
+    "unit": "Simulacres escrits",
+    "level": "Simulacre"
+  },
+  {
+    "path": "IAW/03_Simulacros/simulacro_06.md",
+    "title": "Simulacro 06",
+    "area": "IAW",
+    "unit": "Simulacres escrits",
+    "level": "Simulacre"
+  },
+  {
+    "path": "IAW/03_Simulacros/simulacro_07.md",
+    "title": "Simulacro 07",
+    "area": "IAW",
+    "unit": "Simulacres escrits",
+    "level": "Simulacre"
+  },
+  {
+    "path": "IAW/03_Simulacros/simulacro_08.md",
+    "title": "Simulacro 08",
+    "area": "IAW",
+    "unit": "Simulacres escrits",
+    "level": "Simulacre"
+  },
+  {
+    "path": "IAW/03_Simulacros/simulacro_09.md",
+    "title": "Simulacro 09",
+    "area": "IAW",
+    "unit": "Simulacres escrits",
+    "level": "Simulacre"
+  },
+  {
+    "path": "IAW/03_Simulacros/simulacro_10.md",
+    "title": "Simulacro 10",
+    "area": "IAW",
+    "unit": "Simulacres escrits",
+    "level": "Simulacre"
+  },
+  {
+    "path": "Python/ejercicios/UT1_variables_operaciones/entregar/01_conversión_de_datos.py",
+    "title": "ConversióN De Datos",
+    "area": "Python",
+    "unit": "UT1 Variables Operaciones",
+    "level": "Entregar"
+  },
+  {
+    "path": "Python/ejercicios/UT1_variables_operaciones/entregar/02_consumo_energético.py",
+    "title": "Consumo EnergéTico",
+    "area": "Python",
+    "unit": "UT1 Variables Operaciones",
+    "level": "Entregar"
+  },
+  {
+    "path": "Python/ejercicios/UT1_variables_operaciones/entregar/03_precio_con_descuento.py",
+    "title": "Precio Con Descuento",
+    "area": "Python",
+    "unit": "UT1 Variables Operaciones",
+    "level": "Entregar"
+  },
+  {
+    "path": "Python/ejercicios/UT1_variables_operaciones/entregar/04_media_de_medidas.py",
+    "title": "Media De Medidas",
+    "area": "Python",
+    "unit": "UT1 Variables Operaciones",
+    "level": "Entregar"
+  },
+  {
+    "path": "Python/ejercicios/UT1_variables_operaciones/entregar/05_segundos_de_servicio.py",
+    "title": "Segundos De Servicio",
+    "area": "Python",
+    "unit": "UT1 Variables Operaciones",
+    "level": "Entregar"
+  },
+  {
+    "path": "Python/ejercicios/UT1_variables_operaciones/entregar/06_distribución_de_equipos.py",
+    "title": "DistribucióN De Equipos",
+    "area": "Python",
+    "unit": "UT1 Variables Operaciones",
+    "level": "Entregar"
+  },
+  {
+    "path": "Python/ejercicios/UT1_variables_operaciones/entregar/07_intercambiar_variables.py",
+    "title": "Intercambiar Variables",
+    "area": "Python",
+    "unit": "UT1 Variables Operaciones",
+    "level": "Entregar"
+  },
+  {
+    "path": "Python/ejercicios/UT1_variables_operaciones/entregar/08_etiqueta_de_copia.py",
+    "title": "Etiqueta De Copia",
+    "area": "Python",
+    "unit": "UT1 Variables Operaciones",
+    "level": "Entregar"
+  },
+  {
+    "path": "Python/ejercicios/UT1_variables_operaciones/entregar/09_área_de_sala.py",
+    "title": "áRea De Sala",
+    "area": "Python",
+    "unit": "UT1 Variables Operaciones",
+    "level": "Entregar"
+  },
+  {
+    "path": "Python/ejercicios/UT1_variables_operaciones/entregar/10_cálculo_de_nómina.py",
+    "title": "CáLculo De NóMina",
+    "area": "Python",
+    "unit": "UT1 Variables Operaciones",
+    "level": "Entregar"
+  },
+  {
+    "path": "Python/ejercicios/UT1_variables_operaciones/entregar/11_porcentaje_de_tareas.py",
+    "title": "Porcentaje De Tareas",
+    "area": "Python",
+    "unit": "UT1 Variables Operaciones",
+    "level": "Entregar"
+  },
+  {
+    "path": "Python/ejercicios/UT1_variables_operaciones/entregar/12_conversión_de_temperatura.py",
+    "title": "ConversióN De Temperatura",
+    "area": "Python",
+    "unit": "UT1 Variables Operaciones",
+    "level": "Entregar"
+  },
+  {
+    "path": "Python/ejercicios/UT1_variables_operaciones/entregar/13_cuota_compartida.py",
+    "title": "Cuota Compartida",
+    "area": "Python",
+    "unit": "UT1 Variables Operaciones",
+    "level": "Entregar"
+  },
+  {
+    "path": "Python/ejercicios/UT1_variables_operaciones/entregar/14_almacenamiento_de_copias.py",
+    "title": "Almacenamiento De Copias",
+    "area": "Python",
+    "unit": "UT1 Variables Operaciones",
+    "level": "Entregar"
+  },
+  {
+    "path": "Python/ejercicios/UT1_variables_operaciones/entregar/15_puntuación_de_prueba.py",
+    "title": "PuntuacióN De Prueba",
+    "area": "Python",
+    "unit": "UT1 Variables Operaciones",
+    "level": "Entregar"
+  },
+  {
+    "path": "Python/ejercicios/UT1_variables_operaciones/practicar/01_conversión_de_unidades.py",
+    "title": "ConversióN De Unidades",
+    "area": "Python",
+    "unit": "UT1 Variables Operaciones",
+    "level": "Practicar"
+  },
+  {
+    "path": "Python/ejercicios/UT1_variables_operaciones/practicar/02_cálculo_de_factura.py",
+    "title": "CáLculo De Factura",
+    "area": "Python",
+    "unit": "UT1 Variables Operaciones",
+    "level": "Practicar"
+  },
+  {
+    "path": "Python/ejercicios/UT1_variables_operaciones/practicar/03_velocidad_media.py",
+    "title": "Velocidad Media",
+    "area": "Python",
+    "unit": "UT1 Variables Operaciones",
+    "level": "Practicar"
+  },
+  {
+    "path": "Python/ejercicios/UT1_variables_operaciones/practicar/04_espacio_disponible.py",
+    "title": "Espacio Disponible",
+    "area": "Python",
+    "unit": "UT1 Variables Operaciones",
+    "level": "Practicar"
+  },
+  {
+    "path": "Python/ejercicios/UT1_variables_operaciones/practicar/05_duración_en_segundos.py",
+    "title": "DuracióN En Segundos",
+    "area": "Python",
+    "unit": "UT1 Variables Operaciones",
+    "level": "Practicar"
+  },
+  {
+    "path": "Python/ejercicios/UT1_variables_operaciones/practicar/06_conversión_de_datos.py",
+    "title": "ConversióN De Datos",
+    "area": "Python",
+    "unit": "UT1 Variables Operaciones",
+    "level": "Practicar"
+  },
+  {
+    "path": "Python/ejercicios/UT1_variables_operaciones/practicar/07_consumo_energético.py",
+    "title": "Consumo EnergéTico",
+    "area": "Python",
+    "unit": "UT1 Variables Operaciones",
+    "level": "Practicar"
+  },
+  {
+    "path": "Python/ejercicios/UT1_variables_operaciones/practicar/08_precio_con_descuento.py",
+    "title": "Precio Con Descuento",
+    "area": "Python",
+    "unit": "UT1 Variables Operaciones",
+    "level": "Practicar"
+  },
+  {
+    "path": "Python/ejercicios/UT1_variables_operaciones/practicar/09_media_de_medidas.py",
+    "title": "Media De Medidas",
+    "area": "Python",
+    "unit": "UT1 Variables Operaciones",
+    "level": "Practicar"
+  },
+  {
+    "path": "Python/ejercicios/UT1_variables_operaciones/practicar/10_segundos_de_servicio.py",
+    "title": "Segundos De Servicio",
+    "area": "Python",
+    "unit": "UT1 Variables Operaciones",
+    "level": "Practicar"
+  },
+  {
+    "path": "Python/ejercicios/UT1_variables_operaciones/practicar/11_distribución_de_equipos.py",
+    "title": "DistribucióN De Equipos",
+    "area": "Python",
+    "unit": "UT1 Variables Operaciones",
+    "level": "Practicar"
+  },
+  {
+    "path": "Python/ejercicios/UT1_variables_operaciones/practicar/12_intercambiar_variables.py",
+    "title": "Intercambiar Variables",
+    "area": "Python",
+    "unit": "UT1 Variables Operaciones",
+    "level": "Practicar"
+  },
+  {
+    "path": "Python/ejercicios/UT1_variables_operaciones/practicar/13_etiqueta_de_copia.py",
+    "title": "Etiqueta De Copia",
+    "area": "Python",
+    "unit": "UT1 Variables Operaciones",
+    "level": "Practicar"
+  },
+  {
+    "path": "Python/ejercicios/UT1_variables_operaciones/practicar/14_área_de_sala.py",
+    "title": "áRea De Sala",
+    "area": "Python",
+    "unit": "UT1 Variables Operaciones",
+    "level": "Practicar"
+  },
+  {
+    "path": "Python/ejercicios/UT1_variables_operaciones/practicar/15_cálculo_de_nómina.py",
+    "title": "CáLculo De NóMina",
+    "area": "Python",
+    "unit": "UT1 Variables Operaciones",
+    "level": "Practicar"
+  },
+  {
+    "path": "Python/ejercicios/UT1_variables_operaciones/practicar/16_porcentaje_de_tareas.py",
+    "title": "Porcentaje De Tareas",
+    "area": "Python",
+    "unit": "UT1 Variables Operaciones",
+    "level": "Practicar"
+  },
+  {
+    "path": "Python/ejercicios/UT1_variables_operaciones/practicar/17_conversión_de_temperatura.py",
+    "title": "ConversióN De Temperatura",
+    "area": "Python",
+    "unit": "UT1 Variables Operaciones",
+    "level": "Practicar"
+  },
+  {
+    "path": "Python/ejercicios/UT1_variables_operaciones/practicar/18_cuota_compartida.py",
+    "title": "Cuota Compartida",
+    "area": "Python",
+    "unit": "UT1 Variables Operaciones",
+    "level": "Practicar"
+  },
+  {
+    "path": "Python/ejercicios/UT1_variables_operaciones/practicar/19_almacenamiento_de_copias.py",
+    "title": "Almacenamiento De Copias",
+    "area": "Python",
+    "unit": "UT1 Variables Operaciones",
+    "level": "Practicar"
+  },
+  {
+    "path": "Python/ejercicios/UT1_variables_operaciones/practicar/20_puntuación_de_prueba.py",
+    "title": "PuntuacióN De Prueba",
+    "area": "Python",
+    "unit": "UT1 Variables Operaciones",
+    "level": "Practicar"
+  },
+  {
+    "path": "Python/ejercicios/UT2_cadenas/entregar/01_sustituir_dominio.py",
+    "title": "Sustituir Dominio",
+    "area": "Python",
+    "unit": "UT2 Cadenas",
+    "level": "Entregar"
+  },
+  {
+    "path": "Python/ejercicios/UT2_cadenas/entregar/02_extraer_prefijo.py",
+    "title": "Extraer Prefijo",
+    "area": "Python",
+    "unit": "UT2 Cadenas",
+    "level": "Entregar"
+  },
+  {
+    "path": "Python/ejercicios/UT2_cadenas/entregar/03_invertir_texto.py",
+    "title": "Invertir Texto",
+    "area": "Python",
+    "unit": "UT2 Cadenas",
+    "level": "Entregar"
+  },
+  {
+    "path": "Python/ejercicios/UT2_cadenas/entregar/04_eliminar_espacios.py",
+    "title": "Eliminar Espacios",
+    "area": "Python",
+    "unit": "UT2 Cadenas",
+    "level": "Entregar"
+  },
+  {
+    "path": "Python/ejercicios/UT2_cadenas/entregar/05_nombre_de_usuario.py",
+    "title": "Nombre De Usuario",
+    "area": "Python",
+    "unit": "UT2 Cadenas",
+    "level": "Entregar"
+  },
+  {
+    "path": "Python/ejercicios/UT2_cadenas/entregar/06_ficha_alineada.py",
+    "title": "Ficha Alineada",
+    "area": "Python",
+    "unit": "UT2 Cadenas",
+    "level": "Entregar"
+  },
+  {
+    "path": "Python/ejercicios/UT2_cadenas/entregar/07_iniciales.py",
+    "title": "Iniciales",
+    "area": "Python",
+    "unit": "UT2 Cadenas",
+    "level": "Entregar"
+  },
+  {
+    "path": "Python/ejercicios/UT2_cadenas/entregar/08_texto_centrado.py",
+    "title": "Texto Centrado",
+    "area": "Python",
+    "unit": "UT2 Cadenas",
+    "level": "Entregar"
+  },
+  {
+    "path": "Python/ejercicios/UT2_cadenas/entregar/09_comprobar_prefijo.py",
+    "title": "Comprobar Prefijo",
+    "area": "Python",
+    "unit": "UT2 Cadenas",
+    "level": "Entregar"
+  },
+  {
+    "path": "Python/ejercicios/UT2_cadenas/entregar/10_comprobar_sufijo.py",
+    "title": "Comprobar Sufijo",
+    "area": "Python",
+    "unit": "UT2 Cadenas",
+    "level": "Entregar"
+  },
+  {
+    "path": "Python/ejercicios/UT2_cadenas/entregar/11_limpiar_separadores.py",
+    "title": "Limpiar Separadores",
+    "area": "Python",
+    "unit": "UT2 Cadenas",
+    "level": "Entregar"
+  },
+  {
+    "path": "Python/ejercicios/UT2_cadenas/entregar/12_extraer_segmento.py",
+    "title": "Extraer Segmento",
+    "area": "Python",
+    "unit": "UT2 Cadenas",
+    "level": "Entregar"
+  },
+  {
+    "path": "Python/ejercicios/UT2_cadenas/entregar/13_capitalización.py",
+    "title": "CapitalizacióN",
+    "area": "Python",
+    "unit": "UT2 Cadenas",
+    "level": "Entregar"
+  },
+  {
+    "path": "Python/ejercicios/UT2_cadenas/entregar/14_unicode_básico.py",
+    "title": "Unicode BáSico",
+    "area": "Python",
+    "unit": "UT2 Cadenas",
+    "level": "Entregar"
+  },
+  {
+    "path": "Python/ejercicios/UT2_cadenas/entregar/15_validar_dígitos.py",
+    "title": "Validar DíGitos",
+    "area": "Python",
+    "unit": "UT2 Cadenas",
+    "level": "Entregar"
+  },
+  {
+    "path": "Python/ejercicios/UT2_cadenas/practicar/01_normalizar_usuario.py",
+    "title": "Normalizar Usuario",
+    "area": "Python",
+    "unit": "UT2 Cadenas",
+    "level": "Practicar"
+  },
+  {
+    "path": "Python/ejercicios/UT2_cadenas/practicar/02_nombre_de_fichero.py",
+    "title": "Nombre De Fichero",
+    "area": "Python",
+    "unit": "UT2 Cadenas",
+    "level": "Practicar"
+  },
+  {
+    "path": "Python/ejercicios/UT2_cadenas/practicar/03_identificador_de_equipo.py",
+    "title": "Identificador De Equipo",
+    "area": "Python",
+    "unit": "UT2 Cadenas",
+    "level": "Practicar"
+  },
+  {
+    "path": "Python/ejercicios/UT2_cadenas/practicar/04_buscar_palabra.py",
+    "title": "Buscar Palabra",
+    "area": "Python",
+    "unit": "UT2 Cadenas",
+    "level": "Practicar"
+  },
+  {
+    "path": "Python/ejercicios/UT2_cadenas/practicar/05_contar_apariciones.py",
+    "title": "Contar Apariciones",
+    "area": "Python",
+    "unit": "UT2 Cadenas",
+    "level": "Practicar"
+  },
+  {
+    "path": "Python/ejercicios/UT2_cadenas/practicar/06_sustituir_dominio.py",
+    "title": "Sustituir Dominio",
+    "area": "Python",
+    "unit": "UT2 Cadenas",
+    "level": "Practicar"
+  },
+  {
+    "path": "Python/ejercicios/UT2_cadenas/practicar/07_extraer_prefijo.py",
+    "title": "Extraer Prefijo",
+    "area": "Python",
+    "unit": "UT2 Cadenas",
+    "level": "Practicar"
+  },
+  {
+    "path": "Python/ejercicios/UT2_cadenas/practicar/08_invertir_texto.py",
+    "title": "Invertir Texto",
+    "area": "Python",
+    "unit": "UT2 Cadenas",
+    "level": "Practicar"
+  },
+  {
+    "path": "Python/ejercicios/UT2_cadenas/practicar/09_eliminar_espacios.py",
+    "title": "Eliminar Espacios",
+    "area": "Python",
+    "unit": "UT2 Cadenas",
+    "level": "Practicar"
+  },
+  {
+    "path": "Python/ejercicios/UT2_cadenas/practicar/10_nombre_de_usuario.py",
+    "title": "Nombre De Usuario",
+    "area": "Python",
+    "unit": "UT2 Cadenas",
+    "level": "Practicar"
+  },
+  {
+    "path": "Python/ejercicios/UT2_cadenas/practicar/11_ficha_alineada.py",
+    "title": "Ficha Alineada",
+    "area": "Python",
+    "unit": "UT2 Cadenas",
+    "level": "Practicar"
+  },
+  {
+    "path": "Python/ejercicios/UT2_cadenas/practicar/12_iniciales.py",
+    "title": "Iniciales",
+    "area": "Python",
+    "unit": "UT2 Cadenas",
+    "level": "Practicar"
+  },
+  {
+    "path": "Python/ejercicios/UT2_cadenas/practicar/13_texto_centrado.py",
+    "title": "Texto Centrado",
+    "area": "Python",
+    "unit": "UT2 Cadenas",
+    "level": "Practicar"
+  },
+  {
+    "path": "Python/ejercicios/UT2_cadenas/practicar/14_comprobar_prefijo.py",
+    "title": "Comprobar Prefijo",
+    "area": "Python",
+    "unit": "UT2 Cadenas",
+    "level": "Practicar"
+  },
+  {
+    "path": "Python/ejercicios/UT2_cadenas/practicar/15_comprobar_sufijo.py",
+    "title": "Comprobar Sufijo",
+    "area": "Python",
+    "unit": "UT2 Cadenas",
+    "level": "Practicar"
+  },
+  {
+    "path": "Python/ejercicios/UT2_cadenas/practicar/16_limpiar_separadores.py",
+    "title": "Limpiar Separadores",
+    "area": "Python",
+    "unit": "UT2 Cadenas",
+    "level": "Practicar"
+  },
+  {
+    "path": "Python/ejercicios/UT2_cadenas/practicar/17_extraer_segmento.py",
+    "title": "Extraer Segmento",
+    "area": "Python",
+    "unit": "UT2 Cadenas",
+    "level": "Practicar"
+  },
+  {
+    "path": "Python/ejercicios/UT2_cadenas/practicar/18_capitalización.py",
+    "title": "CapitalizacióN",
+    "area": "Python",
+    "unit": "UT2 Cadenas",
+    "level": "Practicar"
+  },
+  {
+    "path": "Python/ejercicios/UT2_cadenas/practicar/19_unicode_básico.py",
+    "title": "Unicode BáSico",
+    "area": "Python",
+    "unit": "UT2 Cadenas",
+    "level": "Practicar"
+  },
+  {
+    "path": "Python/ejercicios/UT2_cadenas/practicar/20_validar_dígitos.py",
+    "title": "Validar DíGitos",
+    "area": "Python",
+    "unit": "UT2 Cadenas",
+    "level": "Practicar"
+  },
+  {
+    "path": "Python/ejercicios/UT3_condicionales/entregar/01_acceso_por_edad.py",
+    "title": "Acceso Por Edad",
+    "area": "Python",
+    "unit": "UT3 Condicionales",
+    "level": "Entregar"
+  },
+  {
+    "path": "Python/ejercicios/UT3_condicionales/entregar/02_rango_de_puerto.py",
+    "title": "Rango De Puerto",
+    "area": "Python",
+    "unit": "UT3 Condicionales",
+    "level": "Entregar"
+  },
+  {
+    "path": "Python/ejercicios/UT3_condicionales/entregar/03_comparar_capacidades.py",
+    "title": "Comparar Capacidades",
+    "area": "Python",
+    "unit": "UT3 Condicionales",
+    "level": "Entregar"
+  },
+  {
+    "path": "Python/ejercicios/UT3_condicionales/entregar/04_descuento_escalonado.py",
+    "title": "Descuento Escalonado",
+    "area": "Python",
+    "unit": "UT3 Condicionales",
+    "level": "Entregar"
+  },
+  {
+    "path": "Python/ejercicios/UT3_condicionales/entregar/05_clasificar_http.py",
+    "title": "Clasificar Http",
+    "area": "Python",
+    "unit": "UT3 Condicionales",
+    "level": "Entregar"
+  },
+  {
+    "path": "Python/ejercicios/UT3_condicionales/entregar/06_año_bisiesto.py",
+    "title": "AñO Bisiesto",
+    "area": "Python",
+    "unit": "UT3 Condicionales",
+    "level": "Entregar"
+  },
+  {
+    "path": "Python/ejercicios/UT3_condicionales/entregar/07_tipo_de_número.py",
+    "title": "Tipo De NúMero",
+    "area": "Python",
+    "unit": "UT3 Condicionales",
+    "level": "Entregar"
+  },
+  {
+    "path": "Python/ejercicios/UT3_condicionales/entregar/08_horario_de_mantenimiento.py",
+    "title": "Horario De Mantenimiento",
+    "area": "Python",
+    "unit": "UT3 Condicionales",
+    "level": "Entregar"
+  },
+  {
+    "path": "Python/ejercicios/UT3_condicionales/entregar/09_estado_de_batería.py",
+    "title": "Estado De BateríA",
+    "area": "Python",
+    "unit": "UT3 Condicionales",
+    "level": "Entregar"
+  },
+  {
+    "path": "Python/ejercicios/UT3_condicionales/entregar/10_usuario_autorizado.py",
+    "title": "Usuario Autorizado",
+    "area": "Python",
+    "unit": "UT3 Condicionales",
+    "level": "Entregar"
+  },
+  {
+    "path": "Python/ejercicios/UT3_condicionales/entregar/11_formato_de_ip_simple.py",
+    "title": "Formato De Ip Simple",
+    "area": "Python",
+    "unit": "UT3 Condicionales",
+    "level": "Entregar"
+  },
+  {
+    "path": "Python/ejercicios/UT3_condicionales/entregar/12_extensión_admitida.py",
+    "title": "ExtensióN Admitida",
+    "area": "Python",
+    "unit": "UT3 Condicionales",
+    "level": "Entregar"
+  },
+  {
+    "path": "Python/ejercicios/UT3_condicionales/entregar/13_nivel_de_incidencia.py",
+    "title": "Nivel De Incidencia",
+    "area": "Python",
+    "unit": "UT3 Condicionales",
+    "level": "Entregar"
+  },
+  {
+    "path": "Python/ejercicios/UT3_condicionales/entregar/14_cuota_de_transferencia.py",
+    "title": "Cuota De Transferencia",
+    "area": "Python",
+    "unit": "UT3 Condicionales",
+    "level": "Entregar"
+  },
+  {
+    "path": "Python/ejercicios/UT3_condicionales/entregar/15_ruta_de_instalación.py",
+    "title": "Ruta De InstalacióN",
+    "area": "Python",
+    "unit": "UT3 Condicionales",
+    "level": "Entregar"
+  },
+  {
+    "path": "Python/ejercicios/UT3_condicionales/practicar/01_estado_de_disco.py",
+    "title": "Estado De Disco",
+    "area": "Python",
+    "unit": "UT3 Condicionales",
+    "level": "Practicar"
+  },
+  {
+    "path": "Python/ejercicios/UT3_condicionales/practicar/02_clasificar_nota.py",
+    "title": "Clasificar Nota",
+    "area": "Python",
+    "unit": "UT3 Condicionales",
+    "level": "Practicar"
+  },
+  {
+    "path": "Python/ejercicios/UT3_condicionales/practicar/03_paridad.py",
+    "title": "Paridad",
+    "area": "Python",
+    "unit": "UT3 Condicionales",
+    "level": "Practicar"
+  },
+  {
+    "path": "Python/ejercicios/UT3_condicionales/practicar/04_temperatura_servidor.py",
+    "title": "Temperatura Servidor",
+    "area": "Python",
+    "unit": "UT3 Condicionales",
+    "level": "Practicar"
+  },
+  {
+    "path": "Python/ejercicios/UT3_condicionales/practicar/05_comprobar_contraseña.py",
+    "title": "Comprobar ContraseñA",
+    "area": "Python",
+    "unit": "UT3 Condicionales",
+    "level": "Practicar"
+  },
+  {
+    "path": "Python/ejercicios/UT3_condicionales/practicar/06_acceso_por_edad.py",
+    "title": "Acceso Por Edad",
+    "area": "Python",
+    "unit": "UT3 Condicionales",
+    "level": "Practicar"
+  },
+  {
+    "path": "Python/ejercicios/UT3_condicionales/practicar/07_rango_de_puerto.py",
+    "title": "Rango De Puerto",
+    "area": "Python",
+    "unit": "UT3 Condicionales",
+    "level": "Practicar"
+  },
+  {
+    "path": "Python/ejercicios/UT3_condicionales/practicar/08_comparar_capacidades.py",
+    "title": "Comparar Capacidades",
+    "area": "Python",
+    "unit": "UT3 Condicionales",
+    "level": "Practicar"
+  },
+  {
+    "path": "Python/ejercicios/UT3_condicionales/practicar/09_descuento_escalonado.py",
+    "title": "Descuento Escalonado",
+    "area": "Python",
+    "unit": "UT3 Condicionales",
+    "level": "Practicar"
+  },
+  {
+    "path": "Python/ejercicios/UT3_condicionales/practicar/10_clasificar_http.py",
+    "title": "Clasificar Http",
+    "area": "Python",
+    "unit": "UT3 Condicionales",
+    "level": "Practicar"
+  },
+  {
+    "path": "Python/ejercicios/UT3_condicionales/practicar/11_año_bisiesto.py",
+    "title": "AñO Bisiesto",
+    "area": "Python",
+    "unit": "UT3 Condicionales",
+    "level": "Practicar"
+  },
+  {
+    "path": "Python/ejercicios/UT3_condicionales/practicar/12_tipo_de_número.py",
+    "title": "Tipo De NúMero",
+    "area": "Python",
+    "unit": "UT3 Condicionales",
+    "level": "Practicar"
+  },
+  {
+    "path": "Python/ejercicios/UT3_condicionales/practicar/13_horario_de_mantenimiento.py",
+    "title": "Horario De Mantenimiento",
+    "area": "Python",
+    "unit": "UT3 Condicionales",
+    "level": "Practicar"
+  },
+  {
+    "path": "Python/ejercicios/UT3_condicionales/practicar/14_estado_de_batería.py",
+    "title": "Estado De BateríA",
+    "area": "Python",
+    "unit": "UT3 Condicionales",
+    "level": "Practicar"
+  },
+  {
+    "path": "Python/ejercicios/UT3_condicionales/practicar/15_usuario_autorizado.py",
+    "title": "Usuario Autorizado",
+    "area": "Python",
+    "unit": "UT3 Condicionales",
+    "level": "Practicar"
+  },
+  {
+    "path": "Python/ejercicios/UT3_condicionales/practicar/16_formato_de_ip_simple.py",
+    "title": "Formato De Ip Simple",
+    "area": "Python",
+    "unit": "UT3 Condicionales",
+    "level": "Practicar"
+  },
+  {
+    "path": "Python/ejercicios/UT3_condicionales/practicar/17_extensión_admitida.py",
+    "title": "ExtensióN Admitida",
+    "area": "Python",
+    "unit": "UT3 Condicionales",
+    "level": "Practicar"
+  },
+  {
+    "path": "Python/ejercicios/UT3_condicionales/practicar/18_nivel_de_incidencia.py",
+    "title": "Nivel De Incidencia",
+    "area": "Python",
+    "unit": "UT3 Condicionales",
+    "level": "Practicar"
+  },
+  {
+    "path": "Python/ejercicios/UT3_condicionales/practicar/19_cuota_de_transferencia.py",
+    "title": "Cuota De Transferencia",
+    "area": "Python",
+    "unit": "UT3 Condicionales",
+    "level": "Practicar"
+  },
+  {
+    "path": "Python/ejercicios/UT3_condicionales/practicar/20_ruta_de_instalación.py",
+    "title": "Ruta De InstalacióN",
+    "area": "Python",
+    "unit": "UT3 Condicionales",
+    "level": "Practicar"
+  },
+  {
+    "path": "Python/ejercicios/UT3_for/entregar/01_filtrar_números.py",
+    "title": "Filtrar NúMeros",
+    "area": "Python",
+    "unit": "UT3 For",
+    "level": "Entregar"
+  },
+  {
+    "path": "Python/ejercicios/UT3_for/entregar/02_buscar_máximo.py",
+    "title": "Buscar MáXimo",
+    "area": "Python",
+    "unit": "UT3 For",
+    "level": "Entregar"
+  },
+  {
+    "path": "Python/ejercicios/UT3_for/entregar/03_contar_errores.py",
+    "title": "Contar Errores",
+    "area": "Python",
+    "unit": "UT3 For",
+    "level": "Entregar"
+  },
+  {
+    "path": "Python/ejercicios/UT3_for/entregar/04_invertir_lista.py",
+    "title": "Invertir Lista",
+    "area": "Python",
+    "unit": "UT3 For",
+    "level": "Entregar"
+  },
+  {
+    "path": "Python/ejercicios/UT3_for/entregar/05_sumar_consumos.py",
+    "title": "Sumar Consumos",
+    "area": "Python",
+    "unit": "UT3 For",
+    "level": "Entregar"
+  },
+  {
+    "path": "Python/ejercicios/UT3_for/entregar/06_ficheros_log.py",
+    "title": "Ficheros Log",
+    "area": "Python",
+    "unit": "UT3 For",
+    "level": "Entregar"
+  },
+  {
+    "path": "Python/ejercicios/UT3_for/entregar/07_contar_espacios.py",
+    "title": "Contar Espacios",
+    "area": "Python",
+    "unit": "UT3 For",
+    "level": "Entregar"
+  },
+  {
+    "path": "Python/ejercicios/UT3_for/entregar/08_números_múltiplos.py",
+    "title": "NúMeros MúLtiplos",
+    "area": "Python",
+    "unit": "UT3 For",
+    "level": "Entregar"
+  },
+  {
+    "path": "Python/ejercicios/UT3_for/entregar/09_potencias_de_dos.py",
+    "title": "Potencias De Dos",
+    "area": "Python",
+    "unit": "UT3 For",
+    "level": "Entregar"
+  },
+  {
+    "path": "Python/ejercicios/UT3_for/entregar/10_patrón_de_asteriscos.py",
+    "title": "PatróN De Asteriscos",
+    "area": "Python",
+    "unit": "UT3 For",
+    "level": "Entregar"
+  },
+  {
+    "path": "Python/ejercicios/UT3_for/entregar/11_total_de_inventario.py",
+    "title": "Total De Inventario",
+    "area": "Python",
+    "unit": "UT3 For",
+    "level": "Entregar"
+  },
+  {
+    "path": "Python/ejercicios/UT3_for/entregar/12_comparar_nombres.py",
+    "title": "Comparar Nombres",
+    "area": "Python",
+    "unit": "UT3 For",
+    "level": "Entregar"
+  },
+  {
+    "path": "Python/ejercicios/UT3_for/entregar/13_cuadrados.py",
+    "title": "Cuadrados",
+    "area": "Python",
+    "unit": "UT3 For",
+    "level": "Entregar"
+  },
+  {
+    "path": "Python/ejercicios/UT3_for/entregar/14_números_primos.py",
+    "title": "NúMeros Primos",
+    "area": "Python",
+    "unit": "UT3 For",
+    "level": "Entregar"
+  },
+  {
+    "path": "Python/ejercicios/UT3_for/entregar/15_matriz_simple.py",
+    "title": "Matriz Simple",
+    "area": "Python",
+    "unit": "UT3 For",
+    "level": "Entregar"
+  },
+  {
+    "path": "Python/ejercicios/UT3_for/practicar/01_mostrar_rango.py",
+    "title": "Mostrar Rango",
+    "area": "Python",
+    "unit": "UT3 For",
+    "level": "Practicar"
+  },
+  {
+    "path": "Python/ejercicios/UT3_for/practicar/02_tabla_de_multiplicar.py",
+    "title": "Tabla De Multiplicar",
+    "area": "Python",
+    "unit": "UT3 For",
+    "level": "Practicar"
+  },
+  {
+    "path": "Python/ejercicios/UT3_for/practicar/03_suma_de_serie.py",
+    "title": "Suma De Serie",
+    "area": "Python",
+    "unit": "UT3 For",
+    "level": "Practicar"
+  },
+  {
+    "path": "Python/ejercicios/UT3_for/practicar/04_contar_vocales.py",
+    "title": "Contar Vocales",
+    "area": "Python",
+    "unit": "UT3 For",
+    "level": "Practicar"
+  },
+  {
+    "path": "Python/ejercicios/UT3_for/practicar/05_enumerar_servidores.py",
+    "title": "Enumerar Servidores",
+    "area": "Python",
+    "unit": "UT3 For",
+    "level": "Practicar"
+  },
+  {
+    "path": "Python/ejercicios/UT3_for/practicar/06_filtrar_números.py",
+    "title": "Filtrar NúMeros",
+    "area": "Python",
+    "unit": "UT3 For",
+    "level": "Practicar"
+  },
+  {
+    "path": "Python/ejercicios/UT3_for/practicar/07_buscar_máximo.py",
+    "title": "Buscar MáXimo",
+    "area": "Python",
+    "unit": "UT3 For",
+    "level": "Practicar"
+  },
+  {
+    "path": "Python/ejercicios/UT3_for/practicar/08_contar_errores.py",
+    "title": "Contar Errores",
+    "area": "Python",
+    "unit": "UT3 For",
+    "level": "Practicar"
+  },
+  {
+    "path": "Python/ejercicios/UT3_for/practicar/09_invertir_lista.py",
+    "title": "Invertir Lista",
+    "area": "Python",
+    "unit": "UT3 For",
+    "level": "Practicar"
+  },
+  {
+    "path": "Python/ejercicios/UT3_for/practicar/10_sumar_consumos.py",
+    "title": "Sumar Consumos",
+    "area": "Python",
+    "unit": "UT3 For",
+    "level": "Practicar"
+  },
+  {
+    "path": "Python/ejercicios/UT3_for/practicar/11_ficheros_log.py",
+    "title": "Ficheros Log",
+    "area": "Python",
+    "unit": "UT3 For",
+    "level": "Practicar"
+  },
+  {
+    "path": "Python/ejercicios/UT3_for/practicar/12_contar_espacios.py",
+    "title": "Contar Espacios",
+    "area": "Python",
+    "unit": "UT3 For",
+    "level": "Practicar"
+  },
+  {
+    "path": "Python/ejercicios/UT3_for/practicar/13_números_múltiplos.py",
+    "title": "NúMeros MúLtiplos",
+    "area": "Python",
+    "unit": "UT3 For",
+    "level": "Practicar"
+  },
+  {
+    "path": "Python/ejercicios/UT3_for/practicar/14_potencias_de_dos.py",
+    "title": "Potencias De Dos",
+    "area": "Python",
+    "unit": "UT3 For",
+    "level": "Practicar"
+  },
+  {
+    "path": "Python/ejercicios/UT3_for/practicar/15_patrón_de_asteriscos.py",
+    "title": "PatróN De Asteriscos",
+    "area": "Python",
+    "unit": "UT3 For",
+    "level": "Practicar"
+  },
+  {
+    "path": "Python/ejercicios/UT3_for/practicar/16_total_de_inventario.py",
+    "title": "Total De Inventario",
+    "area": "Python",
+    "unit": "UT3 For",
+    "level": "Practicar"
+  },
+  {
+    "path": "Python/ejercicios/UT3_for/practicar/17_comparar_nombres.py",
+    "title": "Comparar Nombres",
+    "area": "Python",
+    "unit": "UT3 For",
+    "level": "Practicar"
+  },
+  {
+    "path": "Python/ejercicios/UT3_for/practicar/18_cuadrados.py",
+    "title": "Cuadrados",
+    "area": "Python",
+    "unit": "UT3 For",
+    "level": "Practicar"
+  },
+  {
+    "path": "Python/ejercicios/UT3_for/practicar/19_números_primos.py",
+    "title": "NúMeros Primos",
+    "area": "Python",
+    "unit": "UT3 For",
+    "level": "Practicar"
+  },
+  {
+    "path": "Python/ejercicios/UT3_for/practicar/20_matriz_simple.py",
+    "title": "Matriz Simple",
+    "area": "Python",
+    "unit": "UT3 For",
+    "level": "Practicar"
+  },
+  {
+    "path": "Python/ejercicios/UT3_while/entregar/01_validar_porcentaje.py",
+    "title": "Validar Porcentaje",
+    "area": "Python",
+    "unit": "UT3 While",
+    "level": "Entregar"
+  },
+  {
+    "path": "Python/ejercicios/UT3_while/entregar/02_menú_sencillo.py",
+    "title": "Menú Sencillo",
+    "area": "Python",
+    "unit": "UT3 While",
+    "level": "Entregar"
+  },
+  {
+    "path": "Python/ejercicios/UT3_while/entregar/03_acumular_tamaños.py",
+    "title": "Acumular TamañOs",
+    "area": "Python",
+    "unit": "UT3 While",
+    "level": "Entregar"
+  },
+  {
+    "path": "Python/ejercicios/UT3_while/entregar/04_media_de_notas.py",
+    "title": "Media De Notas",
+    "area": "Python",
+    "unit": "UT3 While",
+    "level": "Entregar"
+  },
+  {
+    "path": "Python/ejercicios/UT3_while/entregar/05_primer_múltiplo.py",
+    "title": "Primer MúLtiplo",
+    "area": "Python",
+    "unit": "UT3 While",
+    "level": "Entregar"
+  },
+  {
+    "path": "Python/ejercicios/UT3_while/entregar/06_duplicar_capacidad.py",
+    "title": "Duplicar Capacidad",
+    "area": "Python",
+    "unit": "UT3 While",
+    "level": "Entregar"
+  },
+  {
+    "path": "Python/ejercicios/UT3_while/entregar/07_contar_letras.py",
+    "title": "Contar Letras",
+    "area": "Python",
+    "unit": "UT3 While",
+    "level": "Entregar"
+  },
+  {
+    "path": "Python/ejercicios/UT3_while/entregar/08_buscar_separador.py",
+    "title": "Buscar Separador",
+    "area": "Python",
+    "unit": "UT3 While",
+    "level": "Entregar"
+  },
+  {
+    "path": "Python/ejercicios/UT3_while/entregar/09_simular_cola.py",
+    "title": "Simular Cola",
+    "area": "Python",
+    "unit": "UT3 While",
+    "level": "Entregar"
+  },
+  {
+    "path": "Python/ejercicios/UT3_while/entregar/10_confirmación.py",
+    "title": "ConfirmacióN",
+    "area": "Python",
+    "unit": "UT3 While",
+    "level": "Entregar"
+  },
+  {
+    "path": "Python/ejercicios/UT3_while/entregar/11_suma_de_pares.py",
+    "title": "Suma De Pares",
+    "area": "Python",
+    "unit": "UT3 While",
+    "level": "Entregar"
+  },
+  {
+    "path": "Python/ejercicios/UT3_while/entregar/12_control_de_inventario.py",
+    "title": "Control De Inventario",
+    "area": "Python",
+    "unit": "UT3 While",
+    "level": "Entregar"
+  },
+  {
+    "path": "Python/ejercicios/UT3_while/entregar/13_máximo_introducido.py",
+    "title": "MáXimo Introducido",
+    "area": "Python",
+    "unit": "UT3 While",
+    "level": "Entregar"
+  },
+  {
+    "path": "Python/ejercicios/UT3_while/entregar/14_potencia_iterativa.py",
+    "title": "Potencia Iterativa",
+    "area": "Python",
+    "unit": "UT3 While",
+    "level": "Entregar"
+  },
+  {
+    "path": "Python/ejercicios/UT3_while/entregar/15_número_de_dígitos.py",
+    "title": "NúMero De DíGitos",
+    "area": "Python",
+    "unit": "UT3 While",
+    "level": "Entregar"
+  },
+  {
+    "path": "Python/ejercicios/UT3_while/practicar/01_cuenta_ascendente.py",
+    "title": "Cuenta Ascendente",
+    "area": "Python",
+    "unit": "UT3 While",
+    "level": "Practicar"
+  },
+  {
+    "path": "Python/ejercicios/UT3_while/practicar/02_cuenta_regresiva.py",
+    "title": "Cuenta Regresiva",
+    "area": "Python",
+    "unit": "UT3 While",
+    "level": "Practicar"
+  },
+  {
+    "path": "Python/ejercicios/UT3_while/practicar/03_sumar_hasta_cero.py",
+    "title": "Sumar Hasta Cero",
+    "area": "Python",
+    "unit": "UT3 While",
+    "level": "Practicar"
+  },
+  {
+    "path": "Python/ejercicios/UT3_while/practicar/04_contraseña_de_prueba.py",
+    "title": "ContraseñA De Prueba",
+    "area": "Python",
+    "unit": "UT3 While",
+    "level": "Practicar"
+  },
+  {
+    "path": "Python/ejercicios/UT3_while/practicar/05_intentos_limitados.py",
+    "title": "Intentos Limitados",
+    "area": "Python",
+    "unit": "UT3 While",
+    "level": "Practicar"
+  },
+  {
+    "path": "Python/ejercicios/UT3_while/practicar/06_validar_porcentaje.py",
+    "title": "Validar Porcentaje",
+    "area": "Python",
+    "unit": "UT3 While",
+    "level": "Practicar"
+  },
+  {
+    "path": "Python/ejercicios/UT3_while/practicar/07_menú_sencillo.py",
+    "title": "Menú Sencillo",
+    "area": "Python",
+    "unit": "UT3 While",
+    "level": "Practicar"
+  },
+  {
+    "path": "Python/ejercicios/UT3_while/practicar/08_acumular_tamaños.py",
+    "title": "Acumular TamañOs",
+    "area": "Python",
+    "unit": "UT3 While",
+    "level": "Practicar"
+  },
+  {
+    "path": "Python/ejercicios/UT3_while/practicar/09_media_de_notas.py",
+    "title": "Media De Notas",
+    "area": "Python",
+    "unit": "UT3 While",
+    "level": "Practicar"
+  },
+  {
+    "path": "Python/ejercicios/UT3_while/practicar/10_primer_múltiplo.py",
+    "title": "Primer MúLtiplo",
+    "area": "Python",
+    "unit": "UT3 While",
+    "level": "Practicar"
+  },
+  {
+    "path": "Python/ejercicios/UT3_while/practicar/11_duplicar_capacidad.py",
+    "title": "Duplicar Capacidad",
+    "area": "Python",
+    "unit": "UT3 While",
+    "level": "Practicar"
+  },
+  {
+    "path": "Python/ejercicios/UT3_while/practicar/12_contar_letras.py",
+    "title": "Contar Letras",
+    "area": "Python",
+    "unit": "UT3 While",
+    "level": "Practicar"
+  },
+  {
+    "path": "Python/ejercicios/UT3_while/practicar/13_buscar_separador.py",
+    "title": "Buscar Separador",
+    "area": "Python",
+    "unit": "UT3 While",
+    "level": "Practicar"
+  },
+  {
+    "path": "Python/ejercicios/UT3_while/practicar/14_simular_cola.py",
+    "title": "Simular Cola",
+    "area": "Python",
+    "unit": "UT3 While",
+    "level": "Practicar"
+  },
+  {
+    "path": "Python/ejercicios/UT3_while/practicar/15_confirmación.py",
+    "title": "ConfirmacióN",
+    "area": "Python",
+    "unit": "UT3 While",
+    "level": "Practicar"
+  },
+  {
+    "path": "Python/ejercicios/UT3_while/practicar/16_suma_de_pares.py",
+    "title": "Suma De Pares",
+    "area": "Python",
+    "unit": "UT3 While",
+    "level": "Practicar"
+  },
+  {
+    "path": "Python/ejercicios/UT3_while/practicar/17_control_de_inventario.py",
+    "title": "Control De Inventario",
+    "area": "Python",
+    "unit": "UT3 While",
+    "level": "Practicar"
+  },
+  {
+    "path": "Python/ejercicios/UT3_while/practicar/18_máximo_introducido.py",
+    "title": "MáXimo Introducido",
+    "area": "Python",
+    "unit": "UT3 While",
+    "level": "Practicar"
+  },
+  {
+    "path": "Python/ejercicios/UT3_while/practicar/19_potencia_iterativa.py",
+    "title": "Potencia Iterativa",
+    "area": "Python",
+    "unit": "UT3 While",
+    "level": "Practicar"
+  },
+  {
+    "path": "Python/ejercicios/UT3_while/practicar/20_número_de_dígitos.py",
+    "title": "NúMero De DíGitos",
+    "area": "Python",
+    "unit": "UT3 While",
+    "level": "Practicar"
+  },
+  {
+    "path": "Python/simulacros/simulacro_01/Ejercicio_01.py",
+    "title": "Ejercicio 01",
+    "area": "Python",
+    "unit": "Simulacro 01",
+    "level": "Simulacre"
+  },
+  {
+    "path": "Python/simulacros/simulacro_01/Ejercicio_02.py",
+    "title": "Ejercicio 02",
+    "area": "Python",
+    "unit": "Simulacro 01",
+    "level": "Simulacre"
+  },
+  {
+    "path": "Python/simulacros/simulacro_01/Ejercicio_03.py",
+    "title": "Ejercicio 03",
+    "area": "Python",
+    "unit": "Simulacro 01",
+    "level": "Simulacre"
+  },
+  {
+    "path": "Python/simulacros/simulacro_01/Ejercicio_04.py",
+    "title": "Ejercicio 04",
+    "area": "Python",
+    "unit": "Simulacro 01",
+    "level": "Simulacre"
+  },
+  {
+    "path": "Python/simulacros/simulacro_01/Ejercicio_05.py",
+    "title": "Ejercicio 05",
+    "area": "Python",
+    "unit": "Simulacro 01",
+    "level": "Simulacre"
+  },
+  {
+    "path": "Python/simulacros/simulacro_02/Ejercicio_01.py",
+    "title": "Ejercicio 01",
+    "area": "Python",
+    "unit": "Simulacro 02",
+    "level": "Simulacre"
+  },
+  {
+    "path": "Python/simulacros/simulacro_02/Ejercicio_02.py",
+    "title": "Ejercicio 02",
+    "area": "Python",
+    "unit": "Simulacro 02",
+    "level": "Simulacre"
+  },
+  {
+    "path": "Python/simulacros/simulacro_02/Ejercicio_03.py",
+    "title": "Ejercicio 03",
+    "area": "Python",
+    "unit": "Simulacro 02",
+    "level": "Simulacre"
+  },
+  {
+    "path": "Python/simulacros/simulacro_02/Ejercicio_04.py",
+    "title": "Ejercicio 04",
+    "area": "Python",
+    "unit": "Simulacro 02",
+    "level": "Simulacre"
+  },
+  {
+    "path": "Python/simulacros/simulacro_02/Ejercicio_05.py",
+    "title": "Ejercicio 05",
+    "area": "Python",
+    "unit": "Simulacro 02",
+    "level": "Simulacre"
+  },
+  {
+    "path": "Python/simulacros/simulacro_03/Ejercicio_01.py",
+    "title": "Ejercicio 01",
+    "area": "Python",
+    "unit": "Simulacro 03",
+    "level": "Simulacre"
+  },
+  {
+    "path": "Python/simulacros/simulacro_03/Ejercicio_02.py",
+    "title": "Ejercicio 02",
+    "area": "Python",
+    "unit": "Simulacro 03",
+    "level": "Simulacre"
+  },
+  {
+    "path": "Python/simulacros/simulacro_03/Ejercicio_03.py",
+    "title": "Ejercicio 03",
+    "area": "Python",
+    "unit": "Simulacro 03",
+    "level": "Simulacre"
+  },
+  {
+    "path": "Python/simulacros/simulacro_03/Ejercicio_04.py",
+    "title": "Ejercicio 04",
+    "area": "Python",
+    "unit": "Simulacro 03",
+    "level": "Simulacre"
+  },
+  {
+    "path": "Python/simulacros/simulacro_03/Ejercicio_05.py",
+    "title": "Ejercicio 05",
+    "area": "Python",
+    "unit": "Simulacro 03",
+    "level": "Simulacre"
+  },
+  {
+    "path": "Python/simulacros/simulacro_04/Ejercicio_01.py",
+    "title": "Ejercicio 01",
+    "area": "Python",
+    "unit": "Simulacro 04",
+    "level": "Simulacre"
+  },
+  {
+    "path": "Python/simulacros/simulacro_04/Ejercicio_02.py",
+    "title": "Ejercicio 02",
+    "area": "Python",
+    "unit": "Simulacro 04",
+    "level": "Simulacre"
+  },
+  {
+    "path": "Python/simulacros/simulacro_04/Ejercicio_03.py",
+    "title": "Ejercicio 03",
+    "area": "Python",
+    "unit": "Simulacro 04",
+    "level": "Simulacre"
+  },
+  {
+    "path": "Python/simulacros/simulacro_04/Ejercicio_04.py",
+    "title": "Ejercicio 04",
+    "area": "Python",
+    "unit": "Simulacro 04",
+    "level": "Simulacre"
+  },
+  {
+    "path": "Python/simulacros/simulacro_04/Ejercicio_05.py",
+    "title": "Ejercicio 05",
+    "area": "Python",
+    "unit": "Simulacro 04",
+    "level": "Simulacre"
+  },
+  {
+    "path": "Python/simulacros/simulacro_05/Ejercicio_01.py",
+    "title": "Ejercicio 01",
+    "area": "Python",
+    "unit": "Simulacro 05",
+    "level": "Simulacre"
+  },
+  {
+    "path": "Python/simulacros/simulacro_05/Ejercicio_02.py",
+    "title": "Ejercicio 02",
+    "area": "Python",
+    "unit": "Simulacro 05",
+    "level": "Simulacre"
+  },
+  {
+    "path": "Python/simulacros/simulacro_05/Ejercicio_03.py",
+    "title": "Ejercicio 03",
+    "area": "Python",
+    "unit": "Simulacro 05",
+    "level": "Simulacre"
+  },
+  {
+    "path": "Python/simulacros/simulacro_05/Ejercicio_04.py",
+    "title": "Ejercicio 04",
+    "area": "Python",
+    "unit": "Simulacro 05",
+    "level": "Simulacre"
+  },
+  {
+    "path": "Python/simulacros/simulacro_05/Ejercicio_05.py",
+    "title": "Ejercicio 05",
+    "area": "Python",
+    "unit": "Simulacro 05",
+    "level": "Simulacre"
+  },
+  {
+    "path": "Python/simulacros/simulacro_06/Ejercicio_01.py",
+    "title": "Ejercicio 01",
+    "area": "Python",
+    "unit": "Simulacro 06",
+    "level": "Simulacre"
+  },
+  {
+    "path": "Python/simulacros/simulacro_06/Ejercicio_02.py",
+    "title": "Ejercicio 02",
+    "area": "Python",
+    "unit": "Simulacro 06",
+    "level": "Simulacre"
+  },
+  {
+    "path": "Python/simulacros/simulacro_06/Ejercicio_03.py",
+    "title": "Ejercicio 03",
+    "area": "Python",
+    "unit": "Simulacro 06",
+    "level": "Simulacre"
+  },
+  {
+    "path": "Python/simulacros/simulacro_06/Ejercicio_04.py",
+    "title": "Ejercicio 04",
+    "area": "Python",
+    "unit": "Simulacro 06",
+    "level": "Simulacre"
+  },
+  {
+    "path": "Python/simulacros/simulacro_06/Ejercicio_05.py",
+    "title": "Ejercicio 05",
+    "area": "Python",
+    "unit": "Simulacro 06",
+    "level": "Simulacre"
+  },
+  {
+    "path": "Python/simulacros/simulacro_07/Ejercicio_01.py",
+    "title": "Ejercicio 01",
+    "area": "Python",
+    "unit": "Simulacro 07",
+    "level": "Simulacre"
+  },
+  {
+    "path": "Python/simulacros/simulacro_07/Ejercicio_02.py",
+    "title": "Ejercicio 02",
+    "area": "Python",
+    "unit": "Simulacro 07",
+    "level": "Simulacre"
+  },
+  {
+    "path": "Python/simulacros/simulacro_07/Ejercicio_03.py",
+    "title": "Ejercicio 03",
+    "area": "Python",
+    "unit": "Simulacro 07",
+    "level": "Simulacre"
+  },
+  {
+    "path": "Python/simulacros/simulacro_07/Ejercicio_04.py",
+    "title": "Ejercicio 04",
+    "area": "Python",
+    "unit": "Simulacro 07",
+    "level": "Simulacre"
+  },
+  {
+    "path": "Python/simulacros/simulacro_07/Ejercicio_05.py",
+    "title": "Ejercicio 05",
+    "area": "Python",
+    "unit": "Simulacro 07",
+    "level": "Simulacre"
+  },
+  {
+    "path": "Python/simulacros/simulacro_08/Ejercicio_01.py",
+    "title": "Ejercicio 01",
+    "area": "Python",
+    "unit": "Simulacro 08",
+    "level": "Simulacre"
+  },
+  {
+    "path": "Python/simulacros/simulacro_08/Ejercicio_02.py",
+    "title": "Ejercicio 02",
+    "area": "Python",
+    "unit": "Simulacro 08",
+    "level": "Simulacre"
+  },
+  {
+    "path": "Python/simulacros/simulacro_08/Ejercicio_03.py",
+    "title": "Ejercicio 03",
+    "area": "Python",
+    "unit": "Simulacro 08",
+    "level": "Simulacre"
+  },
+  {
+    "path": "Python/simulacros/simulacro_08/Ejercicio_04.py",
+    "title": "Ejercicio 04",
+    "area": "Python",
+    "unit": "Simulacro 08",
+    "level": "Simulacre"
+  },
+  {
+    "path": "Python/simulacros/simulacro_08/Ejercicio_05.py",
+    "title": "Ejercicio 05",
+    "area": "Python",
+    "unit": "Simulacro 08",
+    "level": "Simulacre"
+  },
+  {
+    "path": "Python/simulacros/simulacro_09/Ejercicio_01.py",
+    "title": "Ejercicio 01",
+    "area": "Python",
+    "unit": "Simulacro 09",
+    "level": "Simulacre"
+  },
+  {
+    "path": "Python/simulacros/simulacro_09/Ejercicio_02.py",
+    "title": "Ejercicio 02",
+    "area": "Python",
+    "unit": "Simulacro 09",
+    "level": "Simulacre"
+  },
+  {
+    "path": "Python/simulacros/simulacro_09/Ejercicio_03.py",
+    "title": "Ejercicio 03",
+    "area": "Python",
+    "unit": "Simulacro 09",
+    "level": "Simulacre"
+  },
+  {
+    "path": "Python/simulacros/simulacro_09/Ejercicio_04.py",
+    "title": "Ejercicio 04",
+    "area": "Python",
+    "unit": "Simulacro 09",
+    "level": "Simulacre"
+  },
+  {
+    "path": "Python/simulacros/simulacro_09/Ejercicio_05.py",
+    "title": "Ejercicio 05",
+    "area": "Python",
+    "unit": "Simulacro 09",
+    "level": "Simulacre"
+  },
+  {
+    "path": "Python/simulacros/simulacro_10/Ejercicio_01.py",
+    "title": "Ejercicio 01",
+    "area": "Python",
+    "unit": "Simulacro 10",
+    "level": "Simulacre"
+  },
+  {
+    "path": "Python/simulacros/simulacro_10/Ejercicio_02.py",
+    "title": "Ejercicio 02",
+    "area": "Python",
+    "unit": "Simulacro 10",
+    "level": "Simulacre"
+  },
+  {
+    "path": "Python/simulacros/simulacro_10/Ejercicio_03.py",
+    "title": "Ejercicio 03",
+    "area": "Python",
+    "unit": "Simulacro 10",
+    "level": "Simulacre"
+  },
+  {
+    "path": "Python/simulacros/simulacro_10/Ejercicio_04.py",
+    "title": "Ejercicio 04",
+    "area": "Python",
+    "unit": "Simulacro 10",
+    "level": "Simulacre"
+  },
+  {
+    "path": "Python/simulacros/simulacro_10/Ejercicio_05.py",
+    "title": "Ejercicio 05",
+    "area": "Python",
+    "unit": "Simulacro 10",
+    "level": "Simulacre"
+  }
+]
