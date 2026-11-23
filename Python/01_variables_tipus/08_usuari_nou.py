@@ -18,3 +18,7 @@
 # - No utilitzes funcions avançades per evitar practicar el concepte central.
 # ESCRIU LA TEUA SOLUCIÓ A PARTIR D'ACÍ:
 
+nombre = input("Introduce tu nombre: ")
+apellidos = input("Introduce tus apellidos: ")
+
+print("Hola", nombre, apellidos, "bienvenido al equipo")

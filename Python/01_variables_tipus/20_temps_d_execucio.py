@@ -18,3 +18,9 @@
 # - No utilitzes funcions avançades per evitar practicar el concepte central.
 # ESCRIU LA TEUA SOLUCIÓ A PARTIR D'ACÍ:
 
+segundos = int(input("Introduce los segundos: "))
+
+minutos = segundos // 60
+resto = segundos % 60
+
+print(f"Hay un total de {minutos} minutos y {resto} segundos en {segundos} segundos")

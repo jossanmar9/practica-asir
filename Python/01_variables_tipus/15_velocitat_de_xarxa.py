@@ -18,3 +18,8 @@
 # - No utilitzes funcions avançades per evitar practicar el concepte central.
 # ESCRIU LA TEUA SOLUCIÓ A PARTIR D'ACÍ:
 
+megabits = float(input("Introduce los megabits por segundo: "))
+
+megabytes = megabits / 8
+
+print(f"Los megabytes por segundo son {megabytes:.2f}")

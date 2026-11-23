@@ -18,3 +18,8 @@
 # - No utilitzes funcions avançades per evitar practicar el concepte central.
 # ESCRIU LA TEUA SOLUCIÓ A PARTIR D'ACÍ:
 
+precio = float(input("Introduce el precio unitario: "))
+cantidad = int(input("Introduce la cantidad: "))
+total = precio * cantidad
+
+print("El precio de", cantidad, "productos es de", total, "€")

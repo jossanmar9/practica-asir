@@ -18,3 +18,7 @@
 # - No utilitzes funcions avançades per evitar practicar el concepte central.
 # ESCRIU LA TEUA SOLUCIÓ A PARTIR D'ACÍ:
 
+servidor = input("Introduce el nombre del servidor: ")
+fecha = input("introduce la fecha: ")
+
+print(f"{servidor}-{fecha}")

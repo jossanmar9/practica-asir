@@ -18,3 +18,11 @@
 # - No utilitzes funcions avançades per evitar practicar el concepte central.
 # ESCRIU LA TEUA SOLUCIÓ A PARTIR D'ACÍ:
 
+base = float(input("Introduce la base imponible: "))
+IVA = 0.21
+
+impuesto = base * IVA
+
+precio = base + impuesto
+
+print(f"El precio con IVA es {precio:.2f} €")

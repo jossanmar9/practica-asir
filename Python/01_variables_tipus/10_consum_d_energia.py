@@ -18,3 +18,9 @@
 # - No utilitzes funcions avançades per evitar practicar el concepte central.
 # ESCRIU LA TEUA SOLUCIÓ A PARTIR D'ACÍ:
 
+vatios = float(input("Introduce los vatios: "))
+horas = float(input("Introduce el total de horas: "))
+
+kwh = (vatios * horas) / 1000
+
+print(f"El consumo total és de {kwh:.2f} kWh")

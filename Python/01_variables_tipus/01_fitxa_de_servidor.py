@@ -18,3 +18,10 @@
 # - No utilitzes funcions avançades per evitar practicar el concepte central.
 # ESCRIU LA TEUA SOLUCIÓ A PARTIR D'ACÍ:
 
+nombre = input("Nombre: ")
+cpu = input("CPU: ")
+ram = input("RAM: ")
+
+print(nombre)
+print(cpu)
+print(ram)

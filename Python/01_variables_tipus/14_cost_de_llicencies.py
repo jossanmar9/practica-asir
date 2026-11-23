@@ -18,3 +18,9 @@
 # - No utilitzes funcions avançades per evitar practicar el concepte central.
 # ESCRIU LA TEUA SOLUCIÓ A PARTIR D'ACÍ:
 
+usuarios = int(input("Introduce el numero de usuarios: "))
+coste = float(input("Introduce el coste por usuario: "))
+
+total = usuarios * coste
+
+print(f"El coste anual es: {total:.2f}€")

@@ -18,3 +18,7 @@
 # - No utilitzes funcions avançades per evitar practicar el concepte central.
 # ESCRIU LA TEUA SOLUCIÓ A PARTIR D'ACÍ:
 
+codigo = int(input("Introduce el codigo de centro: "))
+equipo = int(input("Introduce el número de equipo: "))
+
+print(codigo, equipo, sep="-")

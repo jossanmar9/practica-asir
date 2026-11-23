@@ -18,3 +18,9 @@
 # - No utilitzes funcions avançades per evitar practicar el concepte central.
 # ESCRIU LA TEUA SOLUCIÓ A PARTIR D'ACÍ:
 
+copiados = int(input("Ficheros copiados: "))
+totales = int(input("Ficheros totales: "))
+
+completado = (copiados * 100) / totales
+
+print(f"Se ha completado el {completado:.2f}% de la copia")

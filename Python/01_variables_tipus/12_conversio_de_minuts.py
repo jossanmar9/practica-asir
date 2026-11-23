@@ -18,3 +18,10 @@
 # - No utilitzes funcions avançades per evitar practicar el concepte central.
 # ESCRIU LA TEUA SOLUCIÓ A PARTIR D'ACÍ:
 
+minutos = int(input("Introduce los minutos: "))
+
+horas = minutos // 60
+
+minutos_r = minutos % 60
+
+print(minutos, "Minutos son", horas, "horas y", minutos_r, "minutos")

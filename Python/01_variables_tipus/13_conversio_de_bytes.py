@@ -18,3 +18,9 @@
 # - No utilitzes funcions avançades per evitar practicar el concepte central.
 # ESCRIU LA TEUA SOLUCIÓ A PARTIR D'ACÍ:
 
+bytes = int(input("introduce el número de bytes: "))
+
+kilobytes = bytes / 1024
+megabytes = kilobytes / 1024
+
+print(f"{bytes} bytes son {kilobytes:.2f} Kilobytes y {megabytes:.2f} Megabytes")

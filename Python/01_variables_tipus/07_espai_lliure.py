@@ -18,3 +18,9 @@
 # - No utilitzes funcions avançades per evitar practicar el concepte central.
 # ESCRIU LA TEUA SOLUCIÓ A PARTIR D'ACÍ:
 
+total = float(input("Capacidad total del disco: "))
+ocupado = float(input("Capacidad ocupadad: "))
+
+disponible = total - ocupado
+
+print("El espacio disponible en eldisco es", disponible)

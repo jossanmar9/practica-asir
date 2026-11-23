@@ -18,3 +18,10 @@
 # - No utilitzes funcions avançades per evitar practicar el concepte central.
 # ESCRIU LA TEUA SOLUCIÓ A PARTIR D'ACÍ:
 
+nota_1 = float(input("Introduce la primera nota: "))
+nota_2 = float(input("Introduce la segunda nota: "))
+nota_3 = float(input("Introduce la tercera nota: "))
+
+media = (nota_1 + nota_2 + nota_3) / 3
+
+print(f"La media de notas es {media:.2f}")

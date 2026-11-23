@@ -18,3 +18,9 @@
 # - No utilitzes funcions avançades per evitar practicar el concepte central.
 # ESCRIU LA TEUA SOLUCIÓ A PARTIR D'ACÍ:
 
+
+respuesta = input("¿Hay mantenimiento? s/n: ")
+
+manteniminento = respuesta == "s"
+
+print(manteniminento)

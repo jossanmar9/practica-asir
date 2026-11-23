@@ -18,3 +18,8 @@
 # - No utilitzes funcions avançades per evitar practicar el concepte central.
 # ESCRIU LA TEUA SOLUCIÓ A PARTIR D'ACÍ:
 
+temperatura = float(input("Introduce la temperatura en grados Celsius: "))
+
+conversion = ((temperatura * 1.8) + 32)
+
+print(temperatura, "Grados centígrados son", conversion, "grados farenheit")

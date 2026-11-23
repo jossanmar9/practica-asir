@@ -18,3 +18,8 @@
 # - No utilitzes funcions avançades per evitar practicar el concepte central.
 # ESCRIU LA TEUA SOLUCIÓ A PARTIR D'ACÍ:
 
+any = int(input("Año de instalación: "))
+
+diferencia = 2026 - any
+
+print("El programa se instaló hace", diferencia, "años")

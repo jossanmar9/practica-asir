@@ -18,3 +18,12 @@
 # - No utilitzes funcions avançades per evitar practicar el concepte central.
 # ESCRIU LA TEUA SOLUCIÓ A PARTIR D'ACÍ:
 
+numero_1 = int(input("Introduce el primer número: "))
+numero_2 = int(input("Introduce el segundo número: "))
+
+suma = numero_1 + numero_2
+producto = numero_1 * numero_2
+division = numero_1 // numero_2
+resto = numero_1 % numero_2
+
+print(f"El resultado de la suma de {numero_1} y {numero_2} es {suma}, de su multiplicación es {producto}, el de su división es {division} con un resto de {resto}")
