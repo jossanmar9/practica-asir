@@ -2,7 +2,7 @@
 # Modalidad: PRACTICAR | Ejercicio 01
 # Título: Conversión de unidades
 #
-# Pide una cantidad de metros y conviértela a centímetros usando el factor 8.
+# Pide una cantidad de metros y conviértela a centímetros multiplicando por 100.
 #
 # REQUISITOS:
 # - Muestra resultados con etiquetas y unidades. Usa variables descriptivas. Prueba un caso normal y uno límite.
