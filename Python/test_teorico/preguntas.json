@@ -817,27 +817,27 @@
   },
   {
     "topic": "condicionales",
-    "q": "¿Qué operador comprueba igualdad entre dos variables?",
+    "q": "¿Qué devuelve 4 < 7 and 2 == 2?",
     "options": [
-      "!=",
-      "==",
-      ">=",
-      "="
+      "True",
+      "False",
+      "Error",
+      "None"
     ],
-    "answer": 1,
-    "explanation": "== compara; = asigna."
+    "answer": 0,
+    "explanation": "Ambas comparaciones son verdaderas."
   },
   {
     "topic": "condicionales",
-    "q": "¿Qué palabra se usa para añadir otra condición después de if?",
+    "q": "¿Qué devuelve 10 == \"10\"?",
     "options": [
-      "else if",
-      "elseif",
-      "when",
-      "elif"
+      "False",
+      "True",
+      "Error",
+      "None"
     ],
-    "answer": 3,
-    "explanation": "Python usa elif."
+    "answer": 0,
+    "explanation": "Un entero no es igual a una cadena."
   },
   {
     "topic": "condicionales",
@@ -1393,27 +1393,27 @@
   },
   {
     "topic": "condicionales",
-    "q": "¿Qué operador comprueba igualdad entre dos variables?",
+    "q": "¿Qué devuelve not (3 > 8)?",
     "options": [
-      ">=",
-      "!=",
-      "==",
-      "="
+      "True",
+      "False",
+      "Error",
+      "None"
     ],
-    "answer": 2,
-    "explanation": "== compara; = asigna."
+    "answer": 0,
+    "explanation": "3 > 8 es False; not lo invierte."
   },
   {
     "topic": "condicionales",
-    "q": "¿Qué palabra se usa para añadir otra condición después de if?",
+    "q": "¿Qué devuelve 5 != 5 or 2 < 3?",
     "options": [
-      "when",
-      "else if",
-      "elseif",
-      "elif"
+      "False",
+      "True",
+      "Error",
+      "None"
     ],
-    "answer": 3,
-    "explanation": "Python usa elif."
+    "answer": 1,
+    "explanation": "La segunda condición es verdadera."
   },
   {
     "topic": "condicionales",
@@ -1813,15 +1813,15 @@
   },
   {
     "topic": "cadenas",
-    "q": "¿Qué devuelve \"uno dos tres\".split()[0]",
+    "q": "¿Qué devuelve \"red:local\".partition(\":\")[1]?",
     "options": [
-      "uno",
-      "uno dos tres",
-      "0",
-      ""
+      "\"red\"",
+      "\":\"",
+      "\"local\"",
+      "Error"
     ],
-    "answer": 0,
-    "explanation": "split separa por espacios y permite indexar la lista."
+    "answer": 1,
+    "explanation": "partition separa la cadena y el separador ocupa la posición 1."
   },
   {
     "topic": "cadenas",
@@ -1969,27 +1969,27 @@
   },
   {
     "topic": "condicionales",
-    "q": "¿Qué operador comprueba igualdad entre dos variables?",
+    "q": "¿Qué devuelve 0 == False?",
     "options": [
-      ">=",
-      "=",
-      "!=",
-      "=="
+      "True",
+      "False",
+      "Error",
+      "None"
     ],
-    "answer": 3,
-    "explanation": "== compara; = asigna."
+    "answer": 0,
+    "explanation": "En Python, 0 y False comparan como iguales."
   },
   {
     "topic": "condicionales",
-    "q": "¿Qué palabra se usa para añadir otra condición después de if?",
+    "q": "¿Qué devuelve bool([])?",
     "options": [
-      "elif",
-      "else if",
-      "elseif",
-      "when"
+      "False",
+      "True",
+      "Error",
+      "None"
     ],
     "answer": 0,
-    "explanation": "Python usa elif."
+    "explanation": "Una lista vacía tiene valor booleano falso."
   },
   {
     "topic": "condicionales",
@@ -2365,15 +2365,15 @@
   },
   {
     "topic": "cadenas",
-    "q": "¿Qué imprime \"abcde\"[:1]?",
+    "q": "¿Qué devuelve \"uno,dos,tres\".split(\",\")[-1]?",
     "options": [
-      "e",
-      "abcde",
-      "bcde",
-      "a"
+      "\"uno\"",
+      "\"dos\"",
+      "\"tres\"",
+      "Error"
     ],
-    "answer": 3,
-    "explanation": "El extremo derecho del slicing no se incluye."
+    "answer": 2,
+    "explanation": "El índice -1 selecciona el último elemento de la lista."
   },
   {
     "topic": "cadenas",
@@ -2389,15 +2389,15 @@
   },
   {
     "topic": "cadenas",
-    "q": "¿Qué devuelve \"uno dos tres\".split()[1]",
+    "q": "¿Qué devuelve \"  ASIR  \".strip().lower()?",
     "options": [
-      "dos",
-      "1",
-      "",
-      "uno dos tres"
+      "\"asir\"",
+      "\"ASIR\"",
+      "\"  asir  \"",
+      "Error"
     ],
     "answer": 0,
-    "explanation": "split separa por espacios y permite indexar la lista."
+    "explanation": "strip quita espacios exteriores y lower convierte a minúsculas."
   },
   {
     "topic": "cadenas",
@@ -2545,27 +2545,27 @@
   },
   {
     "topic": "condicionales",
-    "q": "¿Qué operador comprueba igualdad entre dos variables?",
+    "q": "¿Qué devuelve bool(\"0\")?",
     "options": [
-      "==",
-      ">=",
-      "=",
-      "!="
+      "True",
+      "False",
+      "Error",
+      "None"
     ],
     "answer": 0,
-    "explanation": "== compara; = asigna."
+    "explanation": "Una cadena no vacía es verdadera."
   },
   {
     "topic": "condicionales",
-    "q": "¿Qué palabra se usa para añadir otra condición después de if?",
+    "q": "¿Qué devuelve 1 < 2 < 3?",
     "options": [
-      "when",
-      "elseif",
-      "elif",
-      "else if"
+      "False",
+      "True",
+      "Error",
+      "None"
     ],
-    "answer": 2,
-    "explanation": "Python usa elif."
+    "answer": 1,
+    "explanation": "Ambas comparaciones encadenadas se cumplen."
   },
   {
     "topic": "condicionales",
@@ -2941,15 +2941,15 @@
   },
   {
     "topic": "cadenas",
-    "q": "¿Qué imprime \"abcde\"[:2]?",
+    "q": "¿Qué devuelve \"python\".find(\"th\")?",
     "options": [
-      "cde",
-      "de",
-      "abcde",
-      "ab"
+      "1",
+      "2",
+      "3",
+      "-1"
     ],
-    "answer": 3,
-    "explanation": "El extremo derecho del slicing no se incluye."
+    "answer": 2,
+    "explanation": "La subcadena th empieza en el índice 2."
   },
   {
     "topic": "cadenas",
@@ -2965,15 +2965,15 @@
   },
   {
     "topic": "cadenas",
-    "q": "¿Qué devuelve \"uno dos tres\".split()[2]",
+    "q": "¿Qué devuelve \"abc\".replace(\"b\",\"XY\")?",
     "options": [
-      "tres",
-      "uno dos tres",
-      "",
-      "2"
+      "\"aXYc\"",
+      "\"aXY\"",
+      "\"abcXY\"",
+      "\"ac\""
     ],
     "answer": 0,
-    "explanation": "split separa por espacios y permite indexar la lista."
+    "explanation": "replace sustituye b por XY, conservando el resto."
   },
   {
     "topic": "cadenas",
@@ -3121,27 +3121,27 @@
   },
   {
     "topic": "condicionales",
-    "q": "¿Qué operador comprueba igualdad entre dos variables?",
+    "q": "¿Qué devuelve 8 % 2 == 1?",
     "options": [
-      "!=",
-      "==",
-      ">=",
-      "="
+      "True",
+      "False",
+      "Error",
+      "None"
     ],
     "answer": 1,
-    "explanation": "== compara; = asigna."
+    "explanation": "El resto de dividir 8 entre 2 es cero."
   },
   {
     "topic": "condicionales",
-    "q": "¿Qué palabra se usa para añadir otra condición después de if?",
+    "q": "¿Qué devuelve \"a\" in \"casa\"?",
     "options": [
-      "when",
-      "else if",
-      "elseif",
-      "elif"
+      "False",
+      "True",
+      "Error",
+      "None"
     ],
-    "answer": 3,
-    "explanation": "Python usa elif."
+    "answer": 1,
+    "explanation": "La letra a aparece en casa."
   },
   {
     "topic": "condicionales",
@@ -3469,15 +3469,15 @@
   },
   {
     "topic": "cadenas",
-    "q": "¿Qué imprime \"python\"[0]?",
+    "q": "¿Qué devuelve \"-\".join([\"a\",\"b\",\"c\"])?",
     "options": [
-      "p",
-      "python",
-      "0",
+      "\"abc\"",
+      "\"a-b-c\"",
+      "\"a--b--c\"",
       "Error"
     ],
-    "answer": 0,
-    "explanation": "Los índices comienzan en cero."
+    "answer": 1,
+    "explanation": "join inserta el separador entre elementos."
   },
   {
     "topic": "cadenas",
@@ -3517,15 +3517,15 @@
   },
   {
     "topic": "cadenas",
-    "q": "¿Qué imprime \"abcde\"[:3]?",
+    "q": "¿Qué devuelve \"SERVIDOR\".lower().count(\"r\")?",
     "options": [
-      "de",
-      "cde",
-      "abcde",
-      "abc"
+      "0",
+      "1",
+      "2",
+      "3"
     ],
-    "answer": 3,
-    "explanation": "El extremo derecho del slicing no se incluye."
+    "answer": 2,
+    "explanation": "Tras lower hay dos letras r."
   },
   {
     "topic": "cadenas",
@@ -3541,15 +3541,15 @@
   },
   {
     "topic": "cadenas",
-    "q": "¿Qué devuelve \"uno dos tres\".split()[0]",
+    "q": "¿Qué devuelve \"192.168.1.5\".startswith(\"192.\")?",
     "options": [
-      "",
-      "uno",
-      "uno dos tres",
-      "0"
+      "True",
+      "False",
+      "\"192.\"",
+      "Error"
     ],
-    "answer": 1,
-    "explanation": "split separa por espacios y permite indexar la lista."
+    "answer": 0,
+    "explanation": "startswith devuelve un booleano."
   },
   {
     "topic": "cadenas",
@@ -3697,27 +3697,27 @@
   },
   {
     "topic": "condicionales",
-    "q": "¿Qué operador comprueba igualdad entre dos variables?",
+    "q": "¿Qué devuelve \"z\" not in \"python\"?",
     "options": [
-      "=",
-      ">=",
-      "!=",
-      "=="
+      "True",
+      "False",
+      "Error",
+      "None"
     ],
-    "answer": 3,
-    "explanation": "== compara; = asigna."
+    "answer": 0,
+    "explanation": "La letra z no aparece en python."
   },
   {
     "topic": "condicionales",
-    "q": "¿Qué palabra se usa para añadir otra condición después de if?",
+    "q": "¿Qué devuelve len(\"sol\") >= 4?",
     "options": [
-      "when",
-      "elif",
-      "elseif",
-      "else if"
+      "False",
+      "True",
+      "Error",
+      "None"
     ],
-    "answer": 1,
-    "explanation": "Python usa elif."
+    "answer": 0,
+    "explanation": "sol tiene tres caracteres."
   },
   {
     "topic": "condicionales",
@@ -4045,15 +4045,15 @@
   },
   {
     "topic": "cadenas",
-    "q": "¿Qué imprime \"python\"[1]?",
+    "q": "¿Qué devuelve \"recurso\".endswith(\"so\")?",
     "options": [
-      "1",
-      "y",
-      "python",
-      "Error"
+      "True",
+      "False",
+      "\"so\"",
+      1
     ],
-    "answer": 1,
-    "explanation": "Los índices comienzan en cero."
+    "answer": 0,
+    "explanation": "endswith devuelve True porque recurso termina en so."
   },
   {
     "topic": "cadenas",
@@ -4093,15 +4093,15 @@
   },
   {
     "topic": "cadenas",
-    "q": "¿Qué imprime \"abcde\"[:4]?",
+    "q": "¿Qué devuelve \"  hola\".lstrip()?",
     "options": [
-      "abcd",
-      "abcde",
-      "e",
-      "bcde"
+      "\"hola\"",
+      "\"  hola\"",
+      "\"hola  \"",
+      "Error"
     ],
     "answer": 0,
-    "explanation": "El extremo derecho del slicing no se incluye."
+    "explanation": "lstrip elimina los espacios del principio."
   },
   {
     "topic": "cadenas",
@@ -4117,15 +4117,15 @@
   },
   {
     "topic": "cadenas",
-    "q": "¿Qué devuelve \"uno dos tres\".split()[1]",
+    "q": "¿Qué devuelve \"hola  \".rstrip()?",
     "options": [
-      "",
-      "1",
-      "uno dos tres",
-      "dos"
+      "\"hola\"",
+      "\"  hola\"",
+      "\"hola  \"",
+      "Error"
     ],
-    "answer": 3,
-    "explanation": "split separa por espacios y permite indexar la lista."
+    "answer": 0,
+    "explanation": "rstrip elimina los espacios del final."
   },
   {
     "topic": "cadenas",
@@ -4273,27 +4273,27 @@
   },
   {
     "topic": "condicionales",
-    "q": "¿Qué operador comprueba igualdad entre dos variables?",
+    "q": "¿Qué devuelve 3 * 2 > 5 and 9 < 4?",
     "options": [
-      ">=",
-      "=",
-      "==",
-      "!="
+      "True",
+      "False",
+      "Error",
+      "None"
     ],
-    "answer": 2,
-    "explanation": "== compara; = asigna."
+    "answer": 1,
+    "explanation": "La segunda comparación es falsa."
   },
   {
     "topic": "condicionales",
-    "q": "¿Qué palabra se usa para añadir otra condición después de if?",
+    "q": "¿Qué devuelve not True or False?",
     "options": [
-      "else if",
-      "when",
-      "elseif",
-      "elif"
+      "False",
+      "True",
+      "Error",
+      "None"
     ],
-    "answer": 3,
-    "explanation": "Python usa elif."
+    "answer": 0,
+    "explanation": "not True es False, y False or False es False."
   },
   {
     "topic": "condicionales",
@@ -4621,15 +4621,15 @@
   },
   {
     "topic": "cadenas",
-    "q": "¿Qué imprime \"python\"[2]?",
+    "q": "¿Qué devuelve \"abc123\".isalnum()?",
     "options": [
-      "python",
-      "Error",
-      "t",
-      "2"
+      "True",
+      "False",
+      "\"abc123\"",
+      "Error"
     ],
-    "answer": 2,
-    "explanation": "Los índices comienzan en cero."
+    "answer": 0,
+    "explanation": "isalnum devuelve True cuando todos los caracteres son alfanuméricos."
   },
   {
     "topic": "cadenas",
@@ -4669,15 +4669,15 @@
   },
   {
     "topic": "cadenas",
-    "q": "¿Qué imprime \"abcde\"[:1]?",
+    "q": "¿Qué devuelve \"a b\".isalpha()?",
     "options": [
-      "e",
-      "a",
-      "abcde",
-      "bcde"
+      "True",
+      "False",
+      "\"a b\"",
+      "Error"
     ],
     "answer": 1,
-    "explanation": "El extremo derecho del slicing no se incluye."
+    "explanation": "El espacio no es una letra."
   },
   {
     "topic": "cadenas",
@@ -4693,15 +4693,15 @@
   },
   {
     "topic": "cadenas",
-    "q": "¿Qué devuelve \"uno dos tres\".split()[2]",
+    "q": "¿Qué devuelve \"fichero.txt\".removesuffix(\".txt\")?",
     "options": [
-      "tres",
-      "uno dos tres",
-      "2",
-      ""
+      "\"fichero\"",
+      "\".txt\"",
+      "\"fichero.txt\"",
+      "Error"
     ],
     "answer": 0,
-    "explanation": "split separa por espacios y permite indexar la lista."
+    "explanation": "removesuffix elimina el sufijo indicado cuando está presente."
   },
   {
     "topic": "cadenas",
@@ -4849,27 +4849,27 @@
   },
   {
     "topic": "condicionales",
-    "q": "¿Qué operador comprueba igualdad entre dos variables?",
+    "q": "¿Qué devuelve 7 // 2 == 3?",
     "options": [
-      ">=",
-      "!=",
-      "=",
-      "=="
+      "True",
+      "False",
+      "Error",
+      "None"
     ],
-    "answer": 3,
-    "explanation": "== compara; = asigna."
+    "answer": 0,
+    "explanation": "La división entera de 7 entre 2 da 3."
   },
   {
     "topic": "condicionales",
-    "q": "¿Qué palabra se usa para añadir otra condición después de if?",
+    "q": "¿Qué devuelve 2 ** 3 <= 7?",
     "options": [
-      "else if",
-      "when",
-      "elif",
-      "elseif"
+      "False",
+      "True",
+      "Error",
+      "None"
     ],
-    "answer": 2,
-    "explanation": "Python usa elif."
+    "answer": 0,
+    "explanation": "2 elevado a 3 es 8, mayor que 7."
   },
   {
     "topic": "condicionales",
@@ -5197,15 +5197,15 @@
   },
   {
     "topic": "cadenas",
-    "q": "¿Qué imprime \"python\"[3]?",
+    "q": "¿Qué devuelve \"nivel\".center(7,\"-\")?",
     "options": [
-      "3",
-      "python",
-      "Error",
-      "h"
+      "\"-nivel-\"",
+      "\"nivel--\"",
+      "\"--nivel\"",
+      "Error"
     ],
-    "answer": 3,
-    "explanation": "Los índices comienzan en cero."
+    "answer": 0,
+    "explanation": "center distribuye el relleno a ambos lados; cinco caracteres pasan a siete."
   },
   {
     "topic": "cadenas",
@@ -5245,15 +5245,15 @@
   },
   {
     "topic": "cadenas",
-    "q": "¿Qué imprime \"abcde\"[:2]?",
+    "q": "¿Qué devuelve \"uno dos\".split(maxsplit=1)?",
     "options": [
-      "abcde",
-      "ab",
-      "cde",
-      "de"
+      "[\"uno\", \"dos\"]",
+      "[\"uno dos\"]",
+      "[\"uno\",\"d\",\"o\",\"s\"]",
+      "Error"
     ],
-    "answer": 1,
-    "explanation": "El extremo derecho del slicing no se incluye."
+    "answer": 0,
+    "explanation": "maxsplit=1 permite una sola división en el espacio."
   },
   {
     "topic": "cadenas",
@@ -5269,15 +5269,15 @@
   },
   {
     "topic": "cadenas",
-    "q": "¿Qué devuelve \"uno dos tres\".split()[0]",
+    "q": "¿Qué devuelve \"123\".zfill(5)?",
     "options": [
-      "uno",
-      "0",
-      "",
-      "uno dos tres"
+      "\"00123\"",
+      "\"12300\"",
+      "\"000123\"",
+      "Error"
     ],
     "answer": 0,
-    "explanation": "split separa por espacios y permite indexar la lista."
+    "explanation": "zfill añade ceros a la izquierda hasta longitud cinco."
   },
   {
     "topic": "cadenas",
@@ -5425,27 +5425,27 @@
   },
   {
     "topic": "condicionales",
-    "q": "¿Qué operador comprueba igualdad entre dos variables?",
+    "q": "¿Qué devuelve \"A\".lower() == \"a\"?",
     "options": [
-      "!=",
-      ">=",
-      "=",
-      "=="
+      "True",
+      "False",
+      "Error",
+      "None"
     ],
-    "answer": 3,
-    "explanation": "== compara; = asigna."
+    "answer": 0,
+    "explanation": "lower convierte A en a."
   },
   {
     "topic": "condicionales",
-    "q": "¿Qué palabra se usa para añadir otra condición después de if?",
+    "q": "¿Qué devuelve 4 in [1, 2, 3]?",
     "options": [
-      "when",
-      "elif",
-      "else if",
-      "elseif"
+      "False",
+      "True",
+      "Error",
+      "None"
     ],
-    "answer": 1,
-    "explanation": "Python usa elif."
+    "answer": 0,
+    "explanation": "El 4 no pertenece a esa lista."
   },
   {
     "topic": "condicionales",
