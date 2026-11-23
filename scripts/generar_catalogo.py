@@ -1,8 +1,8 @@
 #!/usr/bin/env python3
-"""Regenera catalogo.json a partir dels enunciats reals del repositori.
+"""Regenera catalogo.json a partir de los enunciados reales del repositorio.
 
-Requerix només Python 3 (biblioteca estàndard). Executa'l des de
-qualsevol carpeta: python3 scripts/generar_catalogo.py
+Solo requiere Python 3 (biblioteca estándar). Ejecútalo desde
+cualquier carpeta: python3 scripts/generar_catalogo.py
 """
 
 from __future__ import annotations
@@ -36,19 +36,19 @@ def main() -> None:
         if section == "01_basicos":
             unit = titol(parts[2])
         elif section == "06_simulacros":
-            unit = "Simulacres"
+            unit = "Simulacros"
         else:
             unit = titol(section)
-        level = "Simulacre" if section == "06_simulacros" else "Altres"
+        level = "Simulacro" if section == "06_simulacros" else "Otros"
         afegir_fitxer(catalog, path, "ASO", unit, level)
 
     for path in sorted((ROOT / "Python").rglob("*.py")):
         parts = path.relative_to(ROOT).parts
         if parts[1] == "simulacros":
-            unit, level = titol(parts[2]), "Simulacre"
+            unit, level = titol(parts[2]), "Simulacro"
         else:
             unit = titol(parts[2])
-            level = {"practicar": "Practicar", "entregar": "Entregar"}.get(parts[-2], "Altres")
+            level = {"practicar": "Practicar", "entregar": "Entregar"}.get(parts[-2], "Otros")
         afegir_fitxer(catalog, path, "Python", unit, level)
 
     for unit, relative in (
@@ -73,12 +73,12 @@ def main() -> None:
             )
 
     for path in sorted((ROOT / "IAW/03_Simulacros").glob("simulacro_*.md")):
-        afegir_fitxer(catalog, path, "IAW", "Simulacres escrits", "Simulacre")
+        afegir_fitxer(catalog, path, "IAW", "Simulacros escritos", "Simulacro")
 
     catalog.sort(key=lambda x: (x["area"], x["path"], x.get("id", "")))
     output = ROOT / "catalogo.json"
     output.write_text(json.dumps(catalog, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
-    print(f"Catàleg actualitzat: {len(catalog)} recursos a {output}")
+    print(f"Catálogo actualizado: {len(catalog)} recursos en {output}")
 
 
 if __name__ == "__main__":
