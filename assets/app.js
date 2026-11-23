@@ -9,7 +9,7 @@ const encodedPath = (path) => path.split("/").map(encodeURIComponent).join("/");
 const sourceUrl = (path) => "https://github.com/jossanmar9/practica-asir/blob/main/" + encodedPath(path);
 function saveProgress() { try { localStorage.setItem(STORAGE_KEY, JSON.stringify(progress)); } catch (_) {} }
 function entryKey(entry) { return entry.path + (entry.id ? "#" + entry.id : ""); }
-function statusFor(entry) { return progress[entryKey(entry)] || "pendiente"; }
+function statusFor(entry) { const value = progress[entryKey(entry)]; return value === "superat" || value === "completado" ? "completado" : "pendiente"; }
 function card(entry) {
   const el = document.createElement("article");
   el.className = "exercise";
