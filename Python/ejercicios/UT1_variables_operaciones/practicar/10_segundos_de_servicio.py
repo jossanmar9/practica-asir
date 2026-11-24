@@ -12,3 +12,12 @@
 #
 # ESCRIBE TU SOLUCIÓN A PARTIR DE AQUÍ:
 
+horas = int(input("Esribe las horas: "))
+minutos = int(input("Introduce los minutos: "))
+segundos = int(input("Introduce los segundos: "))
+
+minutos_t = horas * 60
+segundos_t = (minutos + minutos_t) * 60
+segundos_t = segundos + segundos_t
+
+print(f"Los segundos totales que hay en {horas} horas, {minutos} minutos y {segundos} segundos es {segundos_t} segundos")

@@ -12,3 +12,9 @@
 #
 # ESCRIBE TU SOLUCIÓN A PARTIR DE AQUÍ:
 
+distancia = float(input("Introduce la distancia en KM: "))
+tiempo = float(input("Introduce el teimpo en horas: "))
+
+velocidad = distancia / tiempo
+
+print(f"La velocidad es {velocidad:.2f} km/h")

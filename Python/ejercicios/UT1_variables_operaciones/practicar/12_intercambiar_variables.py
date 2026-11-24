@@ -12,3 +12,15 @@
 #
 # ESCRIBE TU SOLUCIÓN A PARTIR DE AQUÍ:
 
+variable_1 = input("Escribe un valor: ")
+variable_2 = input("Escribe un valor: ")
+
+print(variable_1)
+print(variable_2)
+
+variable_3 = variable_2
+variable_2 = variable_1
+variable_1 = variable_3
+
+print(variable_1)
+print(variable_2)

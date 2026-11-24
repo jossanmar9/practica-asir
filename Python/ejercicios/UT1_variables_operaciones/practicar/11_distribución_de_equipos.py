@@ -12,3 +12,11 @@
 #
 # ESCRIBE TU SOLUCIÓN A PARTIR DE AQUÍ:
 
+equipos = int(input("Quantos equipos hay: "))
+armarios = int(input("Cuantos equipos caben en cada armario: "))
+
+capacidad = equipos // armarios
+sobrante = equipos % armarios
+
+print("Caben", capacidad, "equipos en los armarios y sobra", sobrante, "equipos")
+

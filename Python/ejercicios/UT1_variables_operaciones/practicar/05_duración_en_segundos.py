@@ -12,3 +12,10 @@
 #
 # ESCRIBE TU SOLUCIÓN A PARTIR DE AQUÍ:
 
+minutos = int(input("Escribe los minutos: "))
+segundos = int(input("Escribe los segundos: "))
+
+conversion = minutos * 60
+totales = conversion + segundos
+
+print(f"El total de segundos que hay en {minutos} minutos y {segundos} segundos es {totales} segundos")

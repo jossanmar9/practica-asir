@@ -12,3 +12,11 @@
 #
 # ESCRIBE TU SOLUCIÓN A PARTIR DE AQUÍ:
 
+metros = float(input("Introduce los metros: "))
+
+centimetros = metros * 100
+
+print(f"{metros} metros son {centimetros:.2f} centimetros")
+
+
+

@@ -12,3 +12,10 @@
 #
 # ESCRIBE TU SOLUCIÓN A PARTIR DE AQUÍ:
 
+precio = float(input("Introduce el precio: "))
+
+descuento = precio * 0.15
+
+precio_final = precio - descuento
+
+print(f"El descuento aplicado sobre {precio}€ es de {descuento:.2f}€, por lo que el precio a pagar es {precio_final:.2f}€")

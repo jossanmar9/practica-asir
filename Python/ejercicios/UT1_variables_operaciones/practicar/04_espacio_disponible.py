@@ -12,3 +12,11 @@
 #
 # ESCRIBE TU SOLUCIÓN A PARTIR DE AQUÍ:
 
+total = float(input("Escribe la capcidad total en GB del disco:"))
+usado = float(input("Escribe el espacio usado en disco: "))
+
+libre = total - usado
+
+porcentaje = (usado * 100) / total
+
+print(f"Els espacio libre del disco es de {libre} GB y el porcentaje usado de {porcentaje:.2f}%")

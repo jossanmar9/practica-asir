@@ -12,3 +12,7 @@
 #
 # ESCRIBE TU SOLUCIÓN A PARTIR DE AQUÍ:
 
+vatios = float(input("Vatios: "))
+horas = int(input("Horas funiconando: "))
+
+print

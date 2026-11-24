@@ -12,3 +12,10 @@
 #
 # ESCRIBE TU SOLUCIÓN A PARTIR DE AQUÍ:
 
+medicion_1 = float(input("Introduce la primera medición: "))
+medicion_2 = float(input("Introduce la segunda medición: "))
+medicion_3 = float(input("Introduce la tercera medición: "))
+
+media = (medicion_1 + medicion_2 + medicion_3) / 3
+
+print(f"La media es {media:.2f}")

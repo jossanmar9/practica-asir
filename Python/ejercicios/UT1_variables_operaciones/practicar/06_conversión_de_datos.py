@@ -12,3 +12,8 @@
 #
 # ESCRIBE TU SOLUCIÓN A PARTIR DE AQUÍ:
 
+megabits = int(input("Introduce el total de megabits: "))
+
+megabytes = megabits / 8
+
+print(f"{megabits} megabits son {megabytes:.2f} megabytes")
