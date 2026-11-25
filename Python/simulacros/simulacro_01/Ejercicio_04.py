@@ -4,3 +4,4 @@
 # Muestra mensajes claros y prueba varios casos.
 # Sin soluciones: escribe el programa debajo.
 
+while True

@@ -1,0 +1,6 @@
+# Ejercicio 3
+#
+# Realizar un programa que pida números (se pedirá por teclado la cantidad de números a introducir). El programa debe informar de cuantos números introducidos son mayores que 0, menores que 0 e iguales a 0.
+
+# Escribe tu solución debajo:
+
