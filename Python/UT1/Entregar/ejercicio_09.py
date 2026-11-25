@@ -4,3 +4,10 @@
 
 # Escribe tu solución debajo:
 
+compra = float(input("Total compra: "))
+
+descuento = compra * 0.15
+
+pago = compra - descuento
+
+print(pago, "€")

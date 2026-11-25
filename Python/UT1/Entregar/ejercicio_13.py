@@ -4,3 +4,9 @@
 
 # Escribe tu solución debajo:
 
+numero = int(input("Escribe un número: "))
+
+cuadrada = numero ** 0.5
+cubica = numero ** (1/3)
+
+print("La raiz cuadrada es", round(cuadrada, 2), "y la cubica", round(cubica, 2))

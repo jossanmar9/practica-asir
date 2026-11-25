@@ -4,3 +4,9 @@
 
 # Escribe tu solución debajo:
 
+numero_1 = int(input("Numero 1: "))
+numero_2 = int(input("Numero 2: "))
+
+distancia = abs(numero_1 - numero_2)
+
+print("La distancia es", distancia)

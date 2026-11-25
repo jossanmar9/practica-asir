@@ -4,3 +4,13 @@
 
 # Escribe tu solución debajo:
 
+sueldo_base = float(input("Sueldo base:"))
+venta_1 = float(input("Venta 1: "))
+venta_2 = float(input("Venta 2: "))
+venta_3 = float(input("Venta 3: "))
+
+comision= (venta_2 + venta_2 + venta_3) * 0.10
+
+sueldo = sueldo_base + comision
+
+print(sueldo, "€")

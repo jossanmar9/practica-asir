@@ -8,3 +8,18 @@
 
 # Escribe tu solución debajo:
 
+parcial_1 = float(input("Parcial 1: "))
+parcial_2 = float(input("Parcial 2: "))
+parcial_3 = float(input("Parcial 3: "))
+examen = float(input("Examen: "))
+trabajo = float(input("Trabajo: "))
+
+promedio = (parcial_1 + parcial_2 + parcial_3) / 3
+
+nota_1 = promedio * 0.55
+nota_2 = examen * 0.30
+nota_3 = trabajo * 0.15
+
+nota_final = nota_1 + nota_2 + nota_3
+
+print(f"{nota_final:.2f}")

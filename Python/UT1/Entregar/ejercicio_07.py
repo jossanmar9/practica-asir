@@ -4,3 +4,9 @@
 
 # Escribe tu solución debajo:
 
+minutos = int(input("Minutos: "))
+
+conversion = minutos // 60
+resto = minutos % 60
+
+print(conversion, "horas y", resto, "minutos")

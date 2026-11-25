@@ -6,3 +6,8 @@
 
 # Escribe tu solución debajo:
 
+fahrenheit = float(input("Grados Fahrenheit: "))
+
+celsius = (fahrenheit - 32) * (5 / 9)
+
+print(f"{celsius:.2f} grados Celsius")

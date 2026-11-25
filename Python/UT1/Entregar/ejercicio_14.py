@@ -4,3 +4,11 @@
 
 # Escribe tu solución debajo:
 
+numero = int(input("Introduce un numero de 2 cirfas: "))
+
+decena = numero // 10
+unidad = numero % 10
+
+inverso = (unidad * 10) + decena
+
+print(inverso)

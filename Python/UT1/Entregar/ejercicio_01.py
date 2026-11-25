@@ -4,3 +4,6 @@
 
 # Escribe tu solución debajo:
 
+nombre = input("Introduce tu nombre: ")
+
+print("Hola,", nombre)
