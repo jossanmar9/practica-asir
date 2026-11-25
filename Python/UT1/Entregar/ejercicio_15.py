@@ -4,3 +4,15 @@
 
 # Escribe tu solución debajo:
 
+variable_a = int(input("Escribe el número: "))
+variable_b = int(input("Escribe el número: "))
+
+print("Variable A: ", variable_a)
+print("Variable B: ", variable_b)
+
+variable_c = variable_a
+variable_a = variable_b
+variable_b = variable_c
+
+print("Variable A: ", variable_a)
+print("Variable B: ", variable_b)

@@ -4,3 +4,13 @@
 
 # Escribe tu solución debajo:
 
+vehiculo_1 = int(input("Escribe la velocidad: "))
+vehiculo_2 = int(input("Escribe la velocidad: "))
+distancia = int(input("Escribe la distancia: "))
+
+diferencia = vehiculo_2 - vehiculo_1
+
+tiempo_h = distancia / diferencia
+tiempo_m = tiempo_h * 60
+
+print("los vehículos se encontrarán en", int(tiempo_m), "minutos")

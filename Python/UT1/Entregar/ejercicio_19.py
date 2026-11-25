@@ -4,3 +4,10 @@
 
 # Escribe tu solución debajo:
 
+correcta = int(input("Escribe el numero de respuestas correctas: "))
+incorrecta = int(input("Escribe el numero de respuestas incorrectas: "))
+blanco = int(input("Escribe el numero de respuestas en blanco: "))
+
+puntos = (correcta * 5) + (incorrecta * -1)
+
+print("El resultado es: ", puntos)
