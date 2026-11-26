@@ -6,3 +6,15 @@
 
 # Escribe tu solución debajo:
 
+direccion = " 192.168.001.010 "
+
+limpia = direccion.strip()
+
+print(limpia.count("."))
+
+primero = limpia.find(".")
+segundo = limpia.find(".", primero + 1)
+tercero = limpia.find(".", segundo + 1)
+
+print(limpia[:primero])
+print(limpia[tercero + 1:])

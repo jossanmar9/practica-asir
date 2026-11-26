@@ -6,3 +6,12 @@
 
 # Escribe tu solución debajo:
 
+etiqueta = "PC-DESPACHO-123"
+
+print(etiqueta.startswith("PC-"))
+
+primero = etiqueta.find("-")
+segundo = etiqueta.find("-", primero + 1)
+
+print(etiqueta[primero + 1:segundo])
+print(etiqueta[segundo + 1:])

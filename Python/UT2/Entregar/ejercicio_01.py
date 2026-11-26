@@ -6,3 +6,11 @@
 
 # Escribe tu solución debajo:
 
+texto = " pc -- aula - 07 \n" 
+
+limpio = texto.strip()
+mayusculas = limpio.upper()
+espacios = mayusculas.replace(" ", "")
+guiones = espacios.replace("--", "-")
+
+print(guiones)

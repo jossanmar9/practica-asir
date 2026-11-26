@@ -6,3 +6,19 @@
 
 # Escribe tu solución debajo:
 
+archivo = "backup_2025_09_03.tar.gz"
+
+primero = archivo.find("_")
+segundo = archivo.find("_", primero + 1)
+tercero = archivo.find("_", segundo + 1)
+punto = archivo.find(".")
+
+anio = archivo[primero + 1:segundo]
+mes = archivo[segundo + 1:tercero]
+dia = archivo[tercero + 1:punto]
+
+fecha_inversa = dia + "-" + mes + "-" + anio
+archivo_zip = archivo.replace("tar.gz", "zip")
+
+print(fecha_inversa)
+print(archivo_zip)

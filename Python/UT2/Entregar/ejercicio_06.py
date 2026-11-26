@@ -6,3 +6,16 @@
 
 # Escribe tu solución debajo:
 
+mail = "admin.redes@centro.edu"
+
+punto_1 = mail.find(".")
+arroba = mail.find("@")
+punto_2 = mail.find(".", punto_1 + 1)
+
+usuario = mail[:arroba]
+dominio = mail[arroba + 1: punto_2]
+tld = mail[punto_2 + 1:]
+
+print(usuario)
+print(dominio)
+print(tld)

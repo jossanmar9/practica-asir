@@ -6,3 +6,13 @@
 
 # Escribe tu solución debajo:
 
+ruta = "C:\\Users\\alumno\\Desktop\\proyecto"
+
+primero = ruta.find("\\")
+segundo = ruta.find("\\", primero + 1)
+tercero = ruta.find("\\", segundo + 1)
+cuarto = ruta.find("\\", tercero + 1)
+
+print(ruta[0:primero - 1])
+print(ruta[segundo + 1:tercero])
+print(ruta[tercero +1:cuarto])

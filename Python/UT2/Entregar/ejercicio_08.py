@@ -6,3 +6,18 @@
 
 # Escribe tu solución debajo:
 
+import string
+import random
+
+nombre = " Ana "
+apellido = " López"
+digitos = string.digits
+
+nombre_l = nombre.strip()
+apellido_1 = apellido.strip()
+
+acento = apellido_1.replace("ó", "o")
+
+usuario = nombre_l[0:3] + acento[0:3] + random.choice(digitos) + random.choice(digitos)
+
+print(usuario)
