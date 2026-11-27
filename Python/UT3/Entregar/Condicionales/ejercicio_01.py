@@ -9,3 +9,16 @@
 
 # Escribe tu solución debajo:
 
+import shutil
+import sys
+
+umbral = float(sys.argv[1])
+
+total, usado, libre = shutil.disk_usage("/")
+
+porcentaje = usado / total * 100
+
+if porcentaje >= umbral:
+    print("ALERTA")
+else:
+    print("OK")

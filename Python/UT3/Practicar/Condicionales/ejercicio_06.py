@@ -4,3 +4,9 @@
 
 # Escribe tu solución debajo:
 
+cadena = input("Escribe: ")
+
+if cadena == cadena.upper():
+    print("Son todo mayúsculas")
+else:
+    print("No son todo mayúsculas")

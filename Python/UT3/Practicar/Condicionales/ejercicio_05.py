@@ -4,3 +4,10 @@
 
 # Escribe tu solución debajo:
 
+usuario = input("Usuario: ")
+contrasenya = input("Contraseña:")
+
+if usuario == "pepe" and contrasenya == "asdasd":
+    print("Has entrado al sistema")
+else:
+    print("Usuario o contraseña incorrecto")

@@ -9,3 +9,15 @@
 
 # Escribe tu solución debajo:
 
+ladoA = float(input("Introduce la longitud del lado A: "))
+ladoB = float(input("Introduce la longitud del lado B: "))
+ladoC = float(input("Introduce la longitud del lado C: "))
+
+if (ladoA**2 + ladoB**2 == ladoC**2) or (ladoB**2 + ladoC**2 == ladoA**2) or (ladoA**2 + ladoC**2 == ladoB**2):
+    print("Triangulo rectángulo")
+elif ladoA == ladoB == ladoC:
+    print("Triángulo equilátero")
+elif (ladoA == ladoB) or (ladoC == ladoA) or (ladoC == ladoB):
+    print("Triángulo isósceles")
+else:
+    print("Triángulo escaleno")

@@ -11,3 +11,19 @@
 
 # Escribe tu solución debajo:
 
+import platform
+
+so = platform.system()
+print("SO:", so)
+print("Versión: ", platform.release())
+print("Procesador: ", platform.processor())
+
+
+if so == "Windows":    
+    print("Gestor recomendado: winget")
+elif so == "Linux":    
+    print("Gestor recomendado: apt")
+elif so == "Darwin":    
+    print("Gestor recomendado: brew")
+else:
+    print("Gestor no definido")
